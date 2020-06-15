@@ -13,15 +13,25 @@
 .footer__info__col {
     flex: 1;
     padding: 3rem;
+    padding-left: 7rem;
 }
 
 .footer__info__col__title {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+}
+
+.footer__info__col__list {
+    list-style-position: inside;
+}
+
+.footer__info__col__list li {
+    margin-bottom: 0.5rem;
 }
 
 .footer__info__col__form__input {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     height: 2rem;
+    width: 10rem;
 }
 
 .footer__info__col__form__btn {

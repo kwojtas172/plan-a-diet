@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
                     </div>
                     <div className="footer__info__col footer__info__col-2">
                         <h2 className="footer__info__col__title">Lorem ipsum dolor</h2>
-                        <ul>
+                        <ul className="footer__info__col__list">
                             <li>consectetur adipiscing elit</li>
                             <li>sed do eiusmod tempor</li>
                             <li>incididunt ut labore</li>
