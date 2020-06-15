@@ -14,6 +14,7 @@
     height: auto;
     width: 100%;
     background-color: $bg-color;
+    color: $header-color;
 
     display: flex;
     flex-direction: column;
@@ -35,4 +36,12 @@
 .dot,
 .carousel-status {
     display: none;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 0.5rem solid black;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 0.5rem solid black;
 }
