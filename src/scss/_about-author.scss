@@ -1,0 +1,30 @@
+.about-author {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $bg-color;
+}
+
+
+.about-author__img {
+    width: 30rem;
+    height: auto;
+    margin: 6rem;
+}
+
+.about-author__wrapper {
+    margin: 6rem;
+}
+
+.about-author__title, .about-author__txt {
+    color: $header-color;
+}
+
+.about-author__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-author__txt {
+    line-height: 2rem;
+}

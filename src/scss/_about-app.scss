@@ -1,0 +1,35 @@
+
+.about-app {
+    display: flex;
+    padding: 3rem;
+    width: 100%;
+    background-color: $bg-color;
+}
+
+.about-app__art {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+}
+
+.about-app__art__img {
+    width: 100%;
+    height: auto;
+}
+
+.about-app__art__title {
+    text-transform: uppercase;
+}
+
+.about-app__art__txt {
+    line-height: 2rem;
+}
+
+.about-app__art__title, .about-app__art__txt {
+    color: $nav-color;
+}
+
+.about-app__art__img, .about-app__art__title, .about-app__art__txt {
+    margin: 1rem;
+    text-align: center;
+}
