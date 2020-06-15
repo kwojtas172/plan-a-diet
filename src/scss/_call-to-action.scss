@@ -1,0 +1,41 @@
+@import "./variables";
+@import "./reset";
+
+.call-to-action__container {
+    width: 100%;
+    height: auto;
+    background: $nav-color;
+    padding: 4rem 9rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div:first-child {
+        width: 75%;
+        color: $bg-color;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            margin-top: 1.5rem;
+        }
+    }
+
+    div:last-child {
+        button {
+            background-color: $btn-color;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            padding: 1rem 3.57rem;
+            outline: none;
+        }
+    }
+}
