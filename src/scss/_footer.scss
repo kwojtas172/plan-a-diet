@@ -1,0 +1,48 @@
+.footer {
+    background-color: $nav-color;
+    color: #fff;
+}
+
+.footer__info {
+    padding: 0 8rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer__info__col {
+    flex: 1;
+    padding: 3rem;
+}
+
+.footer__info__col__title {
+    margin: 1rem 0;
+}
+
+.footer__info__col__form__input {
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+.footer__info__col__form__btn {
+    background-color: $btn-color;
+    color: #fff;
+    border: 1px solid $btn-color;
+    height: 2rem;
+    width: 5rem;
+}
+
+.footer__info__col__icons i {
+    margin-right: 2rem;
+}
+
+.footer__rights {
+    background-color: $header-color;
+    text-align: center;
+    line-height: 3;
+    height: 3rem;
+}
+
+.footer__rights span {
+    color: #E58A20;
+}
