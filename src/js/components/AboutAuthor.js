@@ -5,7 +5,7 @@ export default class AboutAuthor extends Component {
     render() {
         return (
             <section className="about-author">
-                <img src={image} className="about-author__img" />
+                <img src={image} className="about-author__img" alt="author" />
                 <div className="about-author__wrapper">
                     <h3 className="about-author__title">
                         Lorem ipsum dolor sit amet

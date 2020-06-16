@@ -11,6 +11,26 @@
     background-color: $header-color;
 }
 
+.header-app__wrapper {
+    display: flex;
+}
+
+.header-app__wrapper__name {
+    line-height: 2rem;
+    color: $bg-color;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+
+.fa-user-circle {
+    color: $btn-color;
+    font-size: 3.5rem;
+}
+
 
 .app-side {
     grid-column: 1/4;
