@@ -1,0 +1,105 @@
+@import './variables';
+
+div.widget__container {
+    height: 100%;
+    width: 57.15rem;
+    background: $bg-color;
+    display: flex;
+    flex-direction: column;
+}
+
+div.info__widget {
+    height: 4.3rem;
+    width: 50rem;
+    border: 0.14rem dashed $info-msg;
+    color: $info-msg;
+    font-weight: 700;
+    font-size: 1.43rem;
+    margin-bottom: 1.78rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        align-content: flex-start;
+        flex-grow: 1;
+        margin-left: 1.43rem;
+    }
+
+    button {
+        height: 1.3rem;
+        width: 1.3rem;
+        background: $info-msg;
+        border: none;
+        border-radius: 0.21rem;
+        color: white;
+        margin: 0.36rem 0.36rem 0 0;
+        top: 0.36rem;
+        align-self: flex-start;
+    }
+}
+
+div.warning__widget {
+    height: 4.3rem;
+    width: 50rem;
+    border: 0.14rem dashed $warning-msg;
+    color: $warning-msg;
+    font-weight: 700;
+    font-size: 1.43rem;
+    margin-bottom: 1.78rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        align-content: flex-start;
+        flex-grow: 1;
+        margin-left: 1.43rem;
+    }
+
+    button {
+        height: 1.3rem;
+        width: 1.3rem;
+        background: $warning-msg;
+        border: none;
+        border-radius: 0.21rem;
+        color: white;
+        margin: 0.36rem 0.36rem 0 0;
+        top: 0.36rem;
+        align-self: flex-start;
+    }
+}
+
+div.success__widget {
+    height: 4.3rem;
+    width: 50rem;
+    border: 0.14rem dashed $success-msg;
+    color: $success-msg;
+    font-weight: 700;
+    font-size: 1.43rem;
+    margin-bottom: 1.78rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        align-content: flex-start;
+        flex-grow: 1;
+        margin-left: 1.43rem;
+    }
+
+    button {
+        height: 1.3rem;
+        width: 1.3rem;
+        background: $success-msg;
+        border: none;
+        border-radius: 0.21rem;
+        color: white;
+        margin: 0.36rem 0.36rem 0 0;
+        top: 0.36rem;
+        align-self: flex-start;
+    }
+}
