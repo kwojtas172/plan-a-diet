@@ -1,0 +1,33 @@
+.first-app-section {
+    width: 100%;
+    height: 100%;
+    background-color: $bg-color;
+    border: 1px dashed $table-font;
+    color: $nav-color;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-app-section__title, .first-app-section__txt {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.first-app-section__input {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border: 1.25px solid $table-font;
+    padding: 0.5rem;
+}
+
+.first-app-section__btn {
+    background-color: $btn-color;
+    border: 1px solid $btn-color;
+    color: #fff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
