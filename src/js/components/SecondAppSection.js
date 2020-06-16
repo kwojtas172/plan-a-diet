@@ -1,9 +1,14 @@
 import React from "react";
+import AddRecipe from "./AddRecipe";
+import AddSchedule from "./AddSchedule";
 
 export default class SecondAppSection extends React.Component {
     render() {
         return(
-            <div>Second App Section</div>
+            <div className="second-app-section">
+                <AddRecipe />
+                <AddSchedule />
+            </div>
         )
     }
 }
