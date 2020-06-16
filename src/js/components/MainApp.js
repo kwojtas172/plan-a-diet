@@ -5,12 +5,14 @@ import {
     Route,
     NavLink as Link
 } from "react-router-dom";
+import AppMainSection from "./AppMainSection";
 
 export default class MainApp extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "Imię"
+            name: "Imię",
+            isUser: false
         }
     }
 
@@ -20,7 +22,8 @@ export default class MainApp extends Component {
         .then(data => {
             if(data.name) {
                 this.setState({
-                    name: data.name
+                    name: data.name,
+                    isUser: true
                 })
             }
         })
@@ -28,7 +31,8 @@ export default class MainApp extends Component {
 
     addName = name => {
         this.setState({
-            name: name
+            name: name,
+            isUser: true
         })
     }
     
@@ -54,7 +58,7 @@ export default class MainApp extends Component {
                     </div>
                     <div className="app-content">
                         <Switch>
-                            {/* <Route component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />}  /> */}
+                            <Route component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />}  />
                             <Route />
                             <Route />
                         </Switch>

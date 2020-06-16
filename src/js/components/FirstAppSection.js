@@ -17,8 +17,7 @@ export default class FirstAppSection extends React.Component {
 
     handleClick = () => {
 
-        // this.props.addName(this.state.name)
-        this.props.changeUser()
+        this.props.addName(this.state.name)
 
         if(this.state.name.length < 3) {
             this.setState({
@@ -44,6 +43,8 @@ export default class FirstAppSection extends React.Component {
         })
             .then(resp => resp.json())
             .then(json => console.log(json))
+
+            
     
     }
 

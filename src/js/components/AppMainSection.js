@@ -6,20 +6,23 @@ export default class AppMainSection extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            isUser: false
+            // isUser: false
         }
     }
 
-    changeUser = () => {
-        this.setState({
-            isUser: true
-        })
-    }
+    // changeUser = () => {
+    //     this.setState({
+    //         isUser: true
+    //     })
+    //     console.log("Działa")
+    // }
+
 
     render() {
-      if(!this.state.isUser) {
-          return <FirstAppSection changeUser={this.changeUser} addName={this.props.addName}/>
-      } else {
+      if(!this.props.isUser) {
+          return <FirstAppSection /* changeUser={this.changeUser} */ addName={this.props.addName}/>
+      }
+      if(this.props.isUser) {
           return <SecondAppSection />
       }
     }
