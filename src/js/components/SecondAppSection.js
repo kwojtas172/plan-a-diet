@@ -1,6 +1,7 @@
 import React from "react";
 import AddRecipe from "./AddRecipe";
 import AddSchedule from "./AddSchedule";
+import Widgets from "./Widgets";
 
 export default class SecondAppSection extends React.Component {
     render() {
@@ -8,6 +9,7 @@ export default class SecondAppSection extends React.Component {
             <div className="second-app-section">
                 <AddRecipe />
                 <AddSchedule />
+                <Widgets />
             </div>
         )
     }
