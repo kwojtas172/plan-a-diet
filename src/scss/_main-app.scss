@@ -1,0 +1,63 @@
+.wrapper.app {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: 7rem minmax(50rem, auto);
+    padding: 0;
+}
+
+.header-app {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: $header-color;
+}
+
+
+.app-side {
+    grid-column: 1/4;
+    grid-row: 2/-1;
+    background-color: $nav-color;
+}
+
+.app-side__nav__list {
+    list-style: none;
+
+    li {
+        margin: 2.5rem 0;
+        position: relative;
+
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding-left: 1rem;
+            color: $bg-color;
+            text-align: start;
+            width: 100%;
+        }
+    }
+}
+
+.active-link {
+    border-left: 0.35rem solid $btn-color;
+    font-weight: 700;
+    
+
+    &:after {
+        position: absolute;
+        padding-right: 1.5rem;
+        content: ">";
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: $btn-color;
+        right: 0;
+    }
+    
+}
+
+.app-content {
+    grid-column: 4/-1;
+    grid-row: 2/-1;
+    min-height: 50rem;
+    background-image: url("../images/bcg-app.png");
+    background-size: cover;
+}
+
