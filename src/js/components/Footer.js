@@ -25,9 +25,9 @@ export default class Footer extends React.Component {
                             <button className="footer__info__col__form__btn">Lorem</button>
                         </form>
                         <div className="footer__info__col__icons">
-                            <i class="fab fa-facebook-square fa-2x"></i>
-                            <i class="fab fa-twitter-square fa-2x"></i>
-                            <i class="fab fa-instagram fa-2x"></i>
+                            <i className="fab fa-facebook-square fa-2x"></i>
+                            <i className="fab fa-twitter-square fa-2x"></i>
+                            <i className="fab fa-instagram fa-2x"></i>
                         </div>
                     </div>
                 </div>
