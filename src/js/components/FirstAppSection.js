@@ -17,8 +17,6 @@ export default class FirstAppSection extends React.Component {
 
     handleClick = () => {
 
-        this.props.addName(this.state.name)
-
         if(this.state.name.length < 3) {
             this.setState({
                 nameErr: "Pole wymagane"
@@ -28,6 +26,7 @@ export default class FirstAppSection extends React.Component {
                 nameErr: "",
                 name: "",
             })
+            this.props.addName(this.state.name)
         }
 
         const user = {
