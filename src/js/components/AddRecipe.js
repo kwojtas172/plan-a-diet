@@ -56,12 +56,7 @@ export default class AddRecipe extends Component {
 
     postToBase = (e, name, description, steps, ingredients) => {
         e.preventDefault();
-        let newID;
-        fetch("http://localhost:3000/recipes/")
-        .then(res => res.json())
-        .then(data => newID = data.length)
         const data = {
-            "id": newID,
             "name": name,
             "description": description,
             "steps": steps,
