@@ -10,7 +10,6 @@ export default class AddSchedule extends Component {
             description: "",
             weekNumber: "",
             weekNumberErr: "",
-            planMeals: [],
             monday: [],
             tuesday: [],
             wednesday: [],
@@ -19,7 +18,7 @@ export default class AddSchedule extends Component {
             saturday: [],
             sunday: [],
             meals: ["śniadanie", "drugie śniadanie", "zupa", "drugie danie", "kolacja"],
-            weekdays: ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"],
+            weekdays: [{pl:"poniedziałek", en:"monday"}, {pl:"wtorek", en:"tuesday"}, {pl: "środa", en: "wednesday"}, {pl:"czwartek", en: "thursday"}, {pl: "piątek", en:"friday"}, {pl: "sobota", en:"saturday"}, {pl: "niedziela", en: "sunday"}],
             recipes:[]
         }
     }
@@ -52,7 +51,11 @@ export default class AddSchedule extends Component {
             nameErr = "Pole wymagane"
         }
 
-        if (weekNumber < "1" || weekNumber > "52") {
+        if(!weekNumber.length) {
+            weekNumberErr = "Pole wymagane"
+        }
+
+        if (parseFloat(weekNumber) < 1 ||  parseFloat(weekNumber) > 52) {
             weekNumberErr = "Nieprawidłowa wartość pola"
         }
 
@@ -90,9 +93,18 @@ export default class AddSchedule extends Component {
                 description: "",
                 weekNumber: "",
                 weekNumberErr: "",
+                monday: [],
+                tuesday: [],
+                wednesday: [],
+                thrusday: [],
+                friday: [],
+                saturday: [],
+                sunday: [],
+            }, () => {
+                console.log(this.state.monday)
             })
 
-            
+
             fetch("http://localhost:3000/schedules/", {
                 method: 'POST',
                 headers: {
@@ -112,85 +124,52 @@ export default class AddSchedule extends Component {
                 display: "block"
             })
         } 
-        
-       
     }
 
-    planMealSelected = (e, index) => {
+    handleValue = (weekday, index) => {
+
+        if(weekday === "monday") {
+            return this.state.monday[index]
+        }
+
+        if(weekday === "tuesday") {
+            return this.state.tuesday[index]
+        }
+
+        if(weekday === "wednesday") {
+            return this.state.wednesday[index]
+        }
+
+        if(weekday === "thursday") {
+            return this.state.thrusday[index]
+        }
+
+        if(weekday === "friday") {
+            return this.state.friday[index]
+        }
+
+        if(weekday === "saturday") {
+            return this.state.saturday[index]
+        }
+
+        if(weekday === "sunday") {
+            return this.state.sunday[index]
+        }
+
+    }
+
+    planMealSelected = (e, index, weekday) => {
         const val = e.target.value;
 
-        if(e.target.id === "poniedziałek") {
+        if(e.target.id === weekday) {
             this.setState(prevState => {
-                const newState = prevState.monday.slice();
+                const newState = prevState[weekday].slice();
                 newState[index] = val;
                 return {
-                    monday: newState
-                };
-            }, () => {
-                console.log(this.state.monday, this.state.planMeals)
-            });
-        }     
-        
-        if(e.target.id === "wtorek") {
-            this.setState(prevState => {
-                const newState = prevState.tuesday.slice();
-                newState[index] = val;
-                return {
-                    tuesday: newState
+                    [weekday]: newState
                 };
             });
-        } 
-
-        if(e.target.id === "środa") {
-            this.setState(prevState => {
-                const newState = prevState.wednesday.slice();
-                newState[index] = val;
-                return {
-                    wednesday: newState
-                };
-            });
-        } 
-
-        if(e.target.id === "czwartek") {
-            this.setState(prevState => {
-                const newState = prevState.thrusday.slice();
-                newState[index] = val;
-                return {
-                    thrusday: newState
-                };
-            });
-        } 
-
-        if(e.target.id === "piątek") {
-            this.setState(prevState => {
-                const newState = prevState.friday.slice();
-                newState[index] = val;
-                return {
-                    friday: newState
-                };
-            });
-        } 
-
-        if(e.target.id === "sobota") {
-            this.setState(prevState => {
-                const newState = prevState.saturday.slice();
-                newState[index] = val;
-                return {
-                    saturday: newState
-                };
-            });
-        } 
-
-        if(e.target.id === "niedziela") {
-            this.setState(prevState => {
-                const newState = prevState.sunday.slice();
-                newState[index] = val;
-                return {
-                    sunday: newState
-                };
-            });
-        } 
-
+        }   
     }
 
     formChange = (e) => {
@@ -216,11 +195,11 @@ export default class AddSchedule extends Component {
                         <p style={{fontSize:"1rem", color:"red"}}>{this.state.nameErr}</p>
                         <div className="modal__popup-add-schedule__form__row">
                             <label className="modal__popup-add-schedule__form__label" htmlFor="name">Nazwa planu</label>
-                            <input maxlength="50" type="text" id="name" value={this.state.name} onChange={this.formChange}></input>   
+                            <input maxLength="50" type="text" id="name" value={this.state.name} onChange={this.formChange}></input>   
                         </div>
                         <div className="modal__popup-add-schedule__form__row">
                             <label className="modal__popup-add-schedule__form__label" htmlFor="description">Opis planu</label>
-                            <textarea maxlength="360" id="description" value={this.state.description} onChange={this.formChange}></textarea>
+                            <textarea maxLength="360" id="description" value={this.state.description} onChange={this.formChange}></textarea>
                         </div>
                         <p style={{fontSize:"1rem", color:"red"}}>{this.state.weekNumberErr}</p>
                         <div className="modal__popup-add-schedule__form__row">
@@ -240,12 +219,12 @@ export default class AddSchedule extends Component {
                         <tbody>
                            {this.state.weekdays.map(weekday => {
                                return (
-                                   <tr key={weekday}>
-                                       <th>{weekday}</th>
+                                   <tr key={weekday.en}>
+                                       <th>{weekday.pl}</th>
                                         {this.state.meals.map((meal, index) => {
                                             return (
                                                 <td key={meal}>
-                                                <select onChange={(e) => this.planMealSelected(e, index)} id={weekday}>
+                                                <select value={this.handleValue(weekday.en, index)} onChange={(e) => this.planMealSelected(e, index, weekday.en)} id={weekday.en}>
                                                     <option>Wybierz</option>
                                                     {this.state.recipes.map(recipe => {
                                                     return <option key={recipe.id} value={recipe.name}>{recipe.name}</option>

@@ -1,33 +1,11 @@
 {
   "user": {
-    "name": "Agata"
+    "name": ""
   },
   "recipes": [
     {
       "id": 1,
       "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Spaghetti",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Zupa ogórkowa",
       "description": "Pyszna zupa pomidorowa z całych pomidorów.",
       "steps": [
         "Wlej wodę do garnka"
