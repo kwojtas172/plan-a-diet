@@ -1,0 +1,101 @@
+.modal__popup-add-schedule {
+    background-color: $bg-color;
+    width: 80%;
+    height: 100%;
+    border: 1.25px dashed $table-font;
+    z-index: 1;
+    position: absolute;
+    top: 110px;
+    left: 245px;
+}
+
+.modal__popup-add-schedule__form {
+    padding: 1.5rem;
+}
+
+.modal__popup-add-schedule__form__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.modal__popup-add-schedule__form__header__title {
+    color: $btn-color;
+    text-transform: uppercase;
+}
+
+.modal__popup-add-schedule__form__header__btn {
+    background-color: $btn-color;
+    border: 1px solid $btn-color;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.modal__popup-add-schedule__form__division {
+    display: block;
+    height: 0.1rem;
+    width: 100%;
+    background-color: $table-font;
+    margin-bottom: 1rem;
+}
+
+.modal__popup-add-schedule__form__division-shorter {
+    margin-left: 14rem;
+    width: 75.5%;
+    margin: 1rem 0;
+}
+
+.modal__popup-add-schedule__form__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    padding-right: 5rem;
+}
+
+.modal__popup-add-schedule__form__row input {
+    width: 80%;
+    height: 2.5rem;
+    border: 0.1rem solid $table-font;
+}
+
+.modal__popup-add-schedule__form__row textarea {
+    width: 80%;
+    height: 5rem;
+    border: 0.1rem solid $table-font;
+}
+
+.modal__popup-add-schedule__form__table {
+    width: 95%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: $nav-color;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-right:auto;
+
+}
+
+.modal__popup-add-schedule__form__table th {
+    border-bottom: 0.1rem solid $table-font;
+    padding: 0.25rem;
+}
+
+.modal__popup-add-schedule__form__table td {
+    text-align: center;
+    border-bottom: 0.1rem solid $table-font;
+    padding: 0.5rem;
+    padding-right: 1rem;
+}
+
+.modal__popup-add-schedule__form__table select {
+    width: 95%;
+    font-size: 1.1rem;
+    border: 0.1rem solid $table-font;
+    border-radius: 0.3rem;
+    color: $nav-color;
+}
