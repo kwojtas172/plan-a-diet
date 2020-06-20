@@ -1,0 +1,111 @@
+@import "./reset";
+@import "./variables";
+
+div.table__container {
+  width: auto;
+  height: auto;
+
+  // margin: 0.5rem;
+
+  background-color: $bg-color;
+  border: 0.14rem dashed $table-font;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+div.week__number {
+  width: 95%;
+  color: $btn-color;
+  border-bottom: 0.07rem solid $table-font;
+  font-size: 2rem;
+  padding: 0.7rem 0;
+  text-align: center;
+}
+
+div.day__name {
+  width: 95%;
+  color: $nav-color;
+  border-bottom: 0.07rem solid $table-font;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.7rem 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    width: 13.58rem;
+    text-align: center;
+  }
+}
+
+div.recipes-day__container {
+  height: auto;
+  width: 95%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+div.week-day {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 95%;
+
+  span {
+    color: $table-font;
+    border-bottom: 0.07rem solid $table-font;
+    font-size: 1.8rem;
+    padding: 0.7rem 0;
+    // width: 13.65rem;
+    max-width: 100%;
+    height: 6.43rem;
+    overflow-x: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    // transform: translate(-50%, -50%);
+  }
+
+  span:last-child {
+    border-bottom: 0.07rem solid $nav-color;
+  }
+}
+
+div.weekly-preview-table-select__btns {
+  height: auto;
+  width: 100%;
+
+  margin-bottom: 0.7rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+div.weekly-preview-table-prev__btn,
+div.weekly-preview-table-next__btn {
+  padding-top: 1.2rem;
+
+  span {
+    font-size: 1.2rem;
+    color: $btn-color;
+    cursor: pointer;
+  }
+}
+
+.fa-angle-double-right {
+  color: $btn-color;
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
+}
+
+.fa-angle-double-left {
+  color: $btn-color;
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
+}
