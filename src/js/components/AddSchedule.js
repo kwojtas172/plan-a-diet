@@ -13,7 +13,7 @@ export default class AddSchedule extends Component {
             monday: [],
             tuesday: [],
             wednesday: [],
-            thrusday: [],
+            thursday: [],
             friday: [],
             saturday: [],
             sunday: [],
@@ -96,7 +96,7 @@ export default class AddSchedule extends Component {
                 monday: [],
                 tuesday: [],
                 wednesday: [],
-                thrusday: [],
+                thursday: [],
                 friday: [],
                 saturday: [],
                 sunday: [],
@@ -141,7 +141,7 @@ export default class AddSchedule extends Component {
         }
 
         if(weekday === "thursday") {
-            return this.state.thrusday[index]
+            return this.state.thursday[index]
         }
 
         if(weekday === "friday") {
