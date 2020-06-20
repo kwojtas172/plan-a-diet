@@ -2,19 +2,30 @@
 
 div.widget__container {
     height: 100%;
-    width: 57.15rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    div {
+        background-color: $bg-color;
+        margin-bottom: 0.5rem;
+        height: 100%;
+        line-height: 100%;
+
+        i {
+            height: 60%;
+            margin-top: 0.3rem;
+        }
+    }
 }
 
+
+
 div.info__widget {
-    height: 4.3rem;
-    width: 50rem;
     border: 0.14rem dashed $info-msg;
     color: $info-msg;
     font-weight: 700;
     font-size: 1.43rem;
-    margin-bottom: 1.78rem;
+    
 
     display: flex;
     justify-content: space-between;
@@ -40,13 +51,10 @@ div.info__widget {
 }
 
 div.warning__widget {
-    height: 4.3rem;
-    width: 50rem;
     border: 0.14rem dashed $warning-msg;
     color: $warning-msg;
     font-weight: 700;
     font-size: 1.43rem;
-    margin-bottom: 1.78rem;
 
     display: flex;
     justify-content: space-between;
@@ -72,13 +80,10 @@ div.warning__widget {
 }
 
 div.success__widget {
-    height: 4.3rem;
-    width: 50rem;
     border: 0.14rem dashed $success-msg;
     color: $success-msg;
     font-weight: 700;
     font-size: 1.43rem;
-    margin-bottom: 1.78rem;
 
     display: flex;
     justify-content: space-between;

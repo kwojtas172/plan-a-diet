@@ -50,6 +50,7 @@ class WeeklyPreviewTable extends Component {
                     <span>Piatek</span>
                     <span>Sobota</span>
                     <span>Niedziela</span>
+                    {console.log("Działa")}
                 </div>
                 <div className="recipes-day__container">
                     <div className="week-day">

@@ -6,7 +6,8 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0 1rem 3rem 0;
+    background-color: $bg-color;
 
     span {
         margin-bottom: 1rem;
@@ -14,6 +15,6 @@
 }
 
 .fa-plus-square {
-    font-size: 4rem;
+    font-size: 8rem;
     margin: 1rem 3rem;
 }

@@ -6,6 +6,7 @@ import {
     NavLink as Link
 } from "react-router-dom";
 import AppMainSection from "./AppMainSection";
+import WeeklyPreviewTable from "./WeeklyPreviewTable";
 
 export default class MainApp extends Component {
     constructor(props) {
@@ -58,9 +59,9 @@ export default class MainApp extends Component {
                     </div>
                     <div className="app-content">
                         <Switch>
-                            <Route component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />}  />
-                            <Route />
-                            <Route />
+                            <Route exact path="/app/" component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />}  />
+                            {/* <Route /> */}
+                            <Route path="/app/schedules" component={WeeklyPreviewTable} />
                         </Switch>
                     </div>
                 </Router>
