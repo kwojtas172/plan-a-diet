@@ -99,3 +99,23 @@
     border-radius: 0.3rem;
     color: $nav-color;
 }
+
+.modal__success-msg {
+    color: green;
+    font-size: 2rem;
+    background-color: $bg-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 25rem;
+    height: 5rem;
+    border: 1px dashed green;
+}
+
+
+.modal__success-msg__btn {
+    color: #fff;
+    border: 1px solid green;
+    background-color: green;
+}

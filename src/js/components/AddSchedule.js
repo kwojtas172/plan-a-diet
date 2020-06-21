@@ -19,7 +19,9 @@ export default class AddSchedule extends Component {
             sunday: [],
             meals: ["śniadanie", "drugie śniadanie", "zupa", "drugie danie", "kolacja"],
             weekdays: [{pl:"poniedziałek", en:"monday"}, {pl:"wtorek", en:"tuesday"}, {pl: "środa", en: "wednesday"}, {pl:"czwartek", en: "thursday"}, {pl: "piątek", en:"friday"}, {pl: "sobota", en:"saturday"}, {pl: "niedziela", en: "sunday"}],
-            recipes:[]
+            recipes:[], 
+            isSuccess: false,
+            displayMsg: "block",
         }
     }
 
@@ -36,8 +38,15 @@ export default class AddSchedule extends Component {
 
     handleClick = () => {
         this.setState({
-            display: "block"
+            display: "block",
         })
+    }
+
+    handleCloseMsg = () => {
+        this.setState({
+            displayMsg: "none"
+        })
+        
     }
 
     validate = () => {
@@ -93,15 +102,15 @@ export default class AddSchedule extends Component {
                 description: "",
                 weekNumber: "",
                 weekNumberErr: "",
-                monday: [],
-                tuesday: [],
-                wednesday: [],
-                thursday: [],
-                friday: [],
-                saturday: [],
-                sunday: [],
-            }, () => {
-                console.log(this.state.monday)
+                monday: ["", "", "", "", ""],
+                tuesday: ["", "", "", "", ""],
+                wednesday: ["", "", "", "", ""],
+                thursday: ["", "", "", "", ""],
+                friday: ["", "", "", "", ""],
+                saturday: ["", "", "", "", ""],
+                sunday: ["", "", "", "", ""],
+                isSuccess: true,
+                displayMsg: "block"
             })
 
 
@@ -186,7 +195,7 @@ export default class AddSchedule extends Component {
                     <span>Dodaj plan</span>
                 </button>
                 <div className="modal__popup-add-schedule" style={{display:this.state.display}}>
-                    <form className="modal__popup-add-schedule__form" onSubmit={(e) => this.closeAndSave(e, this.state.name, this.state.description, this.state.weekNumber, this.state.monday, this.state.tuesday, this.state.wednesday, this.state.thrusday, this.state.friday, this.state.saturday, this.state.sunday)}>
+                    <form className="modal__popup-add-schedule__form" onSubmit={(e) => this.closeAndSave(e, this.state.name, this.state.description, this.state.weekNumber, this.state.monday, this.state.tuesday, this.state.wednesday, this.state.thursday, this.state.friday, this.state.saturday, this.state.sunday)}>
                         <header className="modal__popup-add-schedule__form__header">
                             <h1 className="modal__popup-add-schedule__form__header__title">Nowy plan</h1>
                             <button className="modal__popup-add-schedule__form__header__btn">Zapisz i zamknij</button>
@@ -239,6 +248,11 @@ export default class AddSchedule extends Component {
                     </table>
                 </form>                  
             </div>
+           { this.state.isSuccess && <div className="modal__success-msg" style={{display:this.state.displayMsg}}>
+                <i className="far fa-check-circle"></i>
+                <span>Twój plan został zapisany!</span>
+                <button className="modal__success-msg__btn" onClick={this.handleCloseMsg}><i className="fas fa-times"></i></button>
+            </div> } 
         </div>
         )
     }
