@@ -191,7 +191,7 @@ export default class AddSchedule extends Component {
         return (
             <div className="modal">
                 <button className="modal__btn" onClick={this.handleClick}>
-                    <i class="far fa-plus-square"></i>
+                    <i className="far fa-plus-square"></i>
                     <span>Dodaj plan</span>
                 </button>
                 <div className="modal__popup-add-schedule" style={{display:this.state.display}}>
@@ -249,9 +249,9 @@ export default class AddSchedule extends Component {
                 </form>                  
             </div>
            { this.state.isSuccess && <div className="modal__success-msg" style={{display:this.state.displayMsg}}>
-                <i className="far fa-check-circle"></i>
-                <span>Twój plan został zapisany!</span>
                 <button className="modal__success-msg__btn" onClick={this.handleCloseMsg}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Twój plan został zapisany!</span>
             </div> } 
         </div>
         )
