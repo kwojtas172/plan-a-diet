@@ -6,6 +6,7 @@ import {
     NavLink as Link
 } from "react-router-dom";
 import AppMainSection from "./AppMainSection";
+import RecipesList from './RecipesList';
 import PlanList from './PlanList';
 
 export default class MainApp extends Component {
@@ -60,7 +61,7 @@ export default class MainApp extends Component {
                     <div className="app-content">
                         <Switch>
                             <Route exact path="/app/" component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />} />
-                            {/* <Route /> */}
+                            <Route path="/app/recipes" component={RecipesList} />
                             <Route path="/app/schedules" component={PlanList} />
                         </Switch>
                     </div>
