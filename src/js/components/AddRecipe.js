@@ -14,7 +14,8 @@ export default class AddRecipe extends Component {
             ingredient: "",
             ingredientID: -1,
             ingredients: [],
-            warning: ""
+            warning: "",
+            isSucces: false
         }
     }
 
@@ -34,7 +35,14 @@ export default class AddRecipe extends Component {
             ingredient: "",
             ingredientID: -1,
             ingredients: [],
-            warning: ""
+            warning: "",
+            isSucces: true
+        })
+    }
+
+    hideInfo = () => {
+        this.setState({
+            isSucces: false
         })
     }
 
@@ -52,6 +60,7 @@ export default class AddRecipe extends Component {
                 tempArr[this.state.stepID] = this.state.step;
                 this.setState({
                     steps: tempArr,
+                    step: "",
                     stepID: -1
                 })
             }
@@ -60,11 +69,6 @@ export default class AddRecipe extends Component {
     }
 
     addToIngredients = e => {
-        // e.preventDefault();
-        // this.setState({
-        //     ingredients: [...this.state.ingredients, this.state.ingredient],
-        //     ingredient: ""
-        // })
 
         e.preventDefault();
         if (this.state.ingredient) {
@@ -79,6 +83,7 @@ export default class AddRecipe extends Component {
                 tempArr[this.state.ingredientID] = this.state.ingredient;
                 this.setState({
                     ingredients: tempArr,
+                    ingredient: "",
                     ingredientID: -1
                 })
             }
@@ -216,6 +221,11 @@ export default class AddRecipe extends Component {
                     </div>
                     <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
                 </form>}
+                {this.state.isSucces && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={this.hideInfo}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Twój przepis został zapisany!</span>
+                </div> }
             </div>
         )
     }
