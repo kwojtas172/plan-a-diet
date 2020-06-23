@@ -1,125 +1,517 @@
 {
   "user": {
-    "name": "Kamil"
+    "name": "Agata"
   },
-  "recipes": [
-    {
+  "recipes": [{
+    "id": 1,
+    "name": "Zupa pomidorowa",
+    "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+    "steps": [
+      "Wlej wodę do garnka"
+    ],
+    "ingredients": [
+      "Pomidory"
+    ]
+  }],
+  "schedules": [{
       "id": 1,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
+      "name": "Plan jarski na bezmięsny tydzień",
+      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
+      "weekNumber": 46,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "ingredients": [
-        "Pomidory"
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     },
     {
-      "name": "ewgsfg",
-      "description": "asgfh",
-      "steps": [
-        "aaaaaaaaaaaaaaa",
-        "sfdfgsdngfvgmn",
-        "asd"
+      "id": 2,
+      "name": "Plan jarski na bezmięsny tydzień",
+      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
+      "weekNumber": 47,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "ingredients": [
-        "asgdfg",
-        "asdfg"
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "id": 2
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
-      "name": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi sit amet. Sagittis orci a scelerisque purus semper. ",
-      "steps": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc"
+      "id": 3,
+      "name": "Plan jarski na bezmięsny tydzień",
+      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
+      "weekNumber": 48,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "ingredients": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "id": 3
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
-      "name": "Lorem ipsum dolor sit amet, consectetur adipiscing",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi sit amet. Sagittis orci a scelerisque purus semper. ",
-      "steps": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc"
+      "id": 4,
+      "name": "Plan jarski na bezmięsny tydzień",
+      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
+      "weekNumber": 49,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "ingredients": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "id": 4
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
-      "name": "wefgdfg",
-      "description": "waesdfg",
-      "steps": [
-        "asd"
+      "id": 5,
+      "name": "Plan jarski na bezmięsny tydzień",
+      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
+      "weekNumber": 50,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "ingredients": [
-        "asd"
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
       ],
-      "id": 5
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
-      "name": "fsdvfg",
-      "description": "sdfg",
-      "steps": [
-        "sdfg"
-      ],
-      "ingredients": [
-        "sdf"
-      ],
-      "id": 6
-    },
-    {
-      "name": "erfg",
-      "description": "sdfg",
-      "steps": [
-        "sdf"
-      ],
-      "ingredients": [
-        "dfgv"
-      ],
-      "id": 7
-    },
-    {
-      "name": "wergtfgh",
-      "description": "werdtfgh",
-      "steps": [
-        "esdfg"
-      ],
-      "ingredients": [
-        "er"
-      ],
-      "id": 8
-    },
-    {
-      "name": "ertf",
-      "description": "wertfg",
-      "steps": [
-        "ert"
-      ],
-      "ingredients": [
-        "we"
-      ],
-      "id": 9
-    }
-  ],
-  "schedules": [
-    {
-      "id": 1,
+      "id": 6,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 1,
+      "weekNumber": 6,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 7,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 8,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 9,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thursday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saturday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }, {
+      "id": 10,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 10,
       "monday": [
         1,
         2,
