@@ -9,10 +9,13 @@ export default class AddRecipe extends Component {
             name: "",
             description: "",
             step: "",
+            stepID: -1,
             steps: [],
             ingredient: "",
+            ingredientID: -1,
             ingredients: [],
-            warning: ""
+            warning: "",
+            isSucces: false
         }
     }
 
@@ -30,28 +33,61 @@ export default class AddRecipe extends Component {
             step: "",
             steps: [],
             ingredient: "",
+            ingredientID: -1,
             ingredients: [],
-            warning: ""
+            warning: "",
+            isSucces: true
+        })
+    }
+
+    hideInfo = () => {
+        this.setState({
+            isSucces: false
         })
     }
 
     addToSteps = e => {
         e.preventDefault();
         if (this.state.step) {
-            this.setState({
-                steps: [...this.state.steps, this.state.step],
-                step: ""
-            })
+            if(this.state.stepID === -1) {
+                this.setState({
+                    steps: [...this.state.steps, this.state.step],
+                    step: ""
+                })
+            } 
+            if(this.state.stepID >= 0) {
+                let tempArr = [...this.state.steps];
+                tempArr[this.state.stepID] = this.state.step;
+                this.setState({
+                    steps: tempArr,
+                    step: "",
+                    stepID: -1
+                })
+            }
         }
 
     }
 
     addToIngredients = e => {
+
         e.preventDefault();
-        this.setState({
-            ingredients: [...this.state.ingredients, this.state.ingredient],
-            ingredient: ""
-        })
+        if (this.state.ingredient) {
+            if(this.state.ingredientID === -1) {
+                this.setState({
+                    ingredients: [...this.state.ingredients, this.state.ingredient],
+                    ingredient: ""
+                })
+            } 
+            if(this.state.ingredientID >= 0) {
+                let tempArr = [...this.state.ingredients];
+                tempArr[this.state.ingredientID] = this.state.ingredient;
+                this.setState({
+                    ingredients: tempArr,
+                    ingredient: "",
+                    ingredientID: -1
+                })
+            }
+        }
     }
 
     postToBase = (e, name, description, steps, ingredients) => {
@@ -86,6 +122,55 @@ export default class AddRecipe extends Component {
         }
     }
 
+    handleDeleteStep = e => {
+        let tempArr = [...this.state.steps]
+        tempArr.forEach((_,id) => {
+            if(id === +e.target.dataset.name) {
+                tempArr.splice(id,1)
+            }
+        })
+        this.setState({
+            steps: tempArr
+        })
+    }
+
+    handleEditStep = e => {
+        let tempArr = [...this.state.steps]
+        tempArr.forEach((step, id) => {
+            if(id === +e.target.dataset.name) {
+                this.setState({
+                    step: step,
+                    stepID: id
+                })
+            }
+        })
+    }
+
+
+    handleDeleteIngredient = e => {
+        let tempArr = [...this.state.ingredients]
+        tempArr.forEach((_,id) => {
+            if(id === +e.target.dataset.name) {
+                tempArr.splice(id,1)
+            }
+        })
+        this.setState({
+            ingredients: tempArr
+        })
+    }
+
+    handleEditIngredient = e => {
+        let tempArr = [...this.state.ingredients]
+        tempArr.forEach((ingredient, id) => {
+            if(id === +e.target.dataset.name) {
+                this.setState({
+                    ingredient: ingredient,
+                    ingredientID: id
+                })
+            }
+        })
+    }
+
     render() {
         return (
             <div className="modal">
@@ -117,7 +202,7 @@ export default class AddRecipe extends Component {
                             </div>
                             <ol>
                                 {this.state.steps.map((step, id) => {
-                                    return <li key={id}><span>{step}</span> <i className="fas fa-edit"></i><i class="far fa-trash-alt"></i></li>
+                                    return <li key={id}><span>{step}</span> <i data-name={id} onClick={this.handleEditStep} className="fas fa-edit"></i><i data-name={id} onClick={this.handleDeleteStep} class="far fa-trash-alt"></i></li>
                                 })}
                             </ol>
                         </div>
@@ -129,13 +214,18 @@ export default class AddRecipe extends Component {
                             </div>
                             <ul>
                                 {this.state.ingredients.map((ingredient, id) => {
-                                    return <li key={id}><span>{ingredient}</span> <i className="fas fa-edit"></i><i class="far fa-trash-alt"></i></li>
+                                    return <li key={id}><span>{ingredient}</span> <i onClick={this.handleEditIngredient} data-name={id} className="fas fa-edit"></i><i onClick={this.handleDeleteIngredient} data-name={id} className="far fa-trash-alt"></i></li>
                                 })}
                             </ul>
                         </div>
                     </div>
                     <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
                 </form>}
+                {this.state.isSucces && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={this.hideInfo}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Twój przepis został zapisany!</span>
+                </div> }
             </div>
         )
     }
