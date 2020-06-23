@@ -7,8 +7,6 @@ import FormToSubscription from "./FormToSubscription";
 import AboutAuthor from "./AboutAuthor";
 import Footer from "./Footer";
 
-import RecipesList from './RecipesList';
-
 export default class LandingPage extends React.Component {
     render() {
         return (
@@ -20,7 +18,6 @@ export default class LandingPage extends React.Component {
                 <FormToSubscription />
                 <AboutAuthor />
                 <Footer />
-                <RecipesList />
             </div>
         )
     }

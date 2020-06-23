@@ -6,6 +6,7 @@ import {
     NavLink as Link
 } from "react-router-dom";
 import AppMainSection from "./AppMainSection";
+import RecipesList from './RecipesList';
 
 export default class MainApp extends Component {
     constructor(props) {
@@ -18,15 +19,15 @@ export default class MainApp extends Component {
 
     componentDidMount() {
         fetch("http://localhost:3000/user/")
-        .then(res => res.json())
-        .then(data => {
-            if(data.name) {
-                this.setState({
-                    name: data.name,
-                    isUser: true
-                })
-            }
-        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.name) {
+                    this.setState({
+                        name: data.name,
+                        isUser: true
+                    })
+                }
+            })
     }
 
     addName = name => {
@@ -35,7 +36,7 @@ export default class MainApp extends Component {
             isUser: true
         })
     }
-    
+
     render() {
         return (
             <div className="wrapper app">
@@ -58,8 +59,8 @@ export default class MainApp extends Component {
                     </div>
                     <div className="app-content">
                         <Switch>
-                            <Route component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />}  />
-                            <Route />
+                            <Route exact path="/app/" component={() => <AppMainSection addName={this.addName} isUser={this.state.isUser} />} />
+                            <Route path="/app/recipes" component={RecipesList} />
                             <Route />
                         </Switch>
                     </div>

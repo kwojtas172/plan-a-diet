@@ -2,11 +2,10 @@
   "user": {
     "name": "Kamil"
   },
-  "recipes": [
-    {
+  "recipes": [{
       "id": 1,
       "name": "Zupa pomidorowa",
-      "description": "v",
+      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
       "steps": [
         "Wlej wodę do garnka"
       ],
@@ -16,7 +15,7 @@
     },
     {
       "name": "ewgsfg",
-      "description": "bbbbbbbbbbbbbbbbbbbbb",
+      "description": "asgfh",
       "steps": [
         "aaaaaaaaaaaaaaa",
         "sfdfgsdngfvgmn",
@@ -57,63 +56,116 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing"
       ],
       "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Zupa ogorkowa",
+      "description": "Pyszna zupa ogorkowa z całych ogorkow.",
+      "steps": [
+        "Wlej wodę do garnka"
+      ],
+      "ingredients": [
+        "Pomidory"
+      ]
+    },
+    {
+      "name": "aaaaaaaaa aaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaa aaaaaaaaaaaaaaaaaaaaa",
+      "steps": [
+        "aaaaaaaaaaaaaaa",
+        "sfdfgsdngfvgmn",
+        "asd"
+      ],
+      "ingredients": [
+        "asgdfg",
+        "asdfg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi sit amet. Sagittis orci a scelerisque purus semper. ",
+      "steps": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc"
+      ],
+      "ingredients": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi sit amet. Sagittis orci a scelerisque purus semper. ",
+      "steps": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auc"
+      ],
+      "ingredients": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing"
+      ],
+      "id": 8
     }
   ],
-  "schedules": [
-    {
-      "id": 1,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 1,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    }
-  ]
+  "schedules": [{
+    "id": 1,
+    "name": "Wegetariański tydzień",
+    "description": "Długi opis tygodnia bez mięsa.",
+    "weekNumber": 1,
+    "monday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tuesday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "wednesday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "thursday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "friday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "saturday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sunday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }]
 }

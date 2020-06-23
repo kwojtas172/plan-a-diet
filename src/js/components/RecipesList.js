@@ -31,16 +31,24 @@ class RecipesList extends Component {
     };
 
     handleDeleteRecipe = (e) => {
-        console.log(e.target.dataset.id);
         const tempArr = [...this.state.data];
         tempArr.forEach((el, id) => {
             if (+e.target.dataset.id === id) {
                 tempArr.splice(id, 1)
+                this.setState({
+                    recipeId: el.id
+                }, () => {
+                    fetch(`http://localhost:3000/recipes/${this.state.recipeId}`, {
+                        method: 'DELETE',
+                    })
+                        .then(resp => resp.json())
+                        .then(data => console.log(data))
+                })
             }
-        })
+        });
         this.setState({
             data: tempArr
-        })
+        });
     };
 
     handelEditRecipe = (e) => {
@@ -146,6 +154,7 @@ class RecipesList extends Component {
             </div >
         );
     }
-}
+};
+
 export default RecipesList;
 
