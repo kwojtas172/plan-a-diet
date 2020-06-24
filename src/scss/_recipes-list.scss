@@ -1,0 +1,167 @@
+@import "./variables";
+@import "./reset";
+
+div.recipes-list__container {
+    width: 90%;
+    height: 50rem;
+
+    background-color: $bg-color;
+    border: 0.07rem dashed $nav-color;
+    margin: 2rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.recipes__header {
+    width: 95%;
+    height: auto;
+
+    background-color: white;
+    border-bottom: 0.15rem solid $table-font;
+    margin-bottom: 1rem;
+    padding: 1rem 0 0.2rem 0;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: $btn-color;
+        font-size: 1.74rem;
+        font-weight: bold;
+    }
+}
+
+span.fa-plus-square {
+    border-radius: 0.5rem;
+    color: $success-msg;
+    font-size: 2.14rem;
+    margin: 0;
+}
+
+div.recipes__info {
+    width: 71.43rem;
+    height: auto;
+
+    background-color: white;
+    border-bottom: 0.1rem solid $table-font;
+    border-top: 0.1rem solid $table-font;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: $header-color;
+        font-size: 1.45rem;
+        font-weight: bold;
+        padding: 0.5rem;
+    }
+}
+
+div.recipes__list {
+    height: 40rem;
+    width: 71.43rem;
+
+    align-items: flex-start;
+    border-top: none;
+    overflow-x: auto;
+
+    display: flex;
+
+
+    p {
+        color: $header-color;
+        font-size: 1.35rem;
+        font-weight: 200;
+        padding: 0.5rem;
+    }
+}
+
+p.recipes__info__id,
+div.recipes__id {
+    width: 7rem;
+}
+
+p.recipes__info__name,
+div.recipes__name {
+    width: 17.86rem;
+}
+
+p.recipes__info__description,
+div.recipes__description {
+    width: 39.36rem;
+}
+
+p.recipes__info__action,
+div.recipes__action {
+    width: 7.16rem;
+}
+
+div.recipes__action {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    span {
+        height: 7.15rem;
+        width: 100%;
+        border-bottom: 0.1rem solid $table-font;
+        padding-top: 0.5rem;
+    }
+}
+
+span.fa-edit {
+    color: $btn-color;
+    font-size: 1.65rem;
+    padding: 0 1rem;
+}
+
+div.recipes {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    span {
+        height: 7.15rem;
+
+        border-bottom: 0.1rem solid $table-font;
+        color: $table-font;
+        font-size: 1.35rem;
+        padding: 0.5rem 0 0 0.5rem;
+        overflow-x: auto;
+    }
+
+    span:last-child {
+        margin-bottom: 1rem;
+    }
+}
+
+span.fa-trash-alt {
+    color: rgb(200, 0, 0);
+    font-size: 1.65rem;
+}
+
+.recipe__edit {
+    position: fixed;
+    z-index: 2;
+    height: 10rem;
+    width: 35rem;
+    top: 10vh;
+    left: 25vw;
+}
+
+.button__edit {
+    position: absolute;
+    z-index: 2;
+    right: 50%;
+}

@@ -12,6 +12,7 @@ class WeeklyPreviewTable extends Component {
         saturday: [],
         sunday: [],
         weekNr: "",
+        nowNumWeek: 0
     }
 
     componentDidMount = () => {
@@ -20,18 +21,82 @@ class WeeklyPreviewTable extends Component {
                 return resp.json();
             })
             .then(data => {
-                data.forEach(el =>
-                    this.setState({
-                        monday: el.monday,
-                        tuesday: el.tuesday,
-                        wednesday: el.wednesday,
-                        thursday: el.thursday,
-                        friday: el.friday,
-                        saturday: el.saturday,
-                        sunday: el.sunday,
-                        weekNr: el.weekNumber,
-                    }))
+                let now = new Date();
+                let start = new Date(now.getFullYear(), 0, 0);
+                let diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+                let oneDay = 1000 * 60 * 60 * 24;
+                let day = Math.floor(diff / oneDay);
+                let startValue = start.getDay();
+                let finishValue = 7 - now.getDay();
+                let weekOfYear = Math.floor((day + startValue + finishValue)/7)
+                this.setState({
+                    nowNumWeek: weekOfYear,
+                    data: data
+                })
+
+                data.forEach(el => {
+                    if(+el.weekNumber === this.state.nowNumWeek) {
+                        this.setState({
+                            monday: el.monday,
+                            tuesday: el.tuesday,
+                            wednesday: el.wednesday,
+                            thursday: el.thursday,
+                            friday: el.friday,
+                            saturday: el.saturday,
+                            sunday: el.sunday,
+                            weekNr: el.weekNumber,
+                        })
+                    }
+                })
             })
+    }
+
+    nextWeek = () => {
+        
+        if(this.state.nowNumWeek < 52) {
+            this.setState({
+                nowNumWeek: +this.state.nowNumWeek + 1
+            }, () => {
+                this.state.data.forEach(el => {
+                    if(+el.weekNumber === +this.state.nowNumWeek) {
+                        this.setState({
+                            monday: el.monday,
+                            tuesday: el.tuesday,
+                            wednesday: el.wednesday,
+                            thursday: el.thursday,
+                            friday: el.friday,
+                            saturday: el.saturday,
+                            sunday: el.sunday,
+                            weekNr: el.weekNumber,
+                        })
+                    }
+                })
+            })
+        }
+        
+    }
+
+    prevWeek = () => {
+        if(this.state.nowNumWeek > 1) {
+            this.setState({
+                nowNumWeek: +this.state.nowNumWeek - 1
+            }, () => {
+                this.state.data.forEach(el => {
+                    if(+el.weekNumber === +this.state.nowNumWeek) {
+                        this.setState({
+                            monday: el.monday,
+                            tuesday: el.tuesday,
+                            wednesday: el.wednesday,
+                            thursday: el.thursday,
+                            friday: el.friday,
+                            saturday: el.saturday,
+                            sunday: el.sunday,
+                            weekNr: el.weekNumber,
+                        })
+                    }
+                })
+            })
+        }
     }
 
     render() {
@@ -50,7 +115,6 @@ class WeeklyPreviewTable extends Component {
                     <span>Piatek</span>
                     <span>Sobota</span>
                     <span>Niedziela</span>
-                    {console.log("Działa")}
                 </div>
                 <div className="recipes-day__container">
                     <div className="week-day">
@@ -90,11 +154,11 @@ class WeeklyPreviewTable extends Component {
                     </div>
                 </div>
                 <div className="weekly-preview-table-select__btns">
-                    <div className="weekly-preview-table-prev__btn">
+                    <div onClick={this.prevWeek} className="weekly-preview-table-prev__btn">
                         <i class="fas fa-angle-double-left"></i>
                         <span>poprzedni</span>
                     </div>
-                    <div className="weekly-preview-table-next__btn">
+                    <div onClick={this.nextWeek} className="weekly-preview-table-next__btn">
                         <span>nastepny</span>
                         <i class="fas fa-angle-double-right" ></i>
                     </div>
