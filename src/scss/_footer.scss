@@ -4,16 +4,9 @@
 }
 
 .footer__info {
-    padding: 0 8rem;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.footer__info__col {
-    flex: 1;
-    padding: 3rem;
-    padding-left: 7rem;
+    padding: 2rem 5rem;
 }
 
 .footer__info__col__title {
@@ -55,4 +48,19 @@
 
 .footer__rights span {
     color: #E58A20;
+}
+
+.footer__info__col-1 {
+    flex: 20%;
+  }
+
+.footer__info__col-2 {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__info__col-3 {
+  flex: 20%;
 }

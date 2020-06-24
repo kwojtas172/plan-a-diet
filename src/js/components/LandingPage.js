@@ -12,7 +12,7 @@ import Footer from "./Footer";
 export default class LandingPage extends React.Component {
     render() {
         return (
-            <div className="wrapper">
+         <>
                 <Header />
                 <Carousela />
                 <CallToAction />
@@ -21,7 +21,7 @@ export default class LandingPage extends React.Component {
                 <AboutAuthor />
                 <Footer />
                 {/* <WeeklyPreviewTable /> */}
-            </div>
+         </>
         )
     }
 }

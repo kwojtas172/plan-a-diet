@@ -1,19 +1,21 @@
 .about-author {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     background-color: $bg-color;
+    width: 100%;
 }
 
+.about-author .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 
 .about-author__img {
     width: 30rem;
     height: auto;
-    margin: 6rem;
+    margin: 4rem;
 }
 
 .about-author__wrapper {
-    margin: 6rem;
+    margin: 4rem;
 }
 
 .about-author__title, .about-author__txt {

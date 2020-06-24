@@ -1,9 +1,11 @@
-
 .about-app {
-    display: flex;
-    padding: 3rem;
     width: 100%;
+    padding: 3rem;
     background-color: $bg-color;
+}
+
+.about-app .wrapper {
+    display: flex;
 }
 
 .about-app__art {
