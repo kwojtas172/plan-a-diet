@@ -9,9 +9,10 @@ class PlanList extends Component {
         name: [],
         weekNumber: "",
         isEditInput: false,
+        isSuccess: false,
+        isRemoved: false,
         editInputValue: "",
         recipeId: 0,
-        display: "none",
         nameErr: "",
         weekNumberErr: "",
         monday: [],
@@ -24,8 +25,6 @@ class PlanList extends Component {
         meals: ["śniadanie", "drugie śniadanie", "zupa", "drugie danie", "kolacja"],
         weekdays: [{ pl: "poniedziałek", en: "monday" }, { pl: "wtorek", en: "tuesday" }, { pl: "środa", en: "wednesday" }, { pl: "czwartek", en: "thursday" }, { pl: "piątek", en: "friday" }, { pl: "sobota", en: "saturday" }, { pl: "niedziela", en: "sunday" }],
         recipes: [],
-        isSuccess: false,
-        displayMsg: "block",
     }
 
     componentDidMount = () => {
@@ -79,7 +78,8 @@ class PlanList extends Component {
             }
         });
         this.setState({
-            data: tempArr
+            data: tempArr,
+            isRemoved: true
         });
     };
 
@@ -102,18 +102,6 @@ class PlanList extends Component {
                     sunday: el.sunday
                 })
             }
-        })
-    };
-
-    handleClick = () => {
-        this.setState({
-            display: "block",
-        })
-    };
-
-    handleCloseMsg = () => {
-        this.setState({
-            displayMsg: "none"
         })
     };
 
@@ -179,7 +167,6 @@ class PlanList extends Component {
             });
             this.setState({
                 data: tempArr,
-                display: "none",
                 name: "",
                 nameErr: "",
                 description: "",
@@ -193,7 +180,6 @@ class PlanList extends Component {
                 saturday: ["", "", "", "", ""],
                 sunday: ["", "", "", "", ""],
                 isSuccess: true,
-                displayMsg: "block",
                 isEditInput: false,
             })
 
@@ -213,11 +199,7 @@ class PlanList extends Component {
                     console.error('Error:', error);
                 });
 
-        } else {
-            this.setState({
-                display: "block",
-            })
-        }
+        } 
     };
 
     handleValue = (weekday, index) => {
@@ -377,6 +359,16 @@ class PlanList extends Component {
                         })}
                     </div>
                 </div>
+                {this.state.isSuccess && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={() => this.setState({isSuccess: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Edytowałeś plan!</span>
+                </div> }
+                {this.state.isRemoved && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={() => this.setState({isRemoved: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Usunąłeś plan!</span>
+                </div> }
             </div>
         );
     }
