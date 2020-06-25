@@ -1,9 +1,10 @@
 .modal__popup-add-recipe {
     padding: 2rem;
-    border: 0.1rem solid lighten($nav-color, 30%);
+    border: 0.1rem dashed lighten($nav-color, 30%);
     z-index: 2;
     background-color: $bg-color;
     position: fixed;
+    width: 80%;
 
     input, textarea {
         border: 0.15rem solid lighten($nav-color, 40%);
@@ -47,6 +48,7 @@
     padding: 1rem;
     color: $nav-color;
     font-size: 1.5rem;
+    width: 100%;
 
     h3 {
         width: 20rem;
@@ -83,7 +85,6 @@
         height: 10rem;
         overflow-y: auto;
         overflow-anchor: none;
-        max-width: 37rem;
 
         li {
             font-size: 1.2rem;
@@ -108,10 +109,12 @@
     .modal__popup-add-recipe__add-list__content__container {
         display: flex;
         margin-bottom: 3rem;
+        
 
         input, textarea {
             width: 35rem;
             height: 5rem;
+            width: 45rem;
         }
 
         button {
