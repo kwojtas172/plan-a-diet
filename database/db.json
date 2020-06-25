@@ -689,6 +689,19 @@
       "saturday": [],
       "sunday": [],
       "id": 12
+    },
+    {
+      "name": "kkjk",
+      "description": "",
+      "weekNumber": "7",
+      "monday": [],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [],
+      "saturday": [],
+      "sunday": [],
+      "id": 13
     }
   ]
 }
