@@ -1,5 +1,7 @@
 import React from "react";
 import {HashRouter as Router, Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 
 export default class Header extends React.Component {
     render() {
@@ -14,13 +16,22 @@ export default class Header extends React.Component {
                                     <Link to="/app">Zaplanuj posiłki!</Link>
                                 </li>
                                 <li className="header__nav__list__el">
-                                    <a href="#dlaczegowarto">Dlaczego warto?</a>
+                                    <HashLink 
+                                        to="/#dlaczegowarto" 
+                                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                                    >Dlaczego warto?</HashLink>
                                 </li>
                                 <li className="header__nav__list__el">
-                                    <a href="#omnie">O mnie</a>
+                                    <HashLink 
+                                        to="/#omnie" 
+                                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                                    >O mnie</HashLink>
                                 </li>
                                 <li className="header__nav__list__el">
-                                    <a href="#kontakt">Kontakt</a>
+                                    <HashLink 
+                                        to="/#kontakt" 
+                                        scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                                    >Kontakt</HashLink>
                                 </li>
                             </ul>
                         </nav>

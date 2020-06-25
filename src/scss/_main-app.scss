@@ -9,10 +9,19 @@
     grid-column: 1/-1;
     grid-row: 1/2;
     background-color: $header-color;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 3rem;
 }
 
 .header-app__wrapper {
     display: flex;
+    margin-right: 3rem;
 }
 
 .header-app__wrapper__name {
@@ -79,5 +88,9 @@
     min-height: 50rem;
     background-image: url("../images/bcg-app.png");
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

@@ -4,7 +4,7 @@ import image from "../../images/about-author.jpg";
 export default class AboutAuthor extends Component {
     render() {
         return (
-            <section className="about-author">
+            <section className="about-author" id="omnie">
                 <div className="wrapper">
                     <img src={image} className="about-author__img" alt="author" />
                     <div className="about-author__wrapper">

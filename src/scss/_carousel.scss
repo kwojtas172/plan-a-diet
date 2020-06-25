@@ -1,7 +1,7 @@
 .carousel__container {
     width: 100%;
     background-color: $bg-color;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .carousel__slide {
@@ -19,7 +19,7 @@
     padding: 5rem 20rem;
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 1.1rem;
     }
 
@@ -34,10 +34,26 @@
     display: none;
 }
 
-.carousel .control-next.control-arrow:before {
-    border-left: 0.5rem solid black !important;
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent !important; 
 }
 
-.carousel .control-prev.control-arrow:before {
-    border-right: 0.5rem solid black !important;
+.control-prev:before {
+    background-image: url($icon-path+'arrow-previous.svg') !important;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    content: "";
+    width: 30px;
+    height: 30px;
 }
+
+.control-next:before {
+    background-image: url($icon-path+'arrow-next.svg') !important;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    content: "";
+    width: 30px;
+    height: 30px;
+}
+
+
