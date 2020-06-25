@@ -133,14 +133,14 @@ class WeeklyPreviewTable extends Component {
         return (
             <div className="table__container" >
                 <div className="week__number">
-                    <p>Twoj plan na {weekNr} tydzien :</p>
+                    <p>Twój plan na {weekNr} tydzień :</p>
                 </div>
                 <div className="day__name">
-                    <span>Poniedzialek</span>
+                    <span>Poniedziałek</span>
                     <span>Wtorek</span>
-                    <span>Sroda</span>
+                    <span>Środa</span>
                     <span>Czwartek</span>
-                    <span>Piatek</span>
+                    <span>Piątek</span>
                     <span>Sobota</span>
                     <span>Niedziela</span>
                 </div>

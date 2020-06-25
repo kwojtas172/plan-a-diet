@@ -21,8 +21,6 @@ class Widgets extends Component {
                 this.setState({
                     data: data,
                 })
-                console.log(this.state.data);
-
             })
     };
 
@@ -50,13 +48,13 @@ class Widgets extends Component {
                 {
                     this.state.info && <div className="info__widget ">
                         <div><i class="fas fa-info-circle" style={{ fontSize: "40px", marginLeft: "10px" }}></i></div>
-                        <p>Masz juz {this.state.data.length} przepisow, niezle!</p>
+                        <p>Masz już {this.state.data.length} przepisów, nieźle!</p>
                         <button onClick={() => this.deleteInfoMessage()}><i class="fas fa-times"></i></button>
                     </div>
                 }
                 {this.state.warning && <div className="warning__widget ">
                     <div><i class="fa fa-exclamation-circle" style={{ fontSize: "40px", marginLeft: "10px" }}></i></div>
-                    <p>Pamietaj, aby dodac plan!</p>
+                    <p>Pamiętaj, aby dodać plan!</p>
                     <button onClick={() => this.deleteWarningMessage()}><i class="fas fa-times"></i></button>
                 </div>
                 }

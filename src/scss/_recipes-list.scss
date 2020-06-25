@@ -19,7 +19,7 @@ div.recipes__header {
     width: 95%;
     height: auto;
 
-    background-color: white;
+    background-color: $bg-color;
     border-bottom: 0.15rem solid $table-font;
     margin-bottom: 1rem;
     padding: 1rem 0 0.2rem 0;
@@ -47,7 +47,7 @@ div.recipes__info {
     max-width: 95%;
     height: auto;
 
-    background-color: white;
+    background-color: $bg-color;
     border-bottom: 0.1rem solid $table-font;
     border-top: 0.1rem solid $table-font;
 
