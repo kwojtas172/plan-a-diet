@@ -3,12 +3,17 @@
     border: 1.25px dashed $table-font;
     z-index: 1;
     position: absolute;
-    top: 110px;
-    left: 245px;
+    top: 1rem;
+    left: 1rem;
+
 }
 
 .modal__popup-add-schedule__form {
-    padding: 1.5rem;
+    padding: 4rem;
+    position: fixed;
+    background-color: $bg-color;
+    border: 1.25px dashed $table-font;
+    width: 80%;
 }
 
 .modal__popup-add-schedule__form__header {
@@ -74,7 +79,7 @@
     color: $nav-color;
     border-collapse: collapse;
     table-layout: fixed;
-    margin-right:auto;
+    margin-right: auto;
 
 }
 

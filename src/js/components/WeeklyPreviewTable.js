@@ -34,7 +34,8 @@ class WeeklyPreviewTable extends Component {
                     data: data
                 })
 
-                data.forEach(el => {
+                data.sort((a, b) => a.weekNumber - b.weekNumber)
+                .forEach(el => {
                     if(+el.weekNumber === this.state.nowNumWeek) {
                         this.setState({
                             monday: el.monday,
@@ -45,6 +46,33 @@ class WeeklyPreviewTable extends Component {
                             saturday: el.saturday,
                             sunday: el.sunday,
                             weekNr: el.weekNumber,
+                        })
+                    } else if(!this.state.weekNr) {
+                        data.forEach(el => {
+                            if(+this.state.nowNumWeek < +el.weekNumber) {
+                                this.setState({
+                                    monday: el.monday,
+                                    tuesday: el.tuesday,
+                                    wednesday: el.wednesday,
+                                    thursday: el.thursday,
+                                    friday: el.friday,
+                                    saturday: el.saturday,
+                                    sunday: el.sunday,
+                                    weekNr: el.weekNumber,
+                                })
+                            } 
+                            else if(!this.state.weekNr) {
+                                this.setState({
+                                    monday: el.monday,
+                                    tuesday: el.tuesday,
+                                    wednesday: el.wednesday,
+                                    thursday: el.thursday,
+                                    friday: el.friday,
+                                    saturday: el.saturday,
+                                    sunday: el.sunday,
+                                    weekNr: el.weekNumber,
+                                })
+                            }
                         })
                     }
                 })
