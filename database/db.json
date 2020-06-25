@@ -95,7 +95,7 @@
       "id": 1,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 46,
+      "weekNumber": 21,
       "monday": [
         1,
         2,
@@ -150,7 +150,7 @@
       "id": 2,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 47,
+      "weekNumber": 22,
       "monday": [
         1,
         2,
@@ -205,7 +205,7 @@
       "id": 3,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 48,
+      "weekNumber": 23,
       "monday": [
         1,
         2,
@@ -260,7 +260,7 @@
       "id": 4,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 49,
+      "weekNumber": 25,
       "monday": [
         1,
         2,
@@ -315,7 +315,7 @@
       "id": 5,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 50,
+      "weekNumber": 14,
       "monday": [
         1,
         2,
@@ -641,279 +641,59 @@
       ]
     },
     {
-      "name": "Test",
-      "description": "tesgoidgjodijg",
-      "weekNumber": "26",
+      "id": 11,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 1,
       "monday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "tuesday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "wednesday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "thursday": [
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "ewgsfg"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "friday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "Zupa pomidorowa"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "saturday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "sunday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "ewgsfg",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "id": 2
-    },
-    {
-      "name": "Test",
-      "description": "tesgoidgjodijg",
-      "weekNumber": "27",
-      "monday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "tuesday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "wednesday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "thursday": [
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "ewgsfg"
-      ],
-      "friday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "saturday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
-      ],
-      "sunday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "ewgsfg",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "id": 2
-    },
-    {
-      "name": "Test",
-      "description": "tesgoidgjodijg",
-      "weekNumber": "28",
-      "monday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "tuesday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "wednesday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "thursday": [
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "ewgsfg"
-      ],
-      "friday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "saturday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
-      ],
-      "sunday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "ewgsfg",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "id": 2
-    },
-    {
-      "name": "Test",
-      "description": "tesgoidgjodijg",
-      "weekNumber": "25",
-      "monday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "tuesday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "wednesday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "thursday": [
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "ewgsfg"
-      ],
-      "friday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "saturday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
-      ],
-      "sunday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "ewgsfg",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "id": 2
-    },
-    {
-      "name": "Test",
-      "description": "tesgoidgjodijg",
-      "weekNumber": "24",
-      "monday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "tuesday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "wednesday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "thursday": [
-        "ewgsfg",
-        "Zupa pomidorowa",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "ewgsfg"
-      ],
-      "friday": [
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Zupa pomidorowa",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "saturday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing"
-      ],
-      "sunday": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing",
-        "ewgsfg",
-        "ewgsfg",
-        "ewgsfg",
-        "Zupa pomidorowa"
-      ],
-      "id": 2
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   ]
 }

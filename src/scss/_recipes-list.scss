@@ -44,7 +44,7 @@ span.fa-plus-square {
 }
 
 div.recipes__info {
-    width: 71.43rem;
+    max-width: 95%;
     height: auto;
 
     background-color: white;
@@ -65,7 +65,8 @@ div.recipes__info {
 
 div.recipes__list {
     height: 40rem;
-    width: 71.43rem;
+    max-width: 95%;
+    margin: 0 auto;
 
     align-items: flex-start;
     border-top: none;
@@ -89,17 +90,18 @@ div.recipes__id {
 
 p.recipes__info__name,
 div.recipes__name {
-    width: 17.86rem;
+    width: 27.86rem;
 }
 
 p.recipes__info__description,
 div.recipes__description {
-    width: 39.36rem;
+    width: 50.36rem;
 }
 
 p.recipes__info__action,
 div.recipes__action {
     width: 7.16rem;
+    margin-right: 2rem;
 }
 
 div.recipes__action {
@@ -151,17 +153,17 @@ span.fa-trash-alt {
     font-size: 1.65rem;
 }
 
-.recipe__edit {
-    position: fixed;
-    z-index: 2;
-    height: 10rem;
-    width: 35rem;
-    top: 10vh;
-    left: 25vw;
-}
+// .recipe__edit {
+//     position: fixed;
+//     z-index: 2;
+//     height: 10rem;
+//     width: 35rem;
+//     top: 10vh;
+//     left: 25vw;
+// }
 
-.button__edit {
-    position: absolute;
-    z-index: 2;
-    right: 50%;
-}
+// .button__edit {
+//     position: absolute;
+//     z-index: 2;
+//     right: 50%;
+// }
