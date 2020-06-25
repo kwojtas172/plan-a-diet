@@ -2,7 +2,8 @@
   "user": {
     "name": "Agata"
   },
-  "recipes": [{
+  "recipes": [
+    {
       "id": 1,
       "name": "Zupa pomidorowa",
       "description": "Pyszna zupa pomidorowa z całych pomidorów.",
@@ -91,59 +92,43 @@
       ]
     }
   ],
-  "schedules": [{
+  "schedules": [
+    {
       "id": 1,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 21,
+      "name": "B",
+      "description": "B",
+      "weekNumber": "5",
       "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Wybierz",
+        "Zupa pomidorowa",
+        "Wybierz",
+        "Wybierz"
       ],
       "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ],
       "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ],
       "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ],
       "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ],
       "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ],
       "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
       ]
     },
     {
@@ -585,7 +570,8 @@
         4,
         5
       ]
-    }, {
+    },
+    {
       "id": 10,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
@@ -694,6 +680,40 @@
         4,
         5
       ]
+    },
+    {
+      "name": "Coders",
+      "description": "Coders",
+      "weekNumber": "36",
+      "monday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "tuesday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "wednesday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "thursday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "friday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "saturday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "sunday": [
+        "Zupa pomidorowa",
+        "Zupa pomidorowa"
+      ],
+      "id": 15
     }
   ]
 }
