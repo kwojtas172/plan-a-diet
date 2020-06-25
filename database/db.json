@@ -52,7 +52,7 @@
       "name": "Zupa pomidorowa",
       "description": "Pyszna zupa pomidorowa z całych pomidorów.",
       "steps": [
-        "Wlej wodę do garnka"
+        "Wlej wodę do garnka."
       ],
       "ingredients": [
         "Pomidory"
@@ -135,7 +135,7 @@
       "id": 2,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 22,
+      "weekNumber": 31,
       "monday": [
         1,
         2,
@@ -630,7 +630,7 @@
       "id": 11,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 1,
+      "weekNumber": 44,
       "monday": [
         1,
         2,
@@ -684,7 +684,7 @@
     {
       "name": "Coders",
       "description": "Coders",
-      "weekNumber": "36",
+      "weekNumber": 36,
       "monday": [
         "Zupa pomidorowa",
         "Zupa pomidorowa"
