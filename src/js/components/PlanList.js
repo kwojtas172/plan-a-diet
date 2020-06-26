@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import '../../scss/_plan-list.scss';
 
 class PlanList extends Component {
@@ -341,28 +341,28 @@ class PlanList extends Component {
                 <div className="plans__list">
                     <div className="plans plans__id">
                         {this.state.data.map(el => {
-                            return <span>{el.id}</span>
+                            return <span className="plans__id">{el.id}</span>
                         })}
                     </div>
                     <div className="plans plans__name">
                         {this.state.data.map(el => {
-                            return <span>{el.name}</span>
+                            return <span className="plans__name">{el.name}</span>
                         })}
                     </div>
                     <div className="plans plans__description">
                         {this.state.data.map(el => {
-                            return <span>{el.description}</span>
+                            return <span className="plans__description">{el.description}</span>
                         })}
                     </div>
                     <div className="plans plans__week">
                         {this.state.data.map(el => {
-                            return <span>{el.weekNumber}</span>
+                            return <span className="plans__week">{el.weekNumber}</span>
                         })}
                     </div>
-                    <div className="plans plans__action">
+                    <div className="plans__action">
                         {this.state.data.map((el, id) => {
                             return (
-                                <div>
+                                <div className="plans__action">
                                     <span
                                         data-id={id}
                                         class="far fa-edit"

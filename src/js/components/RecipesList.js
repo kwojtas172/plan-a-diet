@@ -345,11 +345,12 @@ class RecipesList extends Component {
                     </div>
                     <div className="recipes__action">
                         {this.state.data.map((el, id) => {
-                            return (
-                                <div>
-                                    <span data-id={id} onClick={this.handelEditRecipe} class="far fa-edit"></span>
-                                    <span data-id={id} onClick={this.handleDeleteRecipe} class="far fa-trash-alt"></span>
-                                </div>)
+                            return <span data-id={id} onClick={this.handelEditRecipe} class="far fa-edit"></span>
+                        })}
+                    </div>
+                    <div className="recipes__action">
+                        {this.state.data.map((el, id) => {
+                            return <span data-id={id} onClick={this.handleDeleteRecipe} class="far fa-trash-alt"></span>
                         })}
                     </div>
                 </div>
