@@ -2,12 +2,12 @@
 @import "./reset";
 
 div.recipes-list__container {
-    width: 90%;
-    height: 50rem;
+    width: 96.43rem;
+    height: 53.5rem;
 
     background-color: $bg-color;
     border: 0.07rem dashed $nav-color;
-    margin: 2rem auto;
+    margin: 3rem auto;
 
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ div.recipes-list__container {
 }
 
 div.recipes__header {
-    width: 95%;
+    width: 91rem;
     height: auto;
 
     background-color: white;
@@ -44,7 +44,7 @@ span.fa-plus-square {
 }
 
 div.recipes__info {
-    max-width: 95%;
+    width: 90rem;
     height: auto;
 
     background-color: white;
@@ -64,106 +64,104 @@ div.recipes__info {
 }
 
 div.recipes__list {
-    height: 40rem;
-    max-width: 95%;
+    height: 600px;
+    width: 90rem;
     margin: 0 auto;
 
-    align-items: flex-start;
+    border-bottom: 0.1rem solid $table-font;
     border-top: none;
     overflow-x: auto;
 
     display: flex;
+    align-items: flex-start;
 
+    span {
+        height: 7.15rem;
 
-    p {
-        color: $header-color;
+        color: $table-font;
         font-size: 1.35rem;
-        font-weight: 200;
-        padding: 0.5rem;
+        padding: 0.5rem 0 0 0.5rem;
+        overflow-x: auto;
     }
 }
 
 p.recipes__info__id,
 div.recipes__id {
     width: 7rem;
+
+    span {
+        border-bottom: 0.1rem solid $table-font;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 }
 
 p.recipes__info__name,
 div.recipes__name {
     width: 27.86rem;
+
+    span {
+        border-bottom: 0.1rem solid $table-font;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 }
 
 p.recipes__info__description,
 div.recipes__description {
     width: 50.36rem;
-}
 
-p.recipes__info__action,
-div.recipes__action {
-    width: 7.16rem;
-    margin-right: 2rem;
-}
+    span {
+        border-bottom: 0.1rem solid $table-font;
 
-div.recipes__action {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
-    div {
-        display: flex;
-        justify-content: flex-start;
+        &:last-child {
+            border-bottom: none;
+        }
     }
+}
+
+p.recipes__info__action {
+    width: 10rem;
+}
+
+div.recipes__action {
+    width: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
     span {
         height: 7.15rem;
         width: 100%;
+
         border-bottom: 0.1rem solid $table-font;
         padding-top: 0.5rem;
-    }
-}
 
-span.fa-edit {
-    color: $btn-color;
-    font-size: 1.65rem;
-    padding: 0 1rem;
+        &:before {
+            font-size: 1.8rem;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 }
 
 div.recipes {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+}
 
-    span {
-        height: 7.15rem;
-
-        border-bottom: 0.1rem solid $table-font;
-        color: $table-font;
-        font-size: 1.35rem;
-        padding: 0.5rem 0 0 0.5rem;
-        overflow-x: auto;
-    }
-
-    span:last-child {
-        margin-bottom: 1rem;
-    }
+span.fa-edit {
+    color: $btn-color;
 }
 
 span.fa-trash-alt {
     color: rgb(200, 0, 0);
-    font-size: 1.65rem;
 }
-
-// .recipe__edit {
-//     position: fixed;
-//     z-index: 2;
-//     height: 10rem;
-//     width: 35rem;
-//     top: 10vh;
-//     left: 25vw;
-// }
-
-// .button__edit {
-//     position: absolute;
-//     z-index: 2;
-//     right: 50%;
-// }
