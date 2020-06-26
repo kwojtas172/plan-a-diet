@@ -1,17 +1,16 @@
 .modal__popup-add-schedule {
     background-color: $bg-color;
-    border: 1.25px dashed $table-font;
+    border: 0.1rem dashed $table-font;
     z-index: 1;
     position: absolute;
     top: 1rem;
     left: 1rem;
-    height: 55rem;
+    height: 60rem;
     width: 98%;
 }
 
 .modal__popup-add-schedule__form {
     padding: 2rem;
-    // position: fixed;
     background-color: $bg-color;
     width: 100%;
     height: 60%;
@@ -20,7 +19,6 @@
 .modal__popup-add-schedule__form__header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0.5rem;
 }
 
 .modal__popup-add-schedule__form__header__title {
@@ -29,10 +27,13 @@
 }
 
 .modal__popup-add-schedule__form__header__btn {
-    background-color: $btn-color;
-    border: 1px solid $btn-color;
-    color: #fff;
+    width: 10rem;
     padding: 0.5rem;
+    background-color: $btn-color;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
 }
 
 .modal__popup-add-schedule__form__division {
@@ -40,7 +41,7 @@
     height: 0.1rem;
     width: 100%;
     background-color: $table-font;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
 .modal__popup-add-schedule__form__row {
@@ -48,19 +49,25 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    font-size: 1.5rem;
     padding: 0.5rem 0;
     padding-right: 5rem;
 }
 
+.modal__popup-add-schedule__form__label {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: $nav-color;
+    padding-left: 2rem;
+}
+
 .modal__popup-add-schedule__form__row input {
-    width: 80%;
+    width: 75%;
     height: 2.5rem;
     border: 0.1rem solid $table-font;
 }
 
 .modal__popup-add-schedule__form__row textarea {
-    width: 80%;
+    width: 75%;
     height: 5rem;
     border: 0.1rem solid $table-font;
 }
@@ -81,6 +88,7 @@
 .modal__popup-add-schedule__form__table th {
     border-bottom: 0.1rem solid $table-font;
     padding: 0.25rem;
+    font-size: 1.5rem;
 }
 
 .modal__popup-add-schedule__form__table td {
@@ -92,43 +100,10 @@
 
 .modal__popup-add-schedule__form__table select {
     width: 95%;
+    height: 70%;
     font-size: 1.1rem;
     border: 0.1rem solid $table-font;
     border-radius: 0.3rem;
     color: $nav-color;
 }
 
-.modal__success-msg {
-    color: green;
-    font-weight: bold;
-    font-size: 2rem;
-    background-color: $bg-color;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    width: 30rem;
-    height: 10rem;
-    border: 1px dashed green;
-}
-
-.modal__success-msg__icon , .modal__success-msg__text {
-    display: block;
-    text-align: center;
-    margin: 1.5rem 0;
-}
-
-.modal__success-msg__icon {
-    font-size: 3rem;
-}
-
-.modal__success-msg__btn {
-    color: #fff;
-    border: 1px solid green;
-    background-color: green;
-    padding: 0.3rem;
-    position: absolute;
-    top: 5%;
-    left: 90%;
-    border-radius: 0.3rem;
-}

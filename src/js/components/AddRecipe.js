@@ -99,6 +99,7 @@ export default class AddRecipe extends Component {
             "ingredients": ingredients
         };
         if(this.state.steps.length && this.state.ingredients.length) {
+
             fetch("http://localhost:3000/recipes/", {
             method: 'POST',
             headers: {
@@ -180,7 +181,7 @@ export default class AddRecipe extends Component {
                 </button>}
                 {this.state.isShow && <form className="modal__popup-add-recipe" onSubmit={e => this.postToBase(e, this.state.name, this.state.description, this.state.steps, this.state.ingredients)}>
                     <div className="modal__popup-add-recipe__header">
-                        <h2>Nowy przepis</h2>
+                        <h1>Nowy przepis</h1>
                         <button type="submit" className="modal__popup-add-recipe__header_btn">Zapisz i zamknij</button>
                     </div>
                     <div className="modal__popup-add-recipe__new">
@@ -197,9 +198,10 @@ export default class AddRecipe extends Component {
                         <div className="modal__popup-add-recipe__add-list__content">
                             <h3>instrukcje</h3>
                             <div className="modal__popup-add-recipe__add-list__content__container">
-                                <textarea maxlength="150" value={this.state.step} onChange={e => this.setState({ step: e.target.value })} />
+                                <textarea rows="4" maxlength="150" value={this.state.step} onChange={e => this.setState({ step: e.target.value })} />
                                 <button onClick={e => this.addToSteps(e)}><i className="fas fa-plus-square"></i></button>
                             </div>
+                            <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
                             <ol>
                                 {this.state.steps.map((step, id) => {
                                     return <li key={id}><span>{step}</span> <i data-name={id} onClick={this.handleEditStep} className="fas fa-edit"></i><i data-name={id} onClick={this.handleDeleteStep} class="far fa-trash-alt"></i></li>
@@ -209,9 +211,10 @@ export default class AddRecipe extends Component {
                         <div className="modal__popup-add-recipe__add-list__content">
                             <h3>składniki</h3>
                             <div className="modal__popup-add-recipe__add-list__content__container">
-                                <textarea maxlength="50" value={this.state.ingredient} onChange={e => this.setState({ ingredient: e.target.value })} />
+                                <textarea  rows="4" maxlength="50" value={this.state.ingredient} onChange={e => this.setState({ ingredient: e.target.value })} />
                                 <button onClick={e => this.addToIngredients(e)}><i className="fas fa-plus-square"></i></button>
                             </div>
+                            <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
                             <ul>
                                 {this.state.ingredients.map((ingredient, id) => {
                                     return <li key={id}><span>{ingredient}</span> <i onClick={this.handleEditIngredient} data-name={id} className="fas fa-edit"></i><i onClick={this.handleDeleteIngredient} data-name={id} className="far fa-trash-alt"></i></li>
@@ -219,7 +222,6 @@ export default class AddRecipe extends Component {
                             </ul>
                         </div>
                     </div>
-                    <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
                 </form>}
                 {this.state.isSucces && <div className="modal__success-msg">
                 <button className="modal__success-msg__btn" onClick={this.hideInfo}><i className="fas fa-times"></i></button>
