@@ -37,7 +37,6 @@ class WeeklyPreviewTable extends Component {
                 data.sort((a, b) => +a.weekNumber - +b.weekNumber)
                 .forEach(el => {
                     if(+el.weekNumber === +this.state.nowNumWeek) {
-                        console.log("pierwszy")
                         this.setState({
                             monday: el.monday,
                             tuesday: el.tuesday,
@@ -49,41 +48,41 @@ class WeeklyPreviewTable extends Component {
                             weekNr: el.weekNumber,
                             nowNumWeek: el.weekNumber
                         })
-                    } else if(!this.state.weekNr) {
-                        console.log("brak aktualnego", this.state.nowNumWeek, +el.weekNumber)
-                         
-                            console.log("drugi", data)
-                            data.forEach(el => {
-                                if((this.state.nowNumWeek < +el.weekNumber) && !this.state.weekNr)
-                                {this.setState({
-                                    monday: el.monday,
-                                    tuesday: el.tuesday,
-                                    wednesday: el.wednesday,
-                                    thursday: el.thursday,
-                                    friday: el.friday,
-                                    saturday: el.saturday,
-                                    sunday: el.sunday,
-                                    weekNr: el.weekNumber,
-                                    nowNumWeek: el.weekNumber
-                                })}
-                            })
-    
-                        
-                    } else if (!this.state.weekNr) {
-                        console.log("trzeci")
-                        this.setState({
-                            monday: el.monday,
-                            tuesday: el.tuesday,
-                            wednesday: el.wednesday,
-                            thursday: el.thursday,
-                            friday: el.friday,
-                            saturday: el.saturday,
-                            sunday: el.sunday,
-                            weekNr: el.weekNumber,
-                            nowNumWeek: el.weekNumber
-                        })
-                    }
+                    } 
                 })
+
+                if(!this.state.weekNr) {
+                        data.forEach(el => {
+                            if((this.state.nowNumWeek < +el.weekNumber) && !this.state.weekNr)
+                            {this.setState({
+                                monday: el.monday,
+                                tuesday: el.tuesday,
+                                wednesday: el.wednesday,
+                                thursday: el.thursday,
+                                friday: el.friday,
+                                saturday: el.saturday,
+                                sunday: el.sunday,
+                                weekNr: el.weekNumber,
+                                nowNumWeek: el.weekNumber
+                            })}
+                        })
+
+                        if(!this.state.weekNr) {
+                            this.setState({
+                                monday: data[0].monday,
+                                tuesday: data[0].tuesday,
+                                wednesday: data[0].wednesday,
+                                thursday: data[0].thursday,
+                                friday: data[0].friday,
+                                saturday: data[0].saturday,
+                                sunday: data[0].sunday,
+                                weekNr: data[0].weekNumber,
+                                nowNumWeek: data[0].weekNumber
+                            })
+                        }
+
+                    
+                }
             })
     }
 

@@ -14,10 +14,12 @@ export default class AddRecipe extends Component {
             ingredient: "",
             ingredientID: -1,
             ingredients: [],
-            warning: "",
+            isWarningStep: false,
+            isWarningIngredient: false,
             isSucces: false
         }
     }
+
 
     handleShow = () => {
         this.setState({
@@ -35,7 +37,8 @@ export default class AddRecipe extends Component {
             ingredient: "",
             ingredientID: -1,
             ingredients: [],
-            warning: "",
+            isWarningStep: false,
+            isWarningIngredient: false,
             isSucces: true
         })
     }
@@ -52,7 +55,8 @@ export default class AddRecipe extends Component {
             if(this.state.stepID === -1) {
                 this.setState({
                     steps: [...this.state.steps, this.state.step],
-                    step: ""
+                    step: "",
+                    isWarningStep: false
                 })
             } 
             if(this.state.stepID >= 0) {
@@ -116,9 +120,13 @@ export default class AddRecipe extends Component {
             .catch((error) => {
                 console.error('Error:', error);
             });
-        } else {
+        } if (!this.state.steps.length) {
             this.setState({
-                warning: "Przepis musi zawierać co najmniej 1 składnik i 1 instrukcję!"
+                isWarningStep: true
+            })
+        } if (!this.state.ingredients.length) {
+            this.setState({
+                isWarningIngredient: true
             })
         }
     }
@@ -198,10 +206,10 @@ export default class AddRecipe extends Component {
                         <div className="modal__popup-add-recipe__add-list__content">
                             <h3>instrukcje</h3>
                             <div className="modal__popup-add-recipe__add-list__content__container">
-                                <textarea rows="4" maxlength="150" value={this.state.step} onChange={e => this.setState({ step: e.target.value })} />
+                                <textarea rows="4" maxlength="150" value={this.state.step} onChange={e => this.setState({ step: e.target.value, isWarningStep: false })} />
                                 <button onClick={e => this.addToSteps(e)}><i className="fas fa-plus-square"></i></button>
                             </div>
-                            <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
+                            {this.state.isWarningStep && <span className="modal__popup-add-recipe__warning">Przepis musi zawierać co najmniej 1 instrukcję</span>}
                             <ol>
                                 {this.state.steps.map((step, id) => {
                                     return <li key={id}><span>{step}</span> <i data-name={id} onClick={this.handleEditStep} className="fas fa-edit"></i><i data-name={id} onClick={this.handleDeleteStep} class="far fa-trash-alt"></i></li>
@@ -211,10 +219,10 @@ export default class AddRecipe extends Component {
                         <div className="modal__popup-add-recipe__add-list__content">
                             <h3>składniki</h3>
                             <div className="modal__popup-add-recipe__add-list__content__container">
-                                <textarea  rows="4" maxlength="50" value={this.state.ingredient} onChange={e => this.setState({ ingredient: e.target.value })} />
+                                <textarea  rows="4" maxlength="50" value={this.state.ingredient} onChange={e => this.setState({ ingredient: e.target.value, isWarningIngredient: false })} />
                                 <button onClick={e => this.addToIngredients(e)}><i className="fas fa-plus-square"></i></button>
                             </div>
-                            <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
+                            {this.state.isWarningIngredient && <span className="modal__popup-add-recipe__warning">Przepis musi zawierać co najmniej 1 składnik</span>}
                             <ul>
                                 {this.state.ingredients.map((ingredient, id) => {
                                     return <li key={id}><span>{ingredient}</span> <i onClick={this.handleEditIngredient} data-name={id} className="fas fa-edit"></i><i onClick={this.handleDeleteIngredient} data-name={id} className="far fa-trash-alt"></i></li>
