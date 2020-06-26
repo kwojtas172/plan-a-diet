@@ -101,7 +101,7 @@ class WeeklyPreviewTable extends Component {
             const indexPrevEl = tempArr.indexOf(prevEl);
 
             this.setState({
-                nowNumWeek: indexPrevEl < tempArr.length - 2 ? tempArr[indexPrevEl + 1].weekNumber : tempArr[0].weekNumber
+                nowNumWeek: indexPrevEl < tempArr.length - 1 ? tempArr[indexPrevEl + 1].weekNumber : tempArr[0].weekNumber
             }, () => {
                 this.state.data.forEach(el => {
                     if(+el.weekNumber === +this.state.nowNumWeek) {
