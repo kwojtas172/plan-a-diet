@@ -1,51 +1,580 @@
 {
   "user": {
-    "name": "Agata"
+    "name": "Kamil"
   },
   "recipes": [
     {
-      "id": 8,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
       "id": 1,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Rosół z kury",
+      "description": "Rosół z kury z makaronem idealny na niedzielny obiad",
       "steps": [
-        "Wlej wodę do garnka"
+        "Mięso umyj, następnie zalej dwoma litrami zimnej wody.",
+        "Powoli doprowadź do wrzenia. Zbierz powstałą pianę. Warzywa obierz.",
+        "Cebulę przekrój na pół. Opal nad gazem lub przypal na patelni.",
+        "Do wywaru dodaj warzywa, przyprawy oraz dwie kostki rosołowe. Gotuj na wolnym ogniu przez około 3 godziny.",
+        "Po ugotowaniu odstaw rosół na 20 minut, następnie powoli przecedź przez gęste sito lub przez gazę. Rosół powinien być klarowny.",
+        "Ugotowane warzywa pokrój w drobną kostkę, mięso z kury w drobne kawałki. Natkę pietruszki posiekaj. Rosół podawaj z ugotowanym wcześniej makaronem, warzywami i mięsem, posypany natką pietruszki. W razie potrzeby możesz doprawić rosół solą i pieprzem."
       ],
       "ingredients": [
-        "Pomidory"
+        "Kura (około 1kg).",
+        "Kostka rosołowa (2 sztuki)",
+        "Makaron (200g).",
+        "Marchewka (2 sztuki).",
+        "Cebula (1 sztuka).",
+        "Korzeń pietruszki (1 sztuka).",
+        "Natka pietruszki (1 pęczek).",
+        "Mały seler (1 sztuka).",
+        "Por (1 sztuka).",
+        "Przyprawy (pieprz i gałka muszkatałowa)."
       ]
     },
     {
       "id": 2,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Zupa ziemniaczana",
+      "description": "Pożywna zupa ziemniaczana.",
       "steps": [
-        "Wlej wodę do garnka"
+        "Ziemniaki, selera i cebulę obierz, pokrój w kostkę ziemniaki, pora pokrój w plastry, cebulę posiekaj.",
+        "W garnku usmaż warzywa, zalej około 800 ml wody, dodaj kostkę rosołową. Zupę gotuj około 20 minut, aż ziemniaki będą miękkie. Zupę zmiksuj w kielichu blendera, zapraw śmietaną, dopraw do smaku pieprzem i gałką muszkatową.",
+        "Chleb pokrój w kostkę, posiekaj szczypior. Chleb rozłóż na blasze z piekarnika. Grzanki opiecz na złoty kolor w nagrzanym do 180° C piekarniku.",
+        "Zupę podawaj z grzankami, posypaną szczypiorem."
       ],
       "ingredients": [
-        "Pomidory"
+        "Ziemniaki (500 gramów).",
+        "Kostka rosołowa (2 sztuki)",
+        "Seler (1 sztuka)",
+        "Por, tylko biała część (1 sztuka)",
+        "Cebula (1 sztuka)",
+        "Śmietana 18% (50 mililitrów)",
+        "Biały pieprz (1 szczypta)",
+        "Szczypiorek",
+        "Oliwa z oliwek (3 łyżki)",
+        "Pieczywo tostowe (8 tostów)"
       ]
+    },
+    {
+      "id": 3,
+      "name": "Kapuśniak z boczkiem i kiełbasą",
+      "description": "Tradycyjny kapuśniak na każdą okazję",
+      "steps": [
+        "Z porcji rosołowej i bulionetek przygotuj wywar.",
+        "Dodaj pokrojone ziemniaki, marchewki i gotuj przez 15 minut.",
+        "Dopraw zupę majerankiem, kminkiem oraz pieprzem do smaku.",
+        "Pokrój boczek w kostkę i podsmaż na patelni. Dodaj do niego poszatkowaną kapustę. Całość duś około 10 minut na małym ogniu, po czym dodaj do zupy.",
+        "Pokrój cebulę w kostkę i zeszklij ją na maśle. Następnie dodaj mąkę i tak przygotowaną zasmażką zapraw zupę. Należy uważać, aby masło nie przypaliło się, inaczej potrawa będzie niesmaczna i niezdrowa."
+      ],
+      "ingredients": [
+        "porcja rosołowa (500 gramów).",
+        "Bulionetka drobiowa(2 sztuki).",
+        "Wędzony boczek (150 gramów).",
+        "Kiszona kapusta (300 gramów).",
+        "Marchewki (2 sztuki).",
+        "Pietruszka (1 sztuka).",
+        "Ziemniaki (200 gramów).",
+        "Średniej wielkości cebula (2 sztuki).",
+        "Kminek (0.5 łyżki).",
+        "Majeranek (1 łyżka).",
+        "Pieprz czarny (1 szczypta).",
+        "Mąka pszenna (2 łyżki).",
+        "Masło (50 gramów)."
+      ]
+    },
+    {
+      "name": "Kotlety z kalafiora i kaszy jaglanej",
+      "description": "Zdrowe kotlety z kalafiora i kaszy jaglanej",
+      "steps": [
+        "Kaszę ugotuj w 200 ml wody z kostką rosołową.",
+        "2 jaja ugotuj na twardo, obierz i posiekaj.",
+        "Cebulę pokrój w kostkę i przesmaż.",
+        "Pestki dyni upraż na suchej patelni.",
+        "Surowego kalafiora posiekaj nożem.",
+        "Posiekaj pęczek kolendry.",
+        "W misce połącz ciepła kaszę , jajka , kalafiora.",
+        "Z masy uformuj ma kotleciki.",
+        "Kotleciki podawaj z dipem czosnkowym."
+      ],
+      "ingredients": [
+        "Kasza jaglana (100 gramów). \n",
+        "Mleko (100 mililitrów).",
+        "Cebula (1 sztuka).",
+        "Kolendra (1 pęczek).",
+        "Jajka (2 sztuki).",
+        "Kalafior (1 sztuka)."
+      ],
+      "id": 4
+    },
+    {
+      "name": "Faszerowane kotlety mielone z pieczarkami i serem",
+      "description": "Faszerowane kotlety mielone wieprzowo-wołowe z pieczarkami i serem",
+      "steps": [
+        "Pieczarki pokrój w plastry i podsmaż na patelni, następnie wystudź.",
+        "Szczypior drobno posiekaj i dodaj do pieczarek.Następnie dodaj starty ser i ponownie wymieszaj.",
+        "Namocz bułkę w wodzie lub mleku. Gdy będzie już miękka odciśnij ją dokładnie.",
+        "Namoczoną bułkę połącz z mielonym mięsem, jajkiem, przyprawą do mięs oraz startą cebulą.",
+        "Masę wyrób dokładnie ręką. Jeśli będzie zbyt luźna dodaj do niej nieco bułki tartej.",
+        "Z mięsa uformuj placuszki. Na środku każdego połóż troszkę farszu, który następnie zawiń w mięso mielone. W ten sposób uformuj kotlety.",
+        "Usmażone kotlety podlej kilkoma łyżkami wody a następnie przykryj patelnię, tak aby kotlety chwilę doszły. Kotlety podawaj z ziemniakami i surówką."
+      ],
+      "ingredients": [
+        "Mięso mielone wieprzowo-wołowe (500g).",
+        "Jajko (1 sztuka).",
+        "Cebula średnia (1 sztuka).",
+        "Bułka tarta (2 sztuki).",
+        "Pieczarki (400g).",
+        "Szczypiorek (1 pęczek)."
+      ],
+      "id": 5
+    },
+    {
+      "name": "Łosoś pieczony w miodowym sosie",
+      "description": "Przepyszny łosoś pieczony w miodowym sosie",
+      "steps": [
+        "Gorczycę z Kanady i Czarny pieprz z Wietnamu Knorr rozetrzyj na miazgę w moździerzu, połącz z miodem, koperkiem i octem.",
+        "W powstałym sosie obtocz filety z łososia.",
+        "Ułóż je na blasze do pieczenia wyłożonej pergaminem. Wstaw do nagrzanego do 190°C piekarnika na ok. 15 min."
+      ],
+      "ingredients": [
+        "Filety z łososia (4 sztuki po 150 gramy).",
+        "Miód (4 łyżki).",
+        "Gorczyca, pieprz czarny.",
+        "Posiekany koperek (pół pęczka).",
+        "Ocet winny (2 łyżki)."
+      ],
+      "id": 6
+    },
+    {
+      "name": "Sandacz z duszonymi warzywami",
+      "description": "Sandacz z duszonymi warzywami dla nielubiących mięsa",
+      "steps": [
+        "Zetrzyj marchew i seler na tarce o grubych oczkach, cebulę pokrój w plastry.",
+        "Podsmaż wszystkie warzywa na oleju przez około 7 minut, następnie przypraw pieprzem i przełóż do naczynia do zapiekania.",
+        "Rybę ułóż na warzywach.",
+        "Dodaj śmietanę.",
+        "Rybę wraz z warzywami, po czym wstaw naczynie do nagrzanego piekarnika i piecz przez 20 minut w temperaturze 200 stopni. Na koniec dopraw do smaku."
+      ],
+      "ingredients": [
+        "Sandacz lub inna biała ryba (600 gramów).",
+        "Marchewki (3 sztuki).",
+        "Seler korzeniowy (1 sztuka).",
+        "Biała cebula (1 sztuka).",
+        "Słodka śmietana 18% (200 gramów).",
+        "Olej, pieprz czarny."
+      ],
+      "id": 7
+    },
+    {
+      "name": "Ryż z warzywami i mięsem",
+      "description": "Orientalnie i pysznie",
+      "steps": [
+        "Mięso i paprykę pokrój w niedużą kostkę i smaż w rondlu aż będą złociste. Dodaj cebulę pokrojoną w piórka i posiekany czosnek.",
+        "Wsyp ryż i smaż kilka minut, a następnie dodaj 1 litr wody.",
+        "Podkreśl smak dania doprawiając je kostką rosołową. Wymieszaj i gotuj, aż ryż wchłonie płyn."
+      ],
+      "ingredients": [
+        "Karkówka (250 gramów).",
+        "Ryż (500 gramów).",
+        "Papryka czerwona (1 sztuka).",
+        "Papryka zielona (1 sztuka).",
+        "Cebula (1 sztuka).",
+        "Czosnek (1 ząbek).",
+        "Olej (4 łyżki).",
+        "Kostka rosołowa (1 sztuka)."
+      ],
+      "id": 8
+    },
+    {
+      "name": "Ryż z warzywami",
+      "description": "Orientalna propozycja dla wegetarian",
+      "steps": [
+        "Ryż ugotuj w wodzie tak, aby był sypki. Następnie odcedź go.",
+        "Marchewkę, cebulę i czosnek pokrój w kostkę.",
+        "Na patelni rozgrzej olej i podsmaż marchewkę, cebulę, czosnek oraz zielony groszek.",
+        "Po chwili dodaj ryż i odcedzoną ciecierzycę z puszki.",
+        "Dodaj curry.",
+        "Całość intensywnie smaż, aż większość płynu wyparuje. Podawaj ze świeżo posiekaną kolendrą."
+      ],
+      "ingredients": [
+        "Ryż basmati (400 gramów).",
+        "Cebula (1 sztuka).",
+        "Marchew (1 sztuka).",
+        "Mrożony groszek (pół szklanki).",
+        "Ciecierzyca (100 gramów).",
+        "Kolendra (pół pęczka).",
+        "Przyprawa curry."
+      ],
+      "id": 9
+    },
+    {
+      "name": "Kurczak po meksykańsku",
+      "description": "Ostry kurczak w wydaniu meksykańskim",
+      "steps": [
+        "Piersi z kurczaka i cebulę pokrój w kostkę, podsmaż w garnku w małej ilości tłuszczu.",
+        "Dodaj czerwoną fasolę, kukurydzę i pokrojoną w kostkę czerwoną paprykę.",
+        "Gotowe danie podawaj z ugotowanym ryżem."
+      ],
+      "ingredients": [
+        "Piersi z kurczaka (350 gramów).",
+        "Cebula (2 sztuki).",
+        "Czerwona fasola (400 gramów).",
+        "Kukurydza (400 gramów).",
+        "Czerwona papryka (1 sztuka).",
+        "Ryż (100 gramów)."
+      ],
+      "id": 10
+    },
+    {
+      "name": "Risotto z kurczakiem",
+      "description": "Kolorowe risotto z kurczakiem",
+      "steps": [
+        "Cebulę drobno pokrój i podsmaż ją w szerokim rondlu na rozgrzanej oliwie wraz z surowym ryżem, przez 1 minutę.",
+        "Pierś z kurczaka pokrój w kostkę, oprósz Przyprawą do kurczaka i obsmaż na patelni.",
+        "Do podsmażonego ryżu wlej 300 mililitrów wody oraz jedną bulionetkę. Duś całość około 12 minut.",
+        "Następnie dodaj mieszankę warzyw, kurczaka, zioła prowansalskie oraz 250 mililitrów wody i duś kolejne 6 minut.",
+        "Pod koniec duszenia dodaj starty żółty ser, śmietanę oraz masło. Energicznie mieszaj i odstaw z ognia na kilka minut. Natychmiast podawaj."
+      ],
+      "ingredients": [
+        "Filety z piersi kurczaka (200 gramów).",
+        "Gotowa mrożona mieszanka warzywna (400 gramów).",
+        "Bulionetka, przyprawa do kurczaka.",
+        "Biała cebula (1 sztuka).",
+        "Ryż arborio (200 gramów).",
+        "Mieszanka ziół.",
+        "Starty żółty ser (150 gramów).",
+        "Śmietana (4 łyżki).",
+        "Oliwa (1 łyżka).",
+        "Masło (50 gramów)."
+      ],
+      "id": 11
+    },
+    {
+      "name": "Risotto z kurczakiem i grzybami",
+      "description": "Risotto z kurczakiem i grzybami",
+      "steps": [
+        "Bulionetkę zagotuj z 1 l wody, aby powstał bulion.",
+        "Na patelni rozgrzej połowę oliwy i podsmaż mięso pokrojone w paski. Następnie dodaj pieczarki podzielone na cząstki.",
+        "Wyjmij mięso i pieczarki z patelni, na którą wlej pozostałą oliwę. Podsmaż pokrojone w kostkę szalotkę i czosnek.",
+        "Dodaj ryż i całość smaż przez kilka minut. Następnie zalej wywarem z suszonych grzybów, które pokrój w paski i również dodaj do risotto.",
+        "Po chwili wlej tyle bulionu, by zakrył ryż. Gotuj powoli, aż ziarna wchłoną płyn, następnie dolej kolejną porcję. Czynność powtarzaj, aż ryż zmięknie.",
+        "Na koniec dodaj z powrotem mięso i pieczarki. Gotuj 2 minuty. Wlej do ryżu śmietankę, dodaj masło i starty ser. ",
+        "Całość gotuj jeszcze 2-3 minuty i dopraw świeżo mielonym pieprzem oraz posiekaną natką pietruszki.",
+        "Risotto podawaj natychmiast po przygotowaniu w głębokim talerzu. Powinno być płynne."
+      ],
+      "ingredients": [
+        "Ryż arborio (200 gramów).",
+        "Pierś z kurczaka (2 sztuki).",
+        "Bulionetka drobiowa.\n",
+        "Grzyby suszone (4 sztuki).",
+        "Pieczarki (200 gramów).",
+        "Cebula szalotka (2 sztuki).",
+        "Czosnek (2 ząbki).",
+        "Masło (2 łyżki).",
+        "Śmietana (pół szklanki).",
+        "Natka pietruszki (pół pęczka).",
+        "Parmezan (80 gramów).",
+        "Oliwa (100 ml)."
+      ],
+      "id": 12
+    },
+    {
+      "name": "Roladki z kurczaka ze szpinakiem",
+      "description": "Roladki z kurczaka ze szpinakiem",
+      "steps": [
+        "Cebulę pokrój w drobną kostkę i podsmaż na patelni wraz z orzeszkami piniowymi. Dodaj szpinak i całość smaż chwilę, mieszając co jakiś czas. ",
+        "Szpinak dopraw do smaku serem feta, ostrą papryką, gałką muszkatołową oraz suszonymi pomidorami.",
+        "Piersi z kurczaka umyj, oczyść z błon oraz tłuszczu i osusz. Następnie ułóż na foli posmarowanej oliwą, przykryj plastikową folią i rozbij dokładnie.",
+        "Powierzchnię kurczaka dopraw do smaku odrobiną Przyprawy do kurczaka Knorr, po czym ułóż na niej warstwę szpinaku.",
+        "Pierś zroluj, zawiń w folię aluminiową. Końcówki folii zakręć tak, aby powstał kształtny baton.",
+        "Piersi umieść w nagrzanym do 200°C piekarniku na 20 – 30 minut.",
+        "Upieczone piersi rozwiń z folii – zbierz powstały sok i przelej go do pojemnika. Zebrany płyn uzupełnij wodą do objętości 300 mililitrów.",
+        "Gotuj około 3 minut. Roladki podawaj z ryżem, obficie polane sosem serowym."
+      ],
+      "ingredients": [
+        "Pierś z kurczaka (400 gramów).",
+        "Świeży szpinak (800 gramów).",
+        "Mała cebula (1 sztuka).",
+        "Ser feta (20 gramów).",
+        "Przyprawa do kurczaka.",
+        "Orzeszki piniowe (20 gramów).",
+        "Papryka ostra.",
+        "Gałka muszkatałowa.",
+        "Sól.",
+        "Oliwa z oliwek (20 ml)."
+      ],
+      "id": 13
+    },
+    {
+      "name": "Roladki po bolońsku",
+      "description": "Roladki po bolońsku",
+      "steps": [
+        "Na patelni na rozgrzanym tłuszczu podsmaż posiekany czosnek cebulkę i papryczkę chili, dodaj szpinak całość smaż chwilę.",
+        "Dodaj śmietanę i pokruszone orzeszki nerkowca. Jeśli uważasz za konieczne dopraw do smaku i odstaw na bok do ostygnięcia.",
+        "Na foli ułóż piersi z kurczaka przykryj drugą warstwą foli i delikatnie uderzając tłuczkiem rozbij mięso na cienki płat.",
+        "Na mięsie ułóż porcję szpinaku. Brzegi mięsa delikatnie zawiń do środka całość zroluj zabezpieczając roladki wykałaczkami przed rozwinięciem się.",
+        "Roladki obsmaż z obu stron na rozgrzanym tłuszczu, przełóż je na bok, na tę samą patelnie wlej pomidory z puszki oraz ¼ szklanki wody.",
+        "Całość dokładnie wymieszaj i zagotuj. Do sosu włóż na powrót roladki duś pod przykryciem około 15 minut aż mięso dojdzie środku."
+      ],
+      "ingredients": [
+        "Pierś z kurczaka (3 sztuki).",
+        "Szpinak rozmrożony, odciśnięty z soku (450 gramów)",
+        "Przyprawa do sosu bolognese.",
+        "Mozzarella (100 gramów).",
+        "Pomidory pelatti (250 gramów).",
+        "Chilli (1 sztuka).",
+        "Cebula (1 sztuka).",
+        "Suszone pomidory (50 gramów).",
+        "Gałka muszkatałowa.",
+        "Ząbki czosnku (2 sztuki).",
+        "Orzechy nerkowca (100 gramów).",
+        "Śmietana 18% (100 mililitrów).",
+        "Margaryna (3 łyżki)."
+      ],
+      "id": 14
+    },
+    {
+      "name": "Pieczona karkówka",
+      "description": "Pieczona karkówka z chrupiącą skórką",
+      "steps": [
+        "Karkówkę natrzyj przyprawą do mięs i odstaw na chwile w chłodne miejsce, tak aby przyprawa lepiej wniknęła w mięso.",
+        "Mięso obsmaż z obu stron, ułóż w żaroodpornym naczyniu.",
+        "Chleb tostowy pokrój w drobną kostkę, wymieszaj z majonezem, musztardą i posiekaną natką pietruszki.",
+        "Powstałą bułkę nałóż na wierzch mięsa. Całość piecz 1 godzinę w temperaturze około 180*C."
+      ],
+      "ingredients": [
+        "Karkówka (600 gramów).",
+        "Chleb tostowy.",
+        "Majonez (100 gramów).",
+        "Natka pietruszki (1 pęczek).",
+        "Przyprawy.",
+        "Musztarda (2 łyżki)."
+      ],
+      "id": 15
+    },
+    {
+      "name": "Gołąbki po meksykańsku",
+      "description": "Pikantne gołąbki po meksykańsku",
+      "steps": [
+        "Mięso połącz z odciśniętą bułką. Paprykę i jedną cebule pokrój w 3-4 cm długości paski i przesmaż na oleju. Drugą cebulę drobno posiekaj.",
+        "Mięso połącz z jajkiem, drobno posiekaną cebulą oraz przyprawami. Dopraw do smaku i wyrób jednolitą masę.",
+        "Z mięsa przygotuj nieduże porcje. Na każdej z nich ułóż przesmażoną paprykę i cebulę a następnie całość zamknij i formuj gołąbki.",
+        "Gołąbki obtocz w mące i obsmaż na patelni. Na patelnię dodaj koncentrat pomidorowy, wlej 400 ml wody oraz dodaj sos pieczeniowy, całość zagotuj.",
+        "Patelnię przykryj i duś zrazy jeszcze 10 min. na małym ogniu. Pod koniec do sosu dodaj śmietanę. Gotowe zrazy podawaj z ryżem."
+      ],
+      "ingredients": [
+        "Mięso mielone wieprzowo-wołowe (500 gramów).",
+        "Bułka namoczona w mleku (1 sztuka).",
+        "Sos pieczeniowy.",
+        "Czerwona papryka (3 sztuki).",
+        "Cebula (2 sztuki).",
+        "Jajko (1 sztuka).",
+        "Koncentrat pomidorowy (1 łyżka).",
+        "Śmietana (1 łyżka).",
+        "Papryka słodka, mielona kolendra."
+      ],
+      "id": 16
+    },
+    {
+      "name": "Befsztyk z warzywami",
+      "description": "Befsztyk z warzywami",
+      "steps": [
+        "Polędwicę pokrój w plastry o grubości ok. 3 cm i natnij tak, aby powstała kieszonka. Oprósz pieprzem.",
+        "Cukinię i bakłażana przekrój wzdłuż na 4 części i pozbądź się nasion, a następnie pokrój w plastry. Cebulę i paprykę pokrój w grubą kostkę.",
+        "Warzywa przesmaż na patelni, dodając 1 łyżkę oregano i szczyptę pieprzu. Smaż, aż będą półtwarde.",
+        "Ziemniaki umyj, nie obieraj, pokrój w księżyce. Dodaj paprykę, 1 łyżkę oregano, skrop olejem. Piecz w piekarniku rozgrzanym do 180 °C około 20 min.",
+        "Befsztyki nafaszeruj warzywami. Smaż na dobrze rozgrzanym tłuszczu około 6 min. z każdej strony.",
+        "Sos pieczeniowy wsyp do wody i zagotuj, dodaj natkę. Polej befsztyki sosem i podawaj z pieczonymi ziemniakami posypanymi posiekaną natką pietruszki."
+      ],
+      "ingredients": [
+        "Polędwica wołowa (500 gramów).",
+        "Sos pieczeniowy.",
+        "Cukinia (1 sztuka).",
+        "Bakłażan (1 sztuka).",
+        "Cebula (1 sztuka).",
+        "Papryka czerwona (1 sztuka).",
+        "Ziemniaki (500 gramów).",
+        "Przyprawy (papryka ostra, pieprz czarny, oregano).",
+        "Natka pietruszki (10 gramów).",
+        "Olej (150 mililitrów)."
+      ],
+      "id": 17
+    },
+    {
+      "name": "Pieczeń wołowa z sosem",
+      "description": "Soczysta pieczeń wołowa z sosem musztardowo-ziołowym",
+      "steps": [
+        "Stwórz pełną smaku marynatę rozcierając kostkę rosołową w miseczce z oliwą. Dodaj musztardę oraz posiekany rozmaryn.",
+        "Mięso umyj i osusz papierowym ręcznikiem. Posmaruj przygotowaną pastą. Oprósz pieprzem.",
+        "Zamarynowane mięso obsmaż na patelni z każdej strony a następnie przełóż do brytfanki.",
+        "Naczynie wstaw do piekarnika nagrzanego do 220 stopni C, mięso piecz ok. 12-15 minut.",
+        "Po tym czasie zmniejsz temperaturę do 170 °C i piecz jeszcze 5-10 minut, w zależności, jak mocno wypieczone mięso lubisz.",
+        "Przed podaniem pozostaw mięso na 10 minut, aby „odpoczęło”. Następnie mięso pokrój w plastry i podawaj, najlepiej z pieczeniowym sosem lub ziołowym."
+      ],
+      "ingredients": [
+        "Mięso wołowe np. rostbef (1,5 kilograma).",
+        "Kostka rosołowa (2 sztuki).",
+        "Świeży rozmaryn (1 gałązka).",
+        "Musztarda Dijon (2 łyżki).",
+        "Oliwa z oliwek (3 łyżki).",
+        "Pieprz czarny."
+      ],
+      "id": 18
+    },
+    {
+      "name": "Schab z borówkami",
+      "description": "Mięso ze słodkim akcentem",
+      "steps": [
+        "Kotlety dokładnie natrzyj olejem, majerankiem, musztardą i odstaw na co najmniej godzinę do lodówki.",
+        "Sos myśliwski zagotuj w 300 ml wody.",
+        "Na patelni podsmaż na margarynie posiekaną cebulę. Po chwili dodaj wcześniej zagotowany sos i borówki ze słoika.",
+        "W razie konieczności rozcieńcz sos 2-3 łyżkami wody. Gotuj wszystko na wolnym ogniu przez około 10 minut.",
+        "Kotlety smaż na patelni po 6-8 minut z każdej strony. Podawaj ułożone na sosie borówkowym. Doskonale smakują np.: z czerwoną kapustą."
+      ],
+      "ingredients": [
+        "Kotlety schabowe (4 sztuki).",
+        "Borówka brusznica (200 gramów).",
+        "Sos myśliwski (1 opakowanie).",
+        "Cebula (1 sztuka).",
+        "Majeranek.",
+        "Musztarda (1 łyżka).",
+        "Margaryna (2 łyżki).",
+        "Olej (4 łyżki)."
+      ],
+      "id": 19
+    },
+    {
+      "name": "Tradycyjny schabowy",
+      "description": "Klasyczne danie z kotletem schabowym, ziemniakami i surówką",
+      "steps": [
+        "Pokrój mięso na plastry ok. 1,5 cm. Zbij tłuczkiem do grubości ok. 3 mm. Ubij lekko jajka.",
+        "Wymieszaj bułkę tartą z Przyprawą do mięs. Panieruj kotlety w jajku, mące i bułeczce.",
+        "Smaż na rozgrzanym oleju przez 3-4 min. po każdej stronie.",
+        "Kotlety schabowe podawaj z gotowanymi ziemniakami i marchewką z groszkiem."
+      ],
+      "ingredients": [
+        "Schab bez kości (800 gramów).",
+        "Przyprawa do mięsa.",
+        "Jajka (3 sztuki).",
+        "Bułka tarta (200 gramów).",
+        "Mąka (100 gramów).",
+        "Olej roślinny (2 łyżki).",
+        "Świeży koperek (2 łyżki)."
+      ],
+      "id": 20
+    },
+    {
+      "name": "Sznycel wiedeński",
+      "description": "Sznycel wiedeński z sałatką ziemniaczaną",
+      "steps": [
+        "Ziemniaki dokładnie umyj i ugotuj w lekko osolonej wodzie.",
+        "Gdy będą miękkie, odcedź ziemniaki, dodaj masło, ocet, posiekany szczypiorek oraz przyprawę z koperkiem i lekko wymieszaj.",
+        "Mięso rozbij tłuczkiem na jak najcieńszy plaster i dopraw przyprawą do mięsa.",
+        "Następnie panieruj mięso w mące, roztrzepanym jajku i bułce tartej.",
+        "Sznycle smaż na rozgrzanym oleju, aż skórka zrobi się chrupiąca i rumiana. Następnie odsącz kotlety z nadmiaru tłuszczu na papierowym ręczniku.",
+        "Sznycla podawaj z wcześniej przygotowanymi ziemniakami."
+      ],
+      "ingredients": [
+        "Cielęcina z udźca (400 gramów).",
+        "Ziemniaki młode (400 gramów).",
+        "Przyprawa do mięsa.",
+        "Mieszanka ziół z koperkiem.",
+        "Bułka tarta (pół szklanki).",
+        "Mąka (3 łyżki).",
+        "Ocet (2 łyżki).",
+        "Szczypiorek (pół pęczka).",
+        "Jajka (2 sztuki).",
+        "Oliwa (2 łyżki).",
+        "Masło (1 łyżka).",
+        "Sól, olej do smażenia."
+      ],
+      "id": 21
+    },
+    {
+      "name": "Eskalopki zapiekane",
+      "description": "Eskalopki zapiekane z mozzarellą",
+      "steps": [
+        "Ugotuj makaron. Pomidory pokrój na ćwiartki, usuń z nich gniazda. Mozzarellę pokrój w plastry.",
+        "Mięso oczyść, pokrój w plastry. Płaty mięsa rozbij delikatnie tłuczkiem, oprósz przyprawą do mięs i złóż. P",
+        "Powstałe w ten sposób eskalopki oprósz mąką i obsmaż na patelni.",
+        "Mięso przełóż na talerz. Na każdy kotlecik nałóż listek bazylii, ćwiartkę pomidora, oraz plaster sera. Całość zapiecz chwilę w piekarniku.",
+        "Na patelni po smażeniu mięsa podsmaż pokrojoną w kostkę cebulę. Całość zalej winem, gotuj aż zupełnie odpakuje.",
+        "Wlej śmietanę, dodaj Sos pieczeniowy i dokładnie wymieszaj. Sos gotuj 2- 3 minuty aż zgęstnieje.",
+        "Eskalopki podawaj z makaronem przesmażonym na oliwie, polane obficie powstałym sosem."
+      ],
+      "ingredients": [
+        "Polędwiczka wieprzowa (400 gramów).",
+        "Pomidory, sparzone bez skóry (2 sztuki).",
+        "Ser mozzarella.",
+        "Sos pieczeniowy (1 opakowanie).",
+        "Przyprawa do mięsa (1 opakowanie).",
+        "Cebula (1 opakowanie).",
+        "Makaron tagliatelle (200 gramów).",
+        "Śmietana (200 mililitrów).",
+        "Białe wino (100 mililitrów).",
+        "Mąka (2 łyżki).",
+        "Oliwa (2 łyżki).",
+        "Bazylia (kilka listków)."
+      ],
+      "id": 22
+    },
+    {
+      "name": "Polędwiczki wieprzowe z sosem",
+      "description": "Soczyste polędwiczki wieprzowe z sosem śmietanowo - majonezowym",
+      "steps": [
+        "Polędwiczki oczyść z błon i przerostów tłuszczu. Pokrój w grube paski. Mięso przypraw i obsmaż na patelni. Następnie przełóż na bok.",
+        "Na tej samej patelni podsmaż pokrojoną w piórka cebulę i pieczarki pokrojone w ćwiartki. Całość zalej śmietaną.",
+        "Gotuj chwilę aż sos delikatnie zacznie gęstnieć. Dodaj na powrót mięso, całość zagotuj, odstaw na bok.",
+        " Dodaj majonez. Energicznie połącz go z pozostałym sosem dokładnie mieszając. Gotowe!"
+      ],
+      "ingredients": [
+        "Polędwiczki wieprzowe (2 sztuki).",
+        "Pieczarki (500 gramów).",
+        "Cebula (1 sztuka).",
+        "Śmietana 18% (70 mililitrów).",
+        "Majonez.",
+        "Przyprawy."
+      ],
+      "id": 23
+    },
+    {
+      "name": "Ziemniaczana zapiekanka z kurczakiem",
+      "description": "Ziemniaczana zapiekanka z kurczakiem i serem",
+      "steps": [
+        "Cebulę pokrój w piórka, podsmaż ją w garnku, dodaj pokrojonego w kostkę kurczaka, smaż chwilę, dodaj pokrojone w plastry ziemniaki.",
+        "Całość smaż mieszając co jakiś czas, aż ziemniaki delikatnie się rozkleją.",
+        "Dodaj wtedy śmietanę, całość zagotuj, a następnie przełóż w żaroodporne naczynie uciskając wszystkie składniki razem.",
+        "Zapiekankę z wierzchu posyp serem, zawiń w folię aluminiową, wstaw do nagrzanego do 190°C piekarnika na 40 minut.",
+        "Dziesięć minut przed końcem pieczenia usuń folię, aby ser mógł się zapiec. Podawaj z posiekaną natką pietruszki."
+      ],
+      "ingredients": [
+        "Pierś z kurczaka (400 gramów).",
+        "Ziemniaki (400 gramów).",
+        "Śmietana 18% (300 mililitrów).",
+        "Żółty ser (100 gramów).",
+        "Olej (80 mililitrów).",
+        "Cebula (1 sztuka).",
+        "Natka pietruszki (1 pęczek)."
+      ],
+      "id": 24
+    },
+    {
+      "name": "Makaron w sosie pieczarkowym",
+      "description": "Pyszny makaron w sosie pieczarkowym",
+      "steps": [
+        "Posiekaj cebulę w kostkę. Pokrój kurczaka w paski, a grzyby w plasterki.",
+        "Ugotuj makaron wg wskazówek na opakowaniu. Wymieszaj mleko i musztardę.",
+        "Usmaż grzyby na 1 łyżce oleju. Odłóż na talerz, a następnie usmaż osobno cebulę. Dodaj kurczaka i przesmaż na złoto. Przełóż grzyby na patelnię.",
+        "Całość połącz z sosem. Gotuj przez 5 min. aż lekko zgęstnieje.",
+        "Podawaj makaron posypany posiekaną natką pietruszki."
+      ],
+      "ingredients": [
+        "Filety z piersi kurczaka (500 gramów).",
+        "Makaron tagliatelle (250 gramów)",
+        "Pieczarki (500 gramów).",
+        "Mleko (150 mililitrów).",
+        "Cebula (1 sztuka).",
+        "Musztarda (2 łyżki).",
+        "Świeża natka pietruszki (pół pęczka).",
+        "Olej rzepakowy (1 łyżka)."
+      ],
+      "id": 25
     }
   ],
   "schedules": [
