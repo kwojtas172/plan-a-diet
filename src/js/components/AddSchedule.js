@@ -211,6 +211,7 @@ export default class AddSchedule extends Component {
                             <label className="modal__popup-add-schedule__form__label" htmlFor="description">Opis planu</label>
                             <textarea maxLength="360" id="description" value={this.state.description} onChange={this.formChange}></textarea>
                         </div>
+
                         <p style={{fontSize:"1rem", color:"red", fontWeight:"bold"}}>{this.state.weekNumberErr}</p>
                         <div className="modal__popup-add-schedule__form__row">
                             <label className="modal__popup-add-schedule__form__label" htmlFor="weekNumber">Numer tygodnia</label>

@@ -279,12 +279,12 @@ class RecipesList extends Component {
         return (
             <div className="recipes-list__container">
                 <div className="recipes__header">
-                    <p>Lista Przepisow</p>
-                    <span class="fas fa-plus-square"></span>
+                    <p>Lista Przepisów</p>
+                    {/* <span class="fas fa-plus-square"></span> */}
                 </div>
                 {this.state.isEditInput && <form className="modal__popup-add-recipe" onSubmit={e => this.handlePatchToBase(e)}>
                     <div className="modal__popup-add-recipe__header">
-                        <h2>Nowy przepis</h2>
+                        <h1>Edytuj przepis</h1>
                         <button type="submit" className="modal__popup-add-recipe__header_btn">Zapisz i zamknij</button>
                     </div>
                     <div className="modal__popup-add-recipe__new">

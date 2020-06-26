@@ -257,12 +257,13 @@ class PlanList extends Component {
         return (
             <div className="plan-list__container">
                 <div className="plans-header">
-                    <p>Lista Planow</p>
-                    <span class="fas fa-plus-square"></span>
+                    <p>Lista Planów</p>
+                    {/* <span class="fas fa-plus-square"></span> */}
                 </div>
-                {this.state.isEditInput && <form className="modal__popup-add-schedule__form" onSubmit={(e) => this.closeAndSave(e, this.state.name, this.state.description, this.state.weekNumber, this.state.monday, this.state.tuesday, this.state.wednesday, this.state.thursday, this.state.friday, this.state.saturday, this.state.sunday)}>
+                {this.state.isEditInput &&  <div className="modal__popup-add-schedule" style={{ display: this.state.display }}>
+                <form className="modal__popup-add-schedule__form" onSubmit={(e) => this.closeAndSave(e, this.state.name, this.state.description, this.state.weekNumber, this.state.monday, this.state.tuesday, this.state.wednesday, this.state.thursday, this.state.friday, this.state.saturday, this.state.sunday)}>
                     <header className="modal__popup-add-schedule__form__header">
-                        <h1 className="modal__popup-add-schedule__form__header__title">Nowy plan</h1>
+                        <h1 className="modal__popup-add-schedule__form__header__title">Edytuj plan</h1>
                         <button className="modal__popup-add-schedule__form__header__btn" type="submit">Zapisz i zamknij</button>
                     </header>
                     <span className="modal__popup-add-schedule__form__division"></span>
@@ -312,12 +313,13 @@ class PlanList extends Component {
                             })}
                         </tbody>
                     </table>
-                </form>}
+                </form>
+                </div>}
                 <div className="plans-info">
                     <p className="plans__info__id">ID</p>
                     <p className="plans__info__name">NAZWA</p>
                     <p className="plans__info__description">OPIS</p>
-                    <p className="plans__info__week">TYDZIEN</p>
+                    <p className="plans__info__week">TYDZIEŃ</p>
                     <p className="plans__info__action">AKCJE</p>
                 </div>
                 <div className="plans__list">

@@ -2,8 +2,7 @@
 @import "./reset";
 
 div.plan-list__container {
-    width: 96.43rem;
-    height: 53.5rem;
+    width: 95%;
 
     background-color: $bg-color;
     border: 0.07rem dashed $nav-color;
@@ -16,10 +15,9 @@ div.plan-list__container {
 }
 
 div.plans-header {
-    width: 91rem;
+    width: 98%;
     height: auto;
 
-    background-color: white;
     border-bottom: 0.15rem solid $table-font;
     margin-bottom: 1rem;
     padding: 1rem 0 0.2rem 0;
@@ -44,10 +42,9 @@ span.fa-plus-square {
 }
 
 div.plans-info {
-    width: 90rem;
+    width: 90%;
     height: auto;
 
-    background-color: white;
     border-bottom: 0.1rem solid $table-font;
     border-top: 0.1rem solid $table-font;
 
@@ -62,9 +59,10 @@ div.plans-info {
 }
 
 div.plans__list {
-    width: 90rem;
-    height: 43rem;
+    height: 40rem;
+    width: 90%;
 
+    margin-bottom: 3rem;
     border-bottom: 0.1rem solid $table-font;
     overflow-x: auto;
 

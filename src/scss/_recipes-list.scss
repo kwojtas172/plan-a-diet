@@ -2,12 +2,12 @@
 @import "./reset";
 
 div.recipes-list__container {
-    width: 96.43rem;
-    height: 53.5rem;
+    width: 95%;
 
     background-color: $bg-color;
     border: 0.07rem dashed $nav-color;
     margin: 3rem auto;
+    padding-bottom: 3rem;
 
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ div.recipes-list__container {
 }
 
 div.recipes__header {
-    width: 91rem;
+    width: 98%;
     height: auto;
 
     background-color: $bg-color;
@@ -44,7 +44,7 @@ span.fa-plus-square {
 }
 
 div.recipes__info {
-    width: 90rem;
+    width: 90%;
     height: auto;
 
     background-color: $bg-color;
@@ -64,8 +64,8 @@ div.recipes__info {
 }
 
 div.recipes__list {
-    height: 600px;
-    width: 90rem;
+    height: 40rem;
+    width: 90%;
     margin: 0 auto;
 
     border-bottom: 0.1rem solid $table-font;
@@ -74,6 +74,7 @@ div.recipes__list {
 
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 
     span {
         height: 7.15rem;
