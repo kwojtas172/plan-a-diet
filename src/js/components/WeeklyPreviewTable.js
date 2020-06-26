@@ -34,9 +34,10 @@ class WeeklyPreviewTable extends Component {
                     data: data
                 })
 
-                data.sort((a, b) => a.weekNumber - b.weekNumber)
+                data.sort((a, b) => +a.weekNumber - +b.weekNumber)
                 .forEach(el => {
-                    if(+el.weekNumber === this.state.nowNumWeek) {
+                    if(+el.weekNumber === +this.state.nowNumWeek) {
+                        console.log("pierwszy")
                         this.setState({
                             monday: el.monday,
                             tuesday: el.tuesday,
@@ -46,11 +47,15 @@ class WeeklyPreviewTable extends Component {
                             saturday: el.saturday,
                             sunday: el.sunday,
                             weekNr: el.weekNumber,
+                            nowNumWeek: el.weekNumber
                         })
                     } else if(!this.state.weekNr) {
-                        data.forEach(el => {
-                            if(+this.state.nowNumWeek < +el.weekNumber) {
-                                this.setState({
+                        console.log("brak aktualnego", this.state.nowNumWeek, +el.weekNumber)
+                         
+                            console.log("drugi", data)
+                            data.forEach(el => {
+                                if((this.state.nowNumWeek < +el.weekNumber) && !this.state.weekNr)
+                                {this.setState({
                                     monday: el.monday,
                                     tuesday: el.tuesday,
                                     wednesday: el.wednesday,
@@ -59,20 +64,23 @@ class WeeklyPreviewTable extends Component {
                                     saturday: el.saturday,
                                     sunday: el.sunday,
                                     weekNr: el.weekNumber,
-                                })
-                            } 
-                            else if(!this.state.weekNr) {
-                                this.setState({
-                                    monday: el.monday,
-                                    tuesday: el.tuesday,
-                                    wednesday: el.wednesday,
-                                    thursday: el.thursday,
-                                    friday: el.friday,
-                                    saturday: el.saturday,
-                                    sunday: el.sunday,
-                                    weekNr: el.weekNumber,
-                                })
-                            }
+                                    nowNumWeek: el.weekNumber
+                                })}
+                            })
+    
+                        
+                    } else if (!this.state.weekNr) {
+                        console.log("trzeci")
+                        this.setState({
+                            monday: el.monday,
+                            tuesday: el.tuesday,
+                            wednesday: el.wednesday,
+                            thursday: el.thursday,
+                            friday: el.friday,
+                            saturday: el.saturday,
+                            sunday: el.sunday,
+                            weekNr: el.weekNumber,
+                            nowNumWeek: el.weekNumber
                         })
                     }
                 })
@@ -81,9 +89,19 @@ class WeeklyPreviewTable extends Component {
 
     nextWeek = () => {
         
-        if(this.state.nowNumWeek < 52) {
+        if(+this.state.nowNumWeek < 52) {
+            const tempArr = this.state.data;
+            tempArr.sort((a, b) => +a.weekNumber - +b.weekNumber);
+            let prevEl;
+            tempArr.forEach(el => {
+                if(+el.weekNumber === +this.state.nowNumWeek) {
+                    prevEl = el
+                }
+            })
+            const indexPrevEl = tempArr.indexOf(prevEl);
+
             this.setState({
-                nowNumWeek: +this.state.nowNumWeek + 1
+                nowNumWeek: indexPrevEl < tempArr.length - 1 ? tempArr[indexPrevEl + 1].weekNumber : tempArr[0].weekNumber
             }, () => {
                 this.state.data.forEach(el => {
                     if(+el.weekNumber === +this.state.nowNumWeek) {
@@ -106,8 +124,17 @@ class WeeklyPreviewTable extends Component {
 
     prevWeek = () => {
         if(this.state.nowNumWeek > 1) {
+            const tempArr = this.state.data;
+            tempArr.sort((a, b) => +a.weekNumber - +b.weekNumber);
+            let nextEl;
+            tempArr.forEach(el => {
+                if(+el.weekNumber === +this.state.nowNumWeek) {
+                    nextEl = el
+                }
+            })
+            const indexNextEl = tempArr.indexOf(nextEl);
             this.setState({
-                nowNumWeek: +this.state.nowNumWeek - 1
+                nowNumWeek: indexNextEl > 0 ? tempArr[indexNextEl - 1].weekNumber : tempArr[tempArr.length - 1].weekNumber 
             }, () => {
                 this.state.data.forEach(el => {
                     if(+el.weekNumber === +this.state.nowNumWeek) {

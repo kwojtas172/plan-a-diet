@@ -1,91 +1,173 @@
 {
   "user": {
-    "name": "Agata"
+    "name": "Kamil"
   },
   "recipes": [
     {
       "id": 1,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Rosół z kury",
+      "description": "Rosół z kury z makaronem idealny na niedzielny obiad",
       "steps": [
-        "Wlej wodę do garnka"
+        "Mięso umyj, następnie zalej dwoma litrami zimnej wody.",
+        "Powoli doprowadź do wrzenia. Zbierz powstałą pianę. Warzywa obierz.",
+        "Cebulę przekrój na pół. Opal nad gazem lub przypal na patelni.",
+        "Do wywaru dodaj warzywa, przyprawy oraz dwie kostki rosołowe. Gotuj na wolnym ogniu przez około 3 godziny.",
+        "Po ugotowaniu odstaw rosół na 20 minut, następnie powoli przecedź przez gęste sito lub przez gazę. Rosół powinien być klarowny.",
+        "Ugotowane warzywa pokrój w drobną kostkę, mięso z kury w drobne kawałki. Natkę pietruszki posiekaj. Rosół podawaj z ugotowanym wcześniej makaronem, warzywami i mięsem, posypany natką pietruszki. W razie potrzeby możesz doprawić rosół solą i pieprzem."
       ],
       "ingredients": [
-        "Pomidory"
+        "Kura (około 1kg).",
+        "Kostka rosołowa (2 sztuki)",
+        "Makaron (200g).",
+        "Marchewka (2 sztuki).",
+        "Cebula (1 sztuka).",
+        "Korzeń pietruszki (1 sztuka).",
+        "Natka pietruszki (1 pęczek).",
+        "Mały seler (1 sztuka).",
+        "Por (1 sztuka).",
+        "Przyprawy (pieprz i gałka muszkatałowa)."
       ]
     },
     {
       "id": 2,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Zupa ziemniaczana",
+      "description": "Pożywna zupa ziemniaczana.",
       "steps": [
-        "Wlej wodę do garnka"
+        "Ziemniaki, selera i cebulę obierz, pokrój w kostkę ziemniaki, pora pokrój w plastry, cebulę posiekaj.",
+        "W garnku usmaż warzywa, zalej około 800 ml wody, dodaj kostkę rosołową. Zupę gotuj około 20 minut, aż ziemniaki będą miękkie. Zupę zmiksuj w kielichu blendera, zapraw śmietaną, dopraw do smaku pieprzem i gałką muszkatową.",
+        "Chleb pokrój w kostkę, posiekaj szczypior. Chleb rozłóż na blasze z piekarnika. Grzanki opiecz na złoty kolor w nagrzanym do 180° C piekarniku.",
+        "Zupę podawaj z grzankami, posypaną szczypiorem."
       ],
       "ingredients": [
-        "Pomidory"
+        "Ziemniaki (500 gramów).",
+        "Kostka rosołowa (2 sztuki)",
+        "Seler (1 sztuka)",
+        "Por, tylko biała część (1 sztuka)",
+        "Cebula (1 sztuka)",
+        "Śmietana 18% (50 mililitrów)",
+        "Biały pieprz (1 szczypta)",
+        "Szczypiorek",
+        "Oliwa z oliwek (3 łyżki)",
+        "Pieczywo tostowe (8 tostów)"
       ]
     },
     {
       "id": 3,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Kapuśniak z boczkiem i kiełbasą",
+      "description": "Tradycyjny kapuśniak na każdą okazję",
       "steps": [
-        "Wlej wodę do garnka"
+        "Z porcji rosołowej i bulionetek przygotuj wywar.",
+        "Dodaj pokrojone ziemniaki, marchewki i gotuj przez 15 minut.",
+        "Dopraw zupę majerankiem, kminkiem oraz pieprzem do smaku.",
+        "Pokrój boczek w kostkę i podsmaż na patelni. Dodaj do niego poszatkowaną kapustę. Całość duś około 10 minut na małym ogniu, po czym dodaj do zupy.",
+        "Pokrój cebulę w kostkę i zeszklij ją na maśle. Następnie dodaj mąkę i tak przygotowaną zasmażką zapraw zupę. Należy uważać, aby masło nie przypaliło się, inaczej potrawa będzie niesmaczna i niezdrowa."
       ],
       "ingredients": [
-        "Pomidory"
+        "porcja rosołowa (500 gramów).",
+        "Bulionetka drobiowa(2 sztuki).",
+        "Wędzony boczek (150 gramów).",
+        "Kiszona kapusta (300 gramów).",
+        "Marchewki (2 sztuki).",
+        "Pietruszka (1 sztuka).",
+        "Ziemniaki (200 gramów).",
+        "Średniej wielkości cebula (2 sztuki).",
+        "Kminek (0.5 łyżki).",
+        "Majeranek (1 łyżka).",
+        "Pieprz czarny (1 szczypta).",
+        "Mąka pszenna (2 łyżki).",
+        "Masło (50 gramów)."
       ]
     },
     {
-      "id": 4,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Kotlety z kalafiora i kaszy jaglanej",
+      "description": "Zdrowe kotlety z kalafiora i kaszy jaglanej",
       "steps": [
-        "Wlej wodę do garnka"
+        "Kaszę ugotuj w 200 ml wody z kostką rosołową.",
+        "2 jaja ugotuj na twardo, obierz i posiekaj.",
+        "Cebulę pokrój w kostkę i przesmaż.",
+        "Pestki dyni upraż na suchej patelni.",
+        "Surowego kalafiora posiekaj nożem.",
+        "Posiekaj pęczek kolendry.",
+        "W misce połącz ciepła kaszę , jajka , kalafiora.",
+        "Z masy uformuj ma kotleciki.",
+        "Kotleciki podawaj z dipem czosnkowym."
       ],
       "ingredients": [
-        "Pomidory"
-      ]
+        "Kasza jaglana (100 gramów).",
+        "Mleko (100 mililitrów).",
+        "Cebula (1 sztuka).",
+        "Kolendra (1 pęczek).",
+        "Jajka (2 sztuki).",
+        "Kalafior (1 sztuka)."
+      ],
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Faszerowane kotlety mielone z pieczarkami i serem",
+      "description": "Faszerowane kotlety mielone wieprzowo-wołowe z pieczarkami i serem",
       "steps": [
-        "Wlej wodę do garnka"
+        "Pieczarki pokrój w plastry i podsmaż na patelni, następnie wystudź.",
+        "Szczypior drobno posiekaj i dodaj do pieczarek.Następnie dodaj starty ser i ponownie wymieszaj.",
+        "Namocz bułkę w wodzie lub mleku. Gdy będzie już miękka odciśnij ją dokładnie.",
+        "Namoczoną bułkę połącz z mielonym mięsem, jajkiem, przyprawą do mięs oraz startą cebulą.",
+        "Masę wyrób dokładnie ręką. Jeśli będzie zbyt luźna dodaj do niej nieco bułki tartej.",
+        "Z mięsa uformuj placuszki. Na środku każdego połóż troszkę farszu, który następnie zawiń w mięso mielone. W ten sposób uformuj kotlety.",
+        "Usmażone kotlety podlej kilkoma łyżkami wody a następnie przykryj patelnię, tak aby kotlety chwilę doszły. Kotlety podawaj z ziemniakami i surówką."
       ],
       "ingredients": [
-        "Pomidory"
-      ]
+        "Mięso mielone wieprzowo-wołowe (500g).",
+        "Jajko (1 sztuka).",
+        "Cebula średnia (1 sztuka).",
+        "Bułka tarta (2 sztuki).",
+        "Pieczarki (400g).",
+        "Szczypiorek (1 pęczek)."
+      ],
+      "id": 5
     },
     {
-      "id": 6,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Łosoś pieczony w miodowym sosie",
+      "description": "Przepyszny łosoś pieczony w miodowym sosie",
       "steps": [
-        "Wlej wodę do garnka"
+        "Gorczycę z Kanady i Czarny pieprz z Wietnamu Knorr rozetrzyj na miazgę w moździerzu, połącz z miodem, koperkiem i octem.",
+        "W powstałym sosie obtocz filety z łososia.",
+        "Ułóż je na blasze do pieczenia wyłożonej pergaminem. Wstaw do nagrzanego do 190°C piekarnika na ok. 15 min."
       ],
       "ingredients": [
-        "Pomidory"
-      ]
+        "Filety z łososia (4 sztuki po 150 gramy).",
+        "Miód (4 łyżki).",
+        "Gorczyca, pieprz czarny.",
+        "Posiekany koperek (pół pęczka).",
+        "Ocet winny (2 łyżki)."
+      ],
+      "id": 6
     },
     {
-      "id": 7,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Sandacz z duszonymi warzywami",
+      "description": "Sandacz z duszonymi warzywami dla nielubiących mięsa",
       "steps": [
-        "Wlej wodę do garnka"
+        "Zetrzyj marchew i seler na tarce o grubych oczkach, cebulę pokrój w plastry.",
+        "Podsmaż wszystkie warzywa na oleju przez około 7 minut, następnie przypraw pieprzem i przełóż do naczynia do zapiekania.",
+        "Rybę ułóż na warzywach.",
+        "Dodaj śmietanę.",
+        "Rybę wraz z warzywami, po czym wstaw naczynie do nagrzanego piekarnika i piecz przez 20 minut w temperaturze 200 stopni. Na koniec dopraw do smaku."
       ],
       "ingredients": [
-        "Pomidory"
-      ]
+        "Sandacz lub inna biała ryba (600 gramów).",
+        "Marchewki (3 sztuki).",
+        "Seler korzeniowy (1 sztuka).",
+        "Biała cebula (1 sztuka).",
+        "Słodka śmietana 18% (200 gramów).",
+        "Olej, pieprz czarny."
+      ],
+      "id": 7
     },
     {
-      "id": 8,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "name": "Ryż z warzywami i mięsem",
+      "description": "Orientalnie i pysznie",
       "steps": [
-        "Wlej wodę do garnka"
+        "Mięso i paprykę pokrój w niedużą kostkę i smaż w rondlu aż będą złociste. Dodaj cebulę pokrojoną w piórka i posiekany czosnek.",
+        "Wsyp ryż i smaż kilka minut, a następnie dodaj 1 litr wody.",
+        "Podkreśl smak dania doprawiając je kostką rosołową. Wymieszaj i gotuj, aż ryż wchłonie płyn."
       ],
       "ingredients": [
         "Pomidory"
@@ -126,15 +208,15 @@
       ],
       "id": 11
     }
-  ],
+  ],  
   "schedules": [
     {
       "id": 2,
       "name": "Plan jarski na bezmięsny tydzień",
       "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 22,
+      "weekNumber": "31",
       "monday": [
-        1,
+        "Zupa pomidorowa",
         2,
         3,
         4,
@@ -294,61 +376,6 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 14,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
       "id": 6,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
@@ -407,62 +434,7 @@
       "id": 7,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 7,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 8,
+      "weekNumber": "7",
       "monday": [
         1,
         2,
@@ -627,7 +599,7 @@
       "id": 11,
       "name": "Wegetariański tydzień",
       "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 1,
+      "weekNumber": 44,
       "monday": [
         1,
         2,
@@ -681,7 +653,7 @@
     {
       "name": "Coders",
       "description": "Coders",
-      "weekNumber": "36",
+      "weekNumber": 36,
       "monday": [
         "Zupa pomidorowa",
         "Zupa pomidorowa"
