@@ -3,11 +3,15 @@
     border: 0.1rem dashed lighten($nav-color, 30%);
     z-index: 2;
     background-color: $bg-color;
-    position: fixed;
-    width: 80%;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 98%;
+    height: 60rem;
+
 
     input, textarea {
-        border: 0.15rem solid lighten($nav-color, 40%);
+        border: 0.1rem solid $table-font;
         font-size: 1.5rem;
         color: $nav-color;
         padding: 0.25rem;
@@ -18,10 +22,10 @@
 
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.2rem solid lighten($nav-color, 30%);
+    border-bottom: 0.2rem solid $table-font;
     padding-bottom: 1rem;
 
-    h2 {
+    h1 {
         color: $btn-color;
         text-transform: uppercase;
     }
@@ -72,6 +76,8 @@
 .modal__popup-add-recipe__add-list__content {
 
     margin: 1rem;
+    width: 50%;
+    
 
     h3 {
         border-bottom: 0.2rem solid lighten($nav-color, 30%);
@@ -82,7 +88,7 @@
 
     ul, ol {
         padding-left: 2rem;
-        height: 10rem;
+        height: 20rem;
         overflow-y: auto;
         overflow-anchor: none;
 
@@ -112,9 +118,7 @@
         
 
         input, textarea {
-            width: 35rem;
-            height: 5rem;
-            width: 45rem;
+            width: 100%;
         }
 
         button {
@@ -136,7 +140,7 @@
 }
 
 .modal__popup-add-recipe__warning {
-    color: $warning-msg;
+    color: red;
     font-weight: 700;
 }
 

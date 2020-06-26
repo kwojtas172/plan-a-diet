@@ -41,21 +41,18 @@ export default class FirstAppSection extends React.Component {
             body: JSON.stringify(user)
         })
             .then(resp => resp.json())
-            .then(json => console.log(json))
-
             
-    
     }
 
     render() {
         return (
             <div className="first-app-section">
-                <h1 className="first-app-section__title">Witaj,</h1>
-                <h2 className="first-app-section__title"> wygląda na to, że jesteś tutaj <br></br> pierwszy raz!</h2>
+                <h1 className="first-app-section__title-1">Witaj,</h1>
+                <h2 className="first-app-section__title-2"> wygląda na to, że jesteś tutaj <br></br> pierwszy raz!</h2>
                 <p style={{color:"red", fontSize: ".75rem"}}>{this.state.nameErr}</p>
                 <input className="first-app-section__input" type="text" onChange={this.handleChange} value={this.state.name} placeholder="tutaj wpisz jak masz na imię"></input>
                 <button className="first-app-section__btn" onClick={this.handleClick}>Gotowe!</button>
-                <p className="first-app-section__txt">Podaj nam swoje imię, a my zorganizujemy <br></br> dla Ciebie naszą aplikację :)</p>
+                <h2 className="first-app-section__txt">Podaj nam swoje imię, a my zorganizujemy <br></br> dla Ciebie naszą aplikację :)</h2>
             </div>
         )
     }

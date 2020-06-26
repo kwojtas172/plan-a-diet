@@ -22,7 +22,6 @@
 }
 
 .footer__info__col__form__input {
-    margin-bottom: 1.5rem;
     height: 2rem;
     width: 10rem;
 }
@@ -30,12 +29,13 @@
 .footer__info__col__form__btn {
     background-color: $btn-color;
     color: #fff;
-    border: 1px solid $btn-color;
+    border: none;
     height: 2rem;
     width: 5rem;
 }
 
 .footer__info__col__icons i {
+    margin-top: 1.5rem;
     margin-right: 2rem;
 }
 

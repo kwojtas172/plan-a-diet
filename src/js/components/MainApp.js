@@ -52,7 +52,7 @@ export default class MainApp extends Component {
                     <div className="app-side">
                         <nav className="app-side__nav">
                             <ul className="app-side__nav__list">
-                                <li><Link exact to="/app/" activeClassName="active-link">Przegląd</Link></li>
+                                <li><Link exact to="/app/" activeClassName="active-link">Pulpit</Link></li>
                                 <li><Link to="/app/recipes" activeClassName="active-link">Przepisy</Link></li>
                                 <li><Link to="/app/schedules" activeClassName="active-link">Plany</Link></li>
                             </ul>

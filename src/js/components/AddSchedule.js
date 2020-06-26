@@ -202,7 +202,7 @@ export default class AddSchedule extends Component {
                             <button className="modal__popup-add-schedule__form__header__btn">Zapisz i zamknij</button>
                         </header>
                         <span className="modal__popup-add-schedule__form__division"></span>
-                        <p style={{ fontSize: "1rem", color: "red" }}>{this.state.nameErr}</p>
+                        <p style={{fontSize:"1rem", color:"red", fontWeight:"bold"}}>{this.state.nameErr}</p>
                         <div className="modal__popup-add-schedule__form__row">
                             <label className="modal__popup-add-schedule__form__label" htmlFor="name">Nazwa planu</label>
                             <input maxLength="50" type="text" id="name" value={this.state.name} onChange={this.formChange}></input>
@@ -211,7 +211,7 @@ export default class AddSchedule extends Component {
                             <label className="modal__popup-add-schedule__form__label" htmlFor="description">Opis planu</label>
                             <textarea maxLength="360" id="description" value={this.state.description} onChange={this.formChange}></textarea>
                         </div>
-                        <p style={{ fontSize: "1rem", color: "red" }}>{this.state.weekNumberErr}</p>
+                        <p style={{fontSize:"1rem", color:"red", fontWeight:"bold"}}>{this.state.weekNumberErr}</p>
                         <div className="modal__popup-add-schedule__form__row">
                             <label className="modal__popup-add-schedule__form__label" htmlFor="weekNumber">Numer tygodnia</label>
                             <input type="number" id="weekNumber" value={this.state.weekNumber} onChange={this.formChange}></input>

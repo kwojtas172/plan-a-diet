@@ -1,7 +1,7 @@
 .wrapper.app {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: 7rem minmax(50rem, auto);
+    grid-template-rows: 7rem minmax(62rem, auto);
     padding: 0;
 }
 
@@ -9,10 +9,19 @@
     grid-column: 1/-1;
     grid-row: 1/2;
     background-color: $header-color;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 3rem;
 }
 
 .header-app__wrapper {
     display: flex;
+    margin-right: 3rem;
 }
 
 .header-app__wrapper__name {
@@ -22,15 +31,12 @@
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem;
-
 }
-
 
 .fa-user-circle {
     color: $btn-color;
     font-size: 3.5rem;
 }
-
 
 .app-side {
     grid-column: 1/4;
@@ -42,11 +48,13 @@
     list-style: none;
 
     li {
-        margin: 2.5rem 0;
         position: relative;
-
+       
         a {
             text-decoration: none;
+            display: inline-block;
+            line-height: 5rem;
+            height: 5rem;
             font-size: 1.5rem;
             padding-left: 1rem;
             color: $bg-color;
@@ -60,7 +68,6 @@
     border-left: 0.35rem solid $btn-color;
     font-weight: 700;
     
-
     &:after {
         position: absolute;
         padding-right: 1.5rem;
@@ -76,8 +83,9 @@
 .app-content {
     grid-column: 4/-1;
     grid-row: 2/-1;
-    min-height: 50rem;
+    min-height: 62rem;
     background-image: url("../images/bcg-app.png");
     background-size: cover;
+    position: relative;
 }
 
