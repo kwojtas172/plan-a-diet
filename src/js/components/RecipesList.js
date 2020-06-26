@@ -15,6 +15,8 @@ class RecipesList extends Component {
         ingredients: [],
         isEditInput: false,
         editInputValue: "",
+        isSucces: false,
+        isRemoved : false,
         recipeId: 0
     }
 
@@ -74,6 +76,7 @@ class RecipesList extends Component {
             .then(data => {
                 this.setState({
                     isEditInput: false,
+                    isSucces: true
                 })
                 console.log('Success:', data);
             })
@@ -99,7 +102,8 @@ class RecipesList extends Component {
             }
         });
         this.setState({
-            data: tempArr
+            data: tempArr,
+            isRemoved: true
         });
     };
 
@@ -354,6 +358,16 @@ class RecipesList extends Component {
                         })}
                     </div>
                 </div>
+                {this.state.isSucces && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={() => this.setState({isSucces: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Edytowałeś przepis!</span>
+                </div> }
+                {this.state.isRemoved && <div className="modal__success-msg">
+                <button className="modal__success-msg__btn" onClick={() => this.setState({isRemoved: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__success-msg__icon"></i>
+                <span className="modal__success-msg__text">Usunąłeś przepis!</span>
+                </div> }
             </div >
         );
     }
