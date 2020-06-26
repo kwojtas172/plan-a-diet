@@ -17,7 +17,8 @@ class RecipesList extends Component {
         editInputValue: "",
         isSucces: false,
         isRemoved : false,
-        recipeId: 0
+        recipeId: 0,
+        isWarning: false
     }
 
     componentDidMount = () => {
@@ -209,27 +210,27 @@ class RecipesList extends Component {
         })
     };
 
-    addToIngredients = e => {
+    // addToIngredients = e => {
 
-        e.preventDefault();
-        if (this.state.ingredient) {
-            if (this.state.ingredientID === -1) {
-                this.setState({
-                    ingredients: [...this.state.ingredients, this.state.ingredient],
-                    ingredient: ""
-                })
-            }
-            if (this.state.ingredientID >= 0) {
-                let tempArr = [...this.state.ingredients];
-                tempArr[this.state.ingredientID] = this.state.ingredient;
-                this.setState({
-                    ingredients: tempArr,
-                    ingredient: "",
-                    ingredientID: -1
-                })
-            }
-        }
-    };
+    //     e.preventDefault();
+    //     if (this.state.ingredient) {
+    //         if (this.state.ingredientID === -1) {
+    //             this.setState({
+    //                 ingredients: [...this.state.ingredients, this.state.ingredient],
+    //                 ingredient: ""
+    //             })
+    //         }
+    //         if (this.state.ingredientID >= 0) {
+    //             let tempArr = [...this.state.ingredients];
+    //             tempArr[this.state.ingredientID] = this.state.ingredient;
+    //             this.setState({
+    //                 ingredients: tempArr,
+    //                 ingredient: "",
+    //                 ingredientID: -1
+    //             })
+    //         }
+    //     }
+    // };
 
 
     addToSteps = e => {
@@ -238,7 +239,8 @@ class RecipesList extends Component {
             if (this.state.stepID === -1) {
                 this.setState({
                     steps: [...this.state.steps, this.state.step],
-                    step: ""
+                    step: "",
+                    isWarning: false
                 })
             }
             if (this.state.stepID >= 0) {
@@ -260,7 +262,8 @@ class RecipesList extends Component {
             if (this.state.ingredientID === -1) {
                 this.setState({
                     ingredients: [...this.state.ingredients, this.state.ingredient],
-                    ingredient: ""
+                    ingredient: "",
+                    isWarning: false
                 })
             }
             if (this.state.ingredientID >= 0) {
@@ -323,7 +326,7 @@ class RecipesList extends Component {
                             </ul>
                         </div>
                     </div>
-                    <span className="modal__popup-add-recipe__warning">{this.state.warning}</span>
+                    {this.state.isWarning && <span className="modal__popup-add-recipe__warning">Przepis musi zawierać co najmniej 1 instrukcję oraz składnik</span>}
                 </form>}
                 <div className="recipes__info">
                     <p className="recipes__info__id">ID</p>
