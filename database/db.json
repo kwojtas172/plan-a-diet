@@ -631,7 +631,7 @@
       "id": 28
     },
     {
-      "name": "Grzanki z awokado, serem i awokado",
+      "name": "Grzanki z awokado, serem i granatem",
       "description": "Pyszne grzanki z kwaśnym granatem",
       "steps": [
         "Pieczywo można opiec w tosterze jeśli chcemy aby było chrupiące. Awokado obrać, pokroić na kawałki i nieco rozdrobnić widelcem. ",
@@ -835,6 +835,69 @@
         "1 marchewka, korzeń pietruszki, selera i 0.5 pora"
       ],
       "id": 37
+    },
+    {
+      "name": "Żurek błyskawiczny",
+      "description": "Żurek jak u babci",
+      "steps": [
+        "W garnku zagotować bulion z dodatkiem wędzonki. Przykryć i gotować na małym ogniu przez ok. 30 minut.",
+        "Dodać żurek z butelki (wcześniej potrząsnąć butelką w celu przemieszania zawartości) oraz śmietanę i majeranek. Dokładnie wymieszać.",
+        "Doprawić zmielonym pieprzem w razie potrzeby oraz dodać obraną z błonki i pokrojoną na kawałki kiełbasę. Podgrzać i podawać z dodatkami.\n"
+      ],
+      "ingredients": [
+        "250 g boczku wędzonego",
+        "2 litry bulionu",
+        "500 ml żuru - zakwasu (gotowego, z butelki)",
+        "200 ml gęstej śmietany homogenizowanej 18%",
+        "1 łyżka suszonego majeranku",
+        "350 g wiejskiej kiełbasy\n"
+      ],
+      "id": 38
+    },
+    {
+      "name": "Zupa curry z cukinią",
+      "description": "Orientalna zupa",
+      "steps": [
+        "W szerokim garnku na oleju zeszklić pokrojoną w kosteczkę cebulę. Dodać drobno starty obrany imbir i czosnek. Wymieszać i chwilę podsmażyć.",
+        "Dodać obraną i startą na tarce marchewkę i mieszając co chwilę smażyć ok. 2 minuty. Dodać pokrojoną paprykę, a za chwilę pokrojoną w kostkę cukinię.",
+        "Mieszając co chwilę smażyć przez ok. 5 minut, w międzyczasie dodać pastę curry.",
+        "Wlać bulion i zagotować. Gotować pod uchyloną pokrywą przez ok. 8 minut do miękkości warzyw, w międzyczasie dodając obranego i pokrojonego pomidora.",
+        "Zmiksować dodając 2 łyżki mleka kokosowego lub śmietanki."
+      ],
+      "ingredients": [
+        "1 łyżka oleju roślinnego np. kokosowego",
+        "1 cebula\n",
+        "2 cm kawałek imbiru\n",
+        "1 ząbek czosnku\n",
+        "1 ząbek czosnku\n",
+        "1/2 czerwonej papryki\n",
+        "300 g cukinii\n",
+        "1/2 łyżeczki czerwonej pasty curry (lub szczypta p",
+        "500 ml bulionu drobiowego lub jarzynowego\n",
+        "1 pomidor\n",
+        "ok. 1/3 szklanki mleka kokosowego lub śmietanki 30"
+      ],
+      "id": 39
+    },
+    {
+      "name": "Chłodnik",
+      "description": "Szybki chłodnik na kefirze z ogórkiem, rzodkiewką i sałatą.",
+      "steps": [
+        "Warzywa umyć i osuszyć. Ogórki obrać ze skórki i zetrzeć na tarce o większych oczkach. Rzodkiewki tak samo zetrzeć. Włożyć do miski.",
+        "Dodać drobo poszatkowane liście sałaty, szczypiorek, koperek oraz obrany i przeciśnięty przez praskę lub drobno starty czosnek.",
+        "Dodać kefir, doprawić solą oraz pieprzem i wymieszać. Schłodzić w lodówce."
+      ],
+      "ingredients": [
+        "2 mniejsze ogórki gruntowe\n",
+        "4 rzodkiewki\n",
+        "2 liście sałaty\n",
+        "3 łyżki posiekanego szczypiorku\n",
+        "2 łyżki posiekanego koperku\n",
+        "1 mały ząbek czosnku\n",
+        "500 ml kefiru (schłodzony)\n",
+        "sól i pieprz\n"
+      ],
+      "id": 40
     }
   ],
   "schedules": [
@@ -892,6 +955,61 @@
         "Medaliony warzywne"
       ],
       "id": 1
+    },
+    {
+      "name": "Plan mięsny",
+      "description": "Mięso jest świetnym źródłem cennego białka i żelaza. Warto je jadać. ",
+      "weekNumber": "45",
+      "monday": [
+        "Hummus",
+        "Pasta z wędzonej ryby ",
+        "Zupa ziemniaczana",
+        "Risotto z kurczakiem i grzybami",
+        "Gołąbki po meksykańsku"
+      ],
+      "tuesday": [
+        "Medaliony warzywne",
+        "Faszerowane kotlety mielone z pieczarkami i serem",
+        "Chłodnik",
+        "Roladki z kurczaka ze szpinakiem",
+        "Dutch baby z jabłkami"
+      ],
+      "wednesday": [
+        "Owsianka",
+        "Placki jogurtowe z bananem",
+        "Zupa curry z cukinią",
+        "Befsztyk z warzywami",
+        "Ryż z warzywami"
+      ],
+      "thursday": [
+        "Grzanki z awokado, serem i granatem",
+        "Dutch baby z jabłkami",
+        "Zupa z czerwonej soczewicy",
+        "Eskalopki zapiekane",
+        "Risotto z kurczakiem i grzybami"
+      ],
+      "friday": [
+        "Pasta z wędzonej ryby ",
+        "Pudding ryżowy z gruszkami",
+        "Kapuśniak z boczkiem i kiełbasą",
+        "Roladki z kurczaka ze szpinakiem",
+        "Roladki po bolońsku"
+      ],
+      "saturday": [
+        "Malinowy budyń jaglany",
+        "Hummus",
+        "Żurek błyskawiczny",
+        "Risotto z kurczakiem",
+        "Łosoś pieczony w miodowym sosie"
+      ],
+      "sunday": [
+        "Owsianka",
+        "Chłodnik",
+        "Kapuśniak z boczkiem i kiełbasą",
+        "Sznycel wiedeński",
+        "Ryż z warzywami i mięsem"
+      ],
+      "id": 2
     }
   ]
 }
