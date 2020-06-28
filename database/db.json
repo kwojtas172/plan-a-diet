@@ -1,8 +1,186 @@
 {
   "user": {
-    "name": "Agata"
+    "name": "Kamil"
   },
   "recipes": [
+    {
+      "id": 1,
+      "name": "Rosół z kury",
+      "description": "Rosół z kury z makaronem idealny na niedzielny obiad",
+      "steps": [
+        "Mięso umyj, następnie zalej dwoma litrami zimnej wody.",
+        "Powoli doprowadź do wrzenia. Zbierz powstałą pianę. Warzywa obierz.",
+        "Cebulę przekrój na pół. Opal nad gazem lub przypal na patelni.",
+        "Do wywaru dodaj warzywa, przyprawy oraz dwie kostki rosołowe. Gotuj na wolnym ogniu przez około 3 godziny.",
+        "Po ugotowaniu odstaw rosół na 20 minut, następnie powoli przecedź przez gęste sito lub przez gazę. Rosół powinien być klarowny.",
+        "Ugotowane warzywa pokrój w drobną kostkę, mięso z kury w drobne kawałki. Natkę pietruszki posiekaj. Rosół podawaj z ugotowanym wcześniej makaronem, warzywami i mięsem, posypany natką pietruszki. W razie potrzeby możesz doprawić rosół solą i pieprzem."
+      ],
+      "ingredients": [
+        "Kura (około 1kg).",
+        "Kostka rosołowa (2 sztuki)",
+        "Makaron (200g).",
+        "Marchewka (2 sztuki).",
+        "Cebula (1 sztuka).",
+        "Korzeń pietruszki (1 sztuka).",
+        "Natka pietruszki (1 pęczek).",
+        "Mały seler (1 sztuka).",
+        "Por (1 sztuka).",
+        "Przyprawy (pieprz i gałka muszkatałowa)."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Zupa ziemniaczana",
+      "description": "Pożywna zupa ziemniaczana.",
+      "steps": [
+        "Ziemniaki, selera i cebulę obierz, pokrój w kostkę ziemniaki, pora pokrój w plastry, cebulę posiekaj.",
+        "W garnku usmaż warzywa, zalej około 800 ml wody, dodaj kostkę rosołową. Zupę gotuj około 20 minut, aż ziemniaki będą miękkie. Zupę zmiksuj w kielichu blendera, zapraw śmietaną, dopraw do smaku pieprzem i gałką muszkatową.",
+        "Chleb pokrój w kostkę, posiekaj szczypior. Chleb rozłóż na blasze z piekarnika. Grzanki opiecz na złoty kolor w nagrzanym do 180° C piekarniku.",
+        "Zupę podawaj z grzankami, posypaną szczypiorem."
+      ],
+      "ingredients": [
+        "Ziemniaki (500 gramów).",
+        "Kostka rosołowa (2 sztuki)",
+        "Seler (1 sztuka)",
+        "Por, tylko biała część (1 sztuka)",
+        "Cebula (1 sztuka)",
+        "Śmietana 18% (50 mililitrów)",
+        "Biały pieprz (1 szczypta)",
+        "Szczypiorek",
+        "Oliwa z oliwek (3 łyżki)",
+        "Pieczywo tostowe (8 tostów)"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kapuśniak z boczkiem i kiełbasą",
+      "description": "Tradycyjny kapuśniak na każdą okazję",
+      "steps": [
+        "Z porcji rosołowej i bulionetek przygotuj wywar.",
+        "Dodaj pokrojone ziemniaki, marchewki i gotuj przez 15 minut.",
+        "Dopraw zupę majerankiem, kminkiem oraz pieprzem do smaku.",
+        "Pokrój boczek w kostkę i podsmaż na patelni. Dodaj do niego poszatkowaną kapustę. Całość duś około 10 minut na małym ogniu, po czym dodaj do zupy.",
+        "Pokrój cebulę w kostkę i zeszklij ją na maśle. Następnie dodaj mąkę i tak przygotowaną zasmażką zapraw zupę. Należy uważać, aby masło nie przypaliło się, inaczej potrawa będzie niesmaczna i niezdrowa."
+      ],
+      "ingredients": [
+        "porcja rosołowa (500 gramów).",
+        "Bulionetka drobiowa(2 sztuki).",
+        "Wędzony boczek (150 gramów).",
+        "Kiszona kapusta (300 gramów).",
+        "Marchewki (2 sztuki).",
+        "Pietruszka (1 sztuka).",
+        "Ziemniaki (200 gramów).",
+        "Średniej wielkości cebula (2 sztuki).",
+        "Kminek (0.5 łyżki).",
+        "Majeranek (1 łyżka).",
+        "Pieprz czarny (1 szczypta).",
+        "Mąka pszenna (2 łyżki).",
+        "Masło (50 gramów)."
+      ]
+    },
+    {
+      "name": "Kotlety z kalafiora i kaszy jaglanej",
+      "description": "Zdrowe kotlety z kalafiora i kaszy jaglanej",
+      "steps": [
+        "Kaszę ugotuj w 200 ml wody z kostką rosołową.",
+        "2 jaja ugotuj na twardo, obierz i posiekaj.",
+        "Cebulę pokrój w kostkę i przesmaż.",
+        "Pestki dyni upraż na suchej patelni.",
+        "Surowego kalafiora posiekaj nożem.",
+        "Posiekaj pęczek kolendry.",
+        "W misce połącz ciepła kaszę , jajka , kalafiora.",
+        "Z masy uformuj ma kotleciki.",
+        "Kotleciki podawaj z dipem czosnkowym."
+      ],
+      "ingredients": [
+        "Kasza jaglana (100 gramów).",
+        "Mleko (100 mililitrów).",
+        "Cebula (1 sztuka).",
+        "Kolendra (1 pęczek).",
+        "Jajka (2 sztuki).",
+        "Kalafior (1 sztuka)."
+      ],
+      "id": 4
+    },
+    {
+      "name": "Faszerowane kotlety mielone z pieczarkami i serem",
+      "description": "Faszerowane kotlety mielone wieprzowo-wołowe z pieczarkami i serem",
+      "steps": [
+        "Pieczarki pokrój w plastry i podsmaż na patelni, następnie wystudź.",
+        "Szczypior drobno posiekaj i dodaj do pieczarek.Następnie dodaj starty ser i ponownie wymieszaj.",
+        "Namocz bułkę w wodzie lub mleku. Gdy będzie już miękka odciśnij ją dokładnie.",
+        "Namoczoną bułkę połącz z mielonym mięsem, jajkiem, przyprawą do mięs oraz startą cebulą.",
+        "Masę wyrób dokładnie ręką. Jeśli będzie zbyt luźna dodaj do niej nieco bułki tartej.",
+        "Z mięsa uformuj placuszki. Na środku każdego połóż troszkę farszu, który następnie zawiń w mięso mielone. W ten sposób uformuj kotlety.",
+        "Usmażone kotlety podlej kilkoma łyżkami wody a następnie przykryj patelnię, tak aby kotlety chwilę doszły. Kotlety podawaj z ziemniakami i surówką."
+      ],
+      "ingredients": [
+        "Mięso mielone wieprzowo-wołowe (500g).",
+        "Jajko (1 sztuka).",
+        "Cebula średnia (1 sztuka).",
+        "Bułka tarta (2 sztuki).",
+        "Pieczarki (400g).",
+        "Szczypiorek (1 pęczek)."
+      ],
+      "id": 5
+    },
+    {
+      "name": "Łosoś pieczony w miodowym sosie",
+      "description": "Przepyszny łosoś pieczony w miodowym sosie",
+      "steps": [
+        "Gorczycę z Kanady i Czarny pieprz z Wietnamu Knorr rozetrzyj na miazgę w moździerzu, połącz z miodem, koperkiem i octem.",
+        "W powstałym sosie obtocz filety z łososia.",
+        "Ułóż je na blasze do pieczenia wyłożonej pergaminem. Wstaw do nagrzanego do 190°C piekarnika na ok. 15 min."
+      ],
+      "ingredients": [
+        "Filety z łososia (4 sztuki po 150 gramy).",
+        "Miód (4 łyżki).",
+        "Gorczyca, pieprz czarny.",
+        "Posiekany koperek (pół pęczka).",
+        "Ocet winny (2 łyżki)."
+      ],
+      "id": 6
+    },
+    {
+      "name": "Sandacz z duszonymi warzywami",
+      "description": "Sandacz z duszonymi warzywami dla nielubiących mięsa",
+      "steps": [
+        "Zetrzyj marchew i seler na tarce o grubych oczkach, cebulę pokrój w plastry.",
+        "Podsmaż wszystkie warzywa na oleju przez około 7 minut, następnie przypraw pieprzem i przełóż do naczynia do zapiekania.",
+        "Rybę ułóż na warzywach.",
+        "Dodaj śmietanę.",
+        "Rybę wraz z warzywami, po czym wstaw naczynie do nagrzanego piekarnika i piecz przez 20 minut w temperaturze 200 stopni. Na koniec dopraw do smaku."
+      ],
+      "ingredients": [
+        "Sandacz lub inna biała ryba (600 gramów).",
+        "Marchewki (3 sztuki).",
+        "Seler korzeniowy (1 sztuka).",
+        "Biała cebula (1 sztuka).",
+        "Słodka śmietana 18% (200 gramów).",
+        "Olej, pieprz czarny."
+      ],
+      "id": 7
+    },
+    {
+      "name": "Ryż z warzywami i mięsem",
+      "description": "Orientalnie i pysznie",
+      "steps": [
+        "Mięso i paprykę pokrój w niedużą kostkę i smaż w rondlu aż będą złociste. Dodaj cebulę pokrojoną w piórka i posiekany czosnek.",
+        "Wsyp ryż i smaż kilka minut, a następnie dodaj 1 litr wody.",
+        "Podkreśl smak dania doprawiając je kostką rosołową. Wymieszaj i gotuj, aż ryż wchłonie płyn."
+      ],
+      "ingredients": [
+        "Karkówka (250 gramów).",
+        "Ryż (500 gramów).",
+        "Papryka czerwona (1 sztuka).",
+        "Papryka zielona (1 sztuka).",
+        "Cebula (1 sztuka).",
+        "Czosnek (1 ząbek).",
+        "Olej (4 łyżki).",
+        "Kostka rosołowa (1 sztuka)."
+      ],
+      "id": 8
+    },
     {
       "name": "Ryż z warzywami",
       "description": "Orientalna propozycja dla wegetarian",
@@ -23,7 +201,7 @@
         "Kolendra (pół pęczka).",
         "Przyprawa curry."
       ],
-      "id": 1
+      "id": 9
     },
     {
       "name": "Kurczak po meksykańsku",
@@ -41,7 +219,7 @@
         "Czerwona papryka (1 sztuka).",
         "Ryż (100 gramów)."
       ],
-      "id": 2
+      "id": 10
     },
     {
       "name": "Risotto z kurczakiem",
@@ -65,7 +243,7 @@
         "Oliwa (1 łyżka).",
         "Masło (50 gramów)."
       ],
-      "id": 3
+      "id": 11
     },
     {
       "name": "Risotto z kurczakiem i grzybami",
@@ -94,7 +272,7 @@
         "Parmezan (80 gramów).",
         "Oliwa (100 ml)."
       ],
-      "id": 4
+      "id": 12
     },
     {
       "name": "Roladki z kurczaka ze szpinakiem",
@@ -121,7 +299,7 @@
         "Sól.",
         "Oliwa z oliwek (20 ml)."
       ],
-      "id": 5
+      "id": 13
     },
     {
       "name": "Roladki po bolońsku",
@@ -149,7 +327,7 @@
         "Śmietana 18% (100 mililitrów).",
         "Margaryna (3 łyżki)."
       ],
-      "id": 6
+      "id": 14
     },
     {
       "name": "Pieczona karkówka",
@@ -168,7 +346,7 @@
         "Przyprawy.",
         "Musztarda (2 łyżki)."
       ],
-      "id": 7
+      "id": 15
     },
     {
       "name": "Gołąbki po meksykańsku",
@@ -191,7 +369,7 @@
         "Śmietana (1 łyżka).",
         "Papryka słodka, mielona kolendra."
       ],
-      "id": 8
+      "id": 16
     },
     {
       "name": "Befsztyk z warzywami",
@@ -216,7 +394,7 @@
         "Natka pietruszki (10 gramów).",
         "Olej (150 mililitrów)."
       ],
-      "id": 9
+      "id": 17
     },
     {
       "name": "Pieczeń wołowa z sosem",
@@ -237,7 +415,7 @@
         "Oliwa z oliwek (3 łyżki).",
         "Pieprz czarny."
       ],
-      "id": 10
+      "id": 18
     },
     {
       "name": "Schab z borówkami",
@@ -259,7 +437,7 @@
         "Margaryna (2 łyżki).",
         "Olej (4 łyżki)."
       ],
-      "id": 11
+      "id": 19
     },
     {
       "name": "Tradycyjny schabowy",
@@ -279,7 +457,7 @@
         "Olej roślinny (2 łyżki).",
         "Świeży koperek (2 łyżki)."
       ],
-      "id": 12
+      "id": 20
     },
     {
       "name": "Sznycel wiedeński",
@@ -306,7 +484,7 @@
         "Masło (1 łyżka).",
         "Sól, olej do smażenia."
       ],
-      "id": 13
+      "id": 21
     },
     {
       "name": "Eskalopki zapiekane",
@@ -334,7 +512,7 @@
         "Oliwa (2 łyżki).",
         "Bazylia (kilka listków)."
       ],
-      "id": 14
+      "id": 22
     },
     {
       "name": "Polędwiczki wieprzowe z sosem",
@@ -353,7 +531,7 @@
         "Majonez.",
         "Przyprawy."
       ],
-      "id": 15
+      "id": 23
     },
     {
       "name": "Ziemniaczana zapiekanka z kurczakiem",
@@ -374,7 +552,7 @@
         "Cebula (1 sztuka).",
         "Natka pietruszki (1 pęczek)."
       ],
-      "id": 16
+      "id": 24
     },
     {
       "name": "Makaron w sosie pieczarkowym",
@@ -396,7 +574,7 @@
         "Świeża natka pietruszki (pół pęczka).",
         "Olej rzepakowy (1 łyżka)."
       ],
-      "id": 17
+      "id": 25
     },
     {
       "name": "Owsianka",
@@ -412,7 +590,7 @@
         "3 łyżki cukru (lub do smaku)",
         "opcjonalnie: 1 łyżka cukru wanilinowego, 1/3 szkla"
       ],
-      "id": 18
+      "id": 26
     },
     {
       "name": "Placki jogurtowe z bananem",
@@ -425,6 +603,7 @@
         "Smażyć na niezbyt dużym ogniu, do czasu aż urosną i będą ładnie zrumienione (około 3 minuty). Można smażyć beztłuszczowo, ale ja dodaję małą ilość mas",
         "Mniej więcej w połowie lub pod koniec smażenia, jeszcze przed przewróceniem placków na drugą stronę, wcisnąć w surowe ciasto po 3 plasterki banana na ",
         "Przewrócić placki na drugą stronę i smażyć do zrumienienia, przez około 3 minuty na umiarkowanym ogniu. Przed smażeniem następnej partii placków patel"
+
       ],
       "ingredients": [
         "250 g jogurtu naturalnego\n",
@@ -434,7 +613,7 @@
         "2 płaskie łyżeczki proszku do pieczenia",
         "2 banany\n"
       ],
-      "id": 19
+      "id": 27
     },
     {
       "name": "Malinowy budyń jaglany",
@@ -450,7 +629,7 @@
         "ok. 1/2 szklanki malin (świeżych lub mrożonych)",
         "3 łyżki syropu/soku malinowego\n"
       ],
-      "id": 20
+      "id": 28
     },
     {
       "name": "Grzanki z awokado, serem i awokado",
@@ -468,7 +647,7 @@
         "listki mięty",
         "oliwa extra, sól i pieprz"
       ],
-      "id": 21
+      "id": 29
     },
     {
       "name": "Medaliony warzywne",
@@ -494,7 +673,7 @@
         "1 łyżka posiekanego koperku lub szczypiorku",
         "4 plasterki żółtego sera\n"
       ],
-      "id": 22
+      "id": 30
     },
     {
       "name": "Pasta z wędzonej ryby ",
@@ -515,7 +694,7 @@
         "4 łyżki śmietany 18%\n",
         "pęczek szczypiorku\n"
       ],
-      "id": 23
+      "id": 31
     },
     {
       "name": "Dutch baby z jabłkami",
@@ -542,7 +721,7 @@
         "szczypta cynamonu\n",
         "cukier puder\n"
       ],
-      "id": 24
+      "id": 32
     },
     {
       "name": "Pudding ryżowy z gruszkami",
@@ -567,7 +746,7 @@
         "1 łyżka soku z cytryny\n",
         "3 łyżki cukru\n"
       ],
-      "id": 25
+      "id": 33
     },
     {
       "name": "Hummus",
@@ -587,7 +766,7 @@
         "sól i pieprz\n",
         "1 łyżka oleju sezamowego lub oliwy extra vergine\n"
       ],
-      "id": 26
+      "id": 34
     },
     {
       "name": "Zupa bobowa",
@@ -612,7 +791,7 @@
         "1/2 szklanki mleka (krowiego lub migdałowego)\n",
         "1 łyżka posiekanej natki\n"
       ],
-      "id": 27
+      "id": 35
     },
     {
       "name": "Zupa rybna",
@@ -637,7 +816,7 @@
         "2 łyżki mąki pszennej\n",
         "kilka łyżek mleka\n"
       ],
-      "id": 28
+      "id": 36
     },
     {
       "name": "Zupa z czerwonej soczewicy",
@@ -656,59 +835,13 @@
         "Sól i pieprz",
         "1 marchewka, korzeń pietruszki, selera i 0.5 pora"
       ],
-      "id": 29
-    },
-    {
-      "name": "Rosół",
-      "description": "Zupa jak u mamy",
-      "steps": [
-        "Jeśli mamy całego kurczaka należy go pokroić na części - odciąć szyję, skrzydełka, uda. Korpus pozostawić razem z piersiami.",
-        "Wszystkie części kurczaka oraz wołowinę i podroby opłukać, następnie włożyć do dużego garnka i zalać zimną wodą. Posolić i zagotować na średnim ogniu.",
-        "o zagotowaniu zmniejszyć ogień i zszumować wywar. Zmniejszyć ogień i gotować na małym ogniu (rosół ma tylko \"mrugać\") pod lekko uchyloną pokrywą.",
-        "W międzyczasie przygotować warzywa: marchewkę, pietruszkę i selera obrać (lub dla większego aromatu - tylko dokładnie umyć). ",
-        "Cebulę, pora i natkę opłukać (cebuli nie obierać, jej łuski nadadzą zupie ładnego koloru).\n",
-        "Warzywa włożyć do rosołu i zagotować. Dodać przyprawy: ziele angielskie, liść laurowy i czarny pieprz. ",
-        "Rosół podawać gorący, z ugotowanym makaronem, posiekaną natką, pokrojoną na cienkie plasterki marchewką z rosołu oraz kawałkami mięsa z kurczaka.\n"
-      ],
-      "ingredients": [
-        "1 kurczak o wadze około 2 kg ",
-        "300 g wołowiny",
-        "10 serduszek i 5 żołądków kurzych ",
-        "3 litry wody\n",
-        "1 włoszczyzna",
-        " 1 łyżka soli morskiej, 3 ziarenka ziela ",
-        "1 liść laurowy, 4 całe ziarenka pieprzu\n"
-      ],
-      "id": 30
-    },
-    {
-      "name": "Zupa paprykowa",
-      "description": "Zupa krem z papryki ",
-      "steps": [
-        "W garnku na maśle i oliwie zeszklić pokrojoną w kostkę cebulę. Dodać pokrojony na plasterki czosnek i chwilę razem podsmażać.",
-        "Dodać obraną i startą na tarce o dużych oczkach marchewkę i wymieszać. Dodać pokrojoną w kostkę paprykę i mieszając co chwilę podsmażać składniki.",
-        "Wlać gorący bulion, dodać koncentrat pomidorowy, doprawić w razie potrzeby solą i pieprzem i zagotować. ",
-        "Zmniejszyć ogień i gotować pod lekko uchyloną pokrywą przez ok. 10 minut.\n",
-        "Po ugotowaniu zmiksować (najlepiej w stojącym mikserze planetarnym) lub blenderem ręcznym. Podawać z ulubionymi dodatkami."
-      ],
-      "ingredients": [
-        "1 łyżka masła\n",
-        "1 łyżka oliwy\n",
-        "1 cebula\n",
-        "2 ząbki czosnku\n",
-        "1 marchewka\n",
-        "3 czerwone papryki\n",
-        "2 i 1/2 szklanki bulionu\n",
-        "2 łyżki koncentratu pomidorowego\n",
-        "przyprawy"
-      ],
-      "id": 31
+      "id": 37
     }
   ],
   "schedules": [{
     "id": 1,
     "name": "Plan",
-    "description": "p",
+    "description": "Plan",
     "weekNumber": 1,
     "monday": [
       1,
