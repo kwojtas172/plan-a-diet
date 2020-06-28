@@ -361,15 +361,15 @@ class PlanList extends Component {
                         })}
                     </div>
                 </div>
-                {this.state.isSuccess && <div className="modal__success-msg">
-                <button className="modal__success-msg__btn" onClick={() => this.setState({isSuccess: false})}><i className="fas fa-times"></i></button>
-                <i className="far fa-check-circle modal__success-msg__icon"></i>
-                <span className="modal__success-msg__text">Edytowałeś plan!</span>
+                {this.state.isSuccess && <div className="modal__edit-msg">
+                <button className="modal__edit-msg__btn" onClick={() => this.setState({isSuccess: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__edit-msg__icon" ></i>
+                <span className="modal__edit-msg__text">Edytowałeś plan!</span>
                 </div> }
-                {this.state.isRemoved && <div className="modal__success-msg">
-                <button className="modal__success-msg__btn" onClick={() => this.setState({isRemoved: false})}><i className="fas fa-times"></i></button>
-                <i className="far fa-check-circle modal__success-msg__icon"></i>
-                <span className="modal__success-msg__text">Usunąłeś plan!</span>
+                {this.state.isRemoved && <div className="modal__delete-msg">
+                <button className="modal__delete-msg__btn" onClick={() => this.setState({isRemoved: false})}><i className="fas fa-times"></i></button>
+                <i className="far fa-check-circle modal__delete-msg__icon"></i>
+                <span className="modal__delete-msg__text">Usunąłeś plan!</span>
                 </div> }
             </div>
         );

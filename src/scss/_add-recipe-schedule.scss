@@ -32,13 +32,13 @@
     border: 1px dashed green;
 }
 
-.modal__success-msg__icon , .modal__success-msg__text {
+.modal__success-msg__icon , .modal__success-msg__text, .modal__delete-msg__icon, .modal__delete-msg__text,  .modal__edit-msg__icon, .modal__edit-msg__text {
     display: block;
     text-align: center;
     margin: 1.5rem 0;
 }
 
-.modal__success-msg__icon {
+.modal__success-msg__icon, .modal__delete-msg__icon, .modal__edit-msg__icon {
     font-size: 3rem;
 }
 
@@ -52,4 +52,55 @@
     left: 90%;
     border-radius: 0.3rem;
     cursor: pointer;
+}
+
+.modal__delete-msg {
+    color: $delete-color;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: $bg-color;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+    width: 30rem;
+    height: 10rem;
+    border: 1px dashed $delete-color;
+}
+
+.modal__delete-msg__btn {
+    color: #fff;
+    border: 1px solid $delete-color;
+    background-color: $delete-color;
+    padding: 0.3rem;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.modal__edit-msg__btn {
+    color: #fff;
+    border: 1px solid $warning-msg;
+    background-color: $warning-msg;
+    padding: 0.3rem;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.modal__edit-msg {
+    color: $warning-msg;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: $bg-color;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+    width: 30rem;
+    border: 1px dashed $warning-msg;
 }

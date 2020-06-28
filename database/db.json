@@ -4,91 +4,6 @@
   },
   "recipes": [
     {
-      "id": 2,
-      "name": "Zupa ogórkowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Pomidory"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Zupa pomidorowa",
-      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
-      "steps": [
-        "Wlej wodę do garnka"
-      ],
-      "ingredients": [
-        "Karkówka (250 gramów).",
-        "Ryż (500 gramów).",
-        "Papryka czerwona (1 sztuka).",
-        "Papryka zielona (1 sztuka).",
-        "Cebula (1 sztuka).",
-        "Czosnek (1 ząbek).",
-        "Olej (4 łyżki).",
-        "Kostka rosołowa (1 sztuka)."
-      ],
-      "id": 8
-    },
-    {
       "name": "Ryż z warzywami",
       "description": "Orientalna propozycja dla wegetarian",
       "steps": [
@@ -108,7 +23,7 @@
         "Kolendra (pół pęczka).",
         "Przyprawa curry."
       ],
-      "id": 9
+      "id": 1
     },
     {
       "name": "Kurczak po meksykańsku",
@@ -126,7 +41,7 @@
         "Czerwona papryka (1 sztuka).",
         "Ryż (100 gramów)."
       ],
-      "id": 10
+      "id": 2
     },
     {
       "name": "Risotto z kurczakiem",
@@ -150,7 +65,7 @@
         "Oliwa (1 łyżka).",
         "Masło (50 gramów)."
       ],
-      "id": 11
+      "id": 3
     },
     {
       "name": "Risotto z kurczakiem i grzybami",
@@ -179,7 +94,7 @@
         "Parmezan (80 gramów).",
         "Oliwa (100 ml)."
       ],
-      "id": 12
+      "id": 4
     },
     {
       "name": "Roladki z kurczaka ze szpinakiem",
@@ -206,7 +121,7 @@
         "Sól.",
         "Oliwa z oliwek (20 ml)."
       ],
-      "id": 13
+      "id": 5
     },
     {
       "name": "Roladki po bolońsku",
@@ -234,7 +149,7 @@
         "Śmietana 18% (100 mililitrów).",
         "Margaryna (3 łyżki)."
       ],
-      "id": 14
+      "id": 6
     },
     {
       "name": "Pieczona karkówka",
@@ -253,7 +168,7 @@
         "Przyprawy.",
         "Musztarda (2 łyżki)."
       ],
-      "id": 15
+      "id": 7
     },
     {
       "name": "Gołąbki po meksykańsku",
@@ -276,7 +191,7 @@
         "Śmietana (1 łyżka).",
         "Papryka słodka, mielona kolendra."
       ],
-      "id": 16
+      "id": 8
     },
     {
       "name": "Befsztyk z warzywami",
@@ -301,7 +216,7 @@
         "Natka pietruszki (10 gramów).",
         "Olej (150 mililitrów)."
       ],
-      "id": 17
+      "id": 9
     },
     {
       "name": "Pieczeń wołowa z sosem",
@@ -322,7 +237,7 @@
         "Oliwa z oliwek (3 łyżki).",
         "Pieprz czarny."
       ],
-      "id": 18
+      "id": 10
     },
     {
       "name": "Schab z borówkami",
@@ -344,7 +259,7 @@
         "Margaryna (2 łyżki).",
         "Olej (4 łyżki)."
       ],
-      "id": 19
+      "id": 11
     },
     {
       "name": "Tradycyjny schabowy",
@@ -364,7 +279,7 @@
         "Olej roślinny (2 łyżki).",
         "Świeży koperek (2 łyżki)."
       ],
-      "id": 20
+      "id": 12
     },
     {
       "name": "Sznycel wiedeński",
@@ -391,7 +306,7 @@
         "Masło (1 łyżka).",
         "Sól, olej do smażenia."
       ],
-      "id": 21
+      "id": 13
     },
     {
       "name": "Eskalopki zapiekane",
@@ -419,7 +334,7 @@
         "Oliwa (2 łyżki).",
         "Bazylia (kilka listków)."
       ],
-      "id": 22
+      "id": 14
     },
     {
       "name": "Polędwiczki wieprzowe z sosem",
@@ -438,7 +353,7 @@
         "Majonez.",
         "Przyprawy."
       ],
-      "id": 23
+      "id": 15
     },
     {
       "name": "Ziemniaczana zapiekanka z kurczakiem",
@@ -459,7 +374,7 @@
         "Cebula (1 sztuka).",
         "Natka pietruszki (1 pęczek)."
       ],
-      "id": 24
+      "id": 16
     },
     {
       "name": "Makaron w sosie pieczarkowym",
@@ -481,593 +396,368 @@
         "Świeża natka pietruszki (pół pęczka).",
         "Olej rzepakowy (1 łyżka)."
       ],
+      "id": 17
+    },
+    {
+      "name": "Owsianka",
+      "description": "Najlepsza owsianka wg przepisu z Kwestia Smaku",
+      "steps": [
+        "Płatki owsiane wsypać do garnka i wypłukać kilkakrotnie zmieniając wodę. Odcedzić, wlać mleko, dodać odrobinę soli i zagotować (można dodać też rodzyn",
+        "Zmniejszyć ogień i gotować do miękkości przez ok. 15 minut, co chwilę mieszając. Pod koniec doprawić cukrem oraz opcjonalnie cukrem wanilinowym.",
+        "Podawać z ulubionymi dodatkami jak np. owoce, syrop klonowy czy miód."
+      ],
+      "ingredients": [
+        "1 szklanka płatków owsianych (zwykłych, górskich)",
+        "3 szklanki mleka",
+        "3 łyżki cukru (lub do smaku)",
+        "opcjonalnie: 1 łyżka cukru wanilinowego, 1/3 szkla"
+      ],
+      "id": 18
+    },
+    {
+      "name": "Placki jogurtowe z bananem",
+      "description": "Pyszne placki z bananem",
+      "steps": [
+        "Wymieszać jogurt z jajkami i cukrem wanilinowym za pomocą rózgi, widelcem lub mikserem na minimalnych brotach.",
+        "Do drugiej miski przesiać mąkę, dodać do niej proszek do pieczenia i dokładnie wymieszać.",
+        "Przesypać do miski z mokrymi składnikami i wymieszać rózgą lub delikatnie zmiksować do połączenia się składników na gładką i jednolitą masę bez grudek",
+        "Rozgrzać patelnię (np. dużą naleśnikową lub inną z nieprzywierającą powłoką), nakładać po 1 pełnej łyżce stołowej ciasta na jednego placka zachowując ",
+        "Smażyć na niezbyt dużym ogniu, do czasu aż urosną i będą ładnie zrumienione (około 3 minuty). Można smażyć beztłuszczowo, ale ja dodaję małą ilość mas",
+        "Mniej więcej w połowie lub pod koniec smażenia, jeszcze przed przewróceniem placków na drugą stronę, wcisnąć w surowe ciasto po 3 plasterki banana na ",
+        "Przewrócić placki na drugą stronę i smażyć do zrumienienia, przez około 3 minuty na umiarkowanym ogniu. Przed smażeniem następnej partii placków patel"
+      ],
+      "ingredients": [
+        "250 g jogurtu naturalnego\n",
+        "2 jajka\n",
+        "1 łyżka cukru wanilinowego (lub zwykłego)",
+        "170 g mąki pszennej\n",
+        "2 płaskie łyżeczki proszku do pieczenia",
+        "2 banany\n"
+      ],
+      "id": 19
+    },
+    {
+      "name": "Malinowy budyń jaglany",
+      "description": "Sycący budyń",
+      "steps": [
+        "Do sitka wsypać kaszę jaglaną i wypłukać pod bieżącą wodą. Włożyć do rondelka, wlać mleko i zagotować pod przykryciem. ",
+        "Zmniejszyć ogień do minimum i gotować 15 minut nie otwierając garnka.\n",
+        "Ugotowaną kaszę zmiksować w blenderze (stojącym, kielichowym) na gładki mus z dodatkiem (rozmrożonych) malin oraz syropu malinowego. J"
+      ],
+      "ingredients": [
+        "1/2 szklanki kaszy jaglanej\n",
+        "2 szklanki mleka\n",
+        "ok. 1/2 szklanki malin (świeżych lub mrożonych)",
+        "3 łyżki syropu/soku malinowego\n"
+      ],
+      "id": 20
+    },
+    {
+      "name": "Grzanki z awokado, serem i awokado",
+      "description": "Pyszne grzanki z kwaśnym granatem",
+      "steps": [
+        "Pieczywo można opiec w tosterze jeśli chcemy aby było chrupiące. Awokado obrać, pokroić na kawałki i nieco rozdrobnić widelcem. ",
+        " Doprawić solą, pieprzem i skropić oliwą.",
+        "Otrzymaną pastę wyłożyć na pieczywo. Na wierzch pokruszyć ser i posypać granatem. Dodać listki mięty i skropić dodatkową oliwą."
+      ],
+      "ingredients": [
+        "pieczywo np. razowe\n",
+        "1 awokado\n",
+        "50 g sera sałatkowego lub fety",
+        "1/4 owocu granatu",
+        "listki mięty",
+        "oliwa extra, sól i pieprz"
+      ],
+      "id": 21
+    },
+    {
+      "name": "Medaliony warzywne",
+      "description": "Pożywna propozycja na śniadanie",
+      "steps": [
+        "Na gotującą się wodę włożyć połówkę brokuła (różyczkami ku górze). Gotować przez ok. 3 minuty, wyjąć i pokroić na małe kawałeczki, przestudzić.",
+        "Pora przekroić wzdłuż na 4 części, opłukać, osuszyć, następnie posiekać. Włożyć na patelnię z oliwą i dusić przez ok. 5 minut do miękkości.",
+        "Ugotowane i obrane ziemniaki pokroić w kostkę. Piekarnik nagrzać do 180 stopni C.",
+        "W misce roztrzepać jajka z dodatkiem śmietanki lub mleka, soli, pieprzu i oregano. Dodać mąkę pszenną i ziemniaczaną i wymieszać dokładnie rózgą.",
+        "Połączyć za pomocą łyżki z koperkiem lub szczypiorkiem, pokrojonym w kosteczkę serem oraz przygotowanymi składnikami: brokułem, porem i ziemniakami.",
+        "8 żaroodpornych kokilkek (lub 8 wgłębień w formie do muffinów lub 8 foremek silikonowych) natłuścić oliwą lub masłem, napełnić masą.",
+        "Wstawić do piekarnika i piec przez 20min."
+      ],
+      "ingredients": [
+        "1/2 brokuła\n",
+        "1/2 pora\n",
+        "1 łyżka oliwy\n",
+        "2 - 3 ugotowane ziemniaki\n",
+        "3 jajka\n",
+        "3 łyżki śmietanki 30% lub mleka\n",
+        "sól, pieprz, 1 łyżeczka suszonego oregano",
+        "po 1 łyżeczce mąki pszennej i ziemniaczanej",
+        "1 łyżka posiekanego koperku lub szczypiorku",
+        "4 plasterki żółtego sera\n"
+      ],
+      "id": 22
+    },
+    {
+      "name": "Pasta z wędzonej ryby ",
+      "description": "Pasta z wędzonej ryby  z jajem, ogórkiem kiszonym i cebulą",
+      "steps": [
+        "Jajka ugotować na twardo i obrać ze skorupek. Posiekać na desce i włożyć do dużej miski.",
+        "Rybę oczyścić z ości i skóry. Wybrane cząstki mięsa posiekać na desce i dodać do miski z jajkami.",
+        "Dodać drobno posiekaną w kosteczkę i zeszkloną na oleju cebulę oraz pokrojone w kosteczkę ogórki kiszone (jeśli mają twardą skórkę, najlepiej ją obrać",
+        "Doprawić łyżeczką świeżo zmielonego pieprzu, szczyptą soli i wymieszać z majonezem, śmietaną i posiekanym szczypiorkiem."
+      ],
+      "ingredients": [
+        "4 jajka\n",
+        "ok. 500 g wędzonego dorsza lub innej białej ryby n",
+        "1 cebula\n",
+        "1 łyżka oleju/oliwy\n",
+        "4 ogórki kiszone\n",
+        "2 łyżki majonezu\n",
+        "4 łyżki śmietany 18%\n",
+        "pęczek szczypiorku\n"
+      ],
+      "id": 23
+    },
+    {
+      "name": "Dutch baby z jabłkami",
+      "description": "Pieczony naleśnik z jabłkami",
+      "steps": [
+        "Jajka ogrzać (np. włożyć do garnka z ciepłą wodą) lub wyjąć wcześniej z lodówki. Mleko delikatnie podgrzać lub ogrzać w temp. pokojowej.\n",
+        "Piekarnik nagrzać do 220 stopni C, w środku piekarnika nagrzewać również naczynie żaroodporne lub patelnię żaroodporną.",
+        "Sklarować 4 łyżki masła (podgrzać w rondelku, zebrać i usunąć pianę). Jabłko obrać, pokroić na 8 - 10 kawałków (plasterków).\n",
+        "Do blendera (stojącego, z kielichem) wbić jajka, dodać mleko, mąkę, cukier wanilinowy i sól.",
+        "Mieszankę składników z blendera krótko zmiksować (4 sekundy) na jednolitą masę.",
+        "Wysunąć kratkę z rozgrzanym naczyniem z piekarnika, wlać 2 łyżki sklarowanego masła, następnie wlać powoli zmiksowane składniki na omlet. ",
+        "Rozłożyć kawałki jabłek i zamknąć piekarnik.\n",
+        "Piec bez przykrycia przez ok. 20 minut, aż omlet miejscami urośnie i będzie dobrze zrumieniony oraz chrupiący.",
+        "Wyjąć z piekarnika, posypać cynamonem. Podawać z resztą klarowanego masła i cukrem pudrem."
+      ],
+      "ingredients": [
+        "3 jajka\n",
+        "1/2 szklanki mleka (125 ml)\n",
+        "1/2 szklanki mąki pszennej\n",
+        "1 łyżeczka cukru wanilinowego\n",
+        "mała szczypta soli\n",
+        "masło\n",
+        "1 jabłko (np. reneta)\n",
+        "szczypta cynamonu\n",
+        "cukier puder\n"
+      ],
+      "id": 24
+    },
+    {
+      "name": "Pudding ryżowy z gruszkami",
+      "description": "Pudding z karmelizowanymi gruszkami",
+      "steps": [
+        "Do średniego garnka wsypać ryż, wlać mleko, dodać masło, sól i rodzynki. Wymieszać i zagotować co chwilę mieszając. ",
+        "Następnie gotować bez przykrycia przez ok. 18 minut, co chwilę mieszając, aż ryż będzie miękki.",
+        "Na koniec doprawić cukrem wanilinowym. Z czasem (wraz z dłuższym gotowaniem lub podczas stygnięcia) pudding będzie się bardziej zagęszczał.\n",
+        "Gruszki obrać, wykroić gniazda nasienne, pokroić w kostkę, skropić sokiem z cytryny, wymieszać, odłożyć.",
+        "Do rondla z grubym dnem wsypać cukier, rozprowadzić go po dnie, podgrzewać na średnim ogniu przez około 2 - 3 minuty.",
+        "Wsypać gruszki z sokiem (uwaga, będzie pryskać) i potrząsając garnkiem wymieszać składniki.",
+        "Postawić z powrotem na ogniu i gotować przez około 2 - 3 minuty aż gruszki zmiękną, częściowo się rozpadną i powstanie gęsty syrop karmelowy."
+      ],
+      "ingredients": [
+        "1/2 szklanki (100 g) ryżu",
+        "2 i 1/2 szklanki mleka\n",
+        "1/2 łyżki masła\n",
+        "mała szczypta soli\n",
+        "2 łyżki rodzynek\n",
+        "16 g (1 op) cukru wanilinowego\n",
+        "2 gruszki\n",
+        "1 łyżka soku z cytryny\n",
+        "3 łyżki cukru\n"
+      ],
       "id": 25
+    },
+    {
+      "name": "Hummus",
+      "description": "Pasta z cieciorki i tahini",
+      "steps": [
+        "Odsączoną ciecierzycę umieścić w pojemniku melaksera, rozdrabniacza lub blendera.",
+        "Dodać kilka łyżek zalewy lub wody z gotowania ciecierzycy i zacząć miksować na pastę.\n",
+        "W międzyczasie dodawać resztę w składników",
+        "Miksując stopniowo dodawać więcej zalewy aby uzyskać odpowiednią konsystencję pasty."
+      ],
+      "ingredients": [
+        "1 puszka ok. 400 g ciecierzycy*\n",
+        "1 łyżeczka soku z cytryny\n",
+        "1 mały ząbek czosnku\n",
+        "5 łyżek pasty sezamowej tahini ",
+        "1 łyżeczka mielonego kuminu (kminu rzymskiego)\n",
+        "sól i pieprz\n",
+        "1 łyżka oleju sezamowego lub oliwy extra vergine\n"
+      ],
+      "id": 26
+    },
+    {
+      "name": "Zupa bobowa",
+      "description": "Zupa z bobu",
+      "steps": [
+        "Bób ugotować w osolonej wodzie, odcedzić i odmierzyć potrzebną ilość. Obrać.",
+        "Pory oczyścić z zewnętrznych liści, pozostawić białą oraz jasno zieloną część, dokładnie opłukać pomiędzy warstwami, pokroić na plasterki.",
+        "W garnku roztopić masło, dodać obraną i pokrojoną w kosteczkę cebulę, wymieszać i zeszklić. ",
+        "Dodać pokrojone pory a po chwili obrane i pokrojone w kostkę ziemniaki. Smażyć przez około 3 minuty co chwilę mieszając aż warzywa zmiękną.",
+        "Zwiększyć ogień, wlać wodę lub bulion i zagotować. Doprawić solą, zmniejszyć ogień, przykryć i gotować warzywa do miękkości przez około 15 minut. ",
+        "Na 5 minut przed końcem dodać 400 g ugotowanego i obranego bobu (resztę zachować w całości).\n",
+        "Dodać oliwę extra vergine, mleko i zmiksować na gładki krem. "
+      ],
+      "ingredients": [
+        "500 g ugotowanego bobu\n",
+        "2 pory\n",
+        "20 g masła (lub oleju kokosowego)\n",
+        "1 cebula\n",
+        "250 g ziemniaków\n",
+        "1 litr bulionu lub wody\n",
+        "1 łyżka oliwy extra vergine\n",
+        "1/2 szklanki mleka (krowiego lub migdałowego)\n",
+        "1 łyżka posiekanej natki\n"
+      ],
+      "id": 27
+    },
+    {
+      "name": "Zupa rybna",
+      "description": "Pyszna zupa z kawałkami ryby",
+      "steps": [
+        "Warzywa umyć. Marchewkę, pietruszkę i selera obrać i zetrzeć na tarce o większych oczkach. Pora pokroić wzdłuż na 4 części.",
+        "Cebulę pokroić w kosteczkę.",
+        "W szerszym garnku na łyżce oliwy i łyżce masła zeszklić cebulę. Następnie dodać pora i smażyć dalej co chwilę mieszając przez ok. 2 minuty.\n",
+        "Dodać marchewkę, pietruszkę i selera. Warzywa doprawić solą i pieprzem i smażyć przez około 3 minuty. Dodać przyprawy i wymieszać.",
+        "Wlać gorący bulion i zagotować. Dodać przecier pomidorowy oraz pomidory.",
+        "Zupę po zagotowaniu przykryć, zmniejszyć ogień i gotować przez ok. 10 minut do miękkości warzyw.\n",
+        "Rybę opłukać, odciąć skórę i wyjąć ości. Pokroić w kostkę, doprawić solą i włożyć w mleko. Następnie obtoczyć w mące i krótko obsmażyć na patelni.",
+        "Podsmażoną rybę włożyć do garnka z zupą i gotować przez ok. 2 - 3 minuty. "
+      ],
+      "ingredients": [
+        "500 g świeżych filetów ryby",
+        "1 i 1/2 litra bulionu jarzynowego\n",
+        "1/2 cebuli, 1 marchewka, 1 mała pietruszka",
+        "1 świeży pomidor ",
+        "1 łyżeczka koncentratu pomidorowego",
+        "1 łyżka oliwy i 1 łyżka masła\n",
+        "2 łyżki mąki pszennej\n",
+        "kilka łyżek mleka\n"
+      ],
+      "id": 28
+    },
+    {
+      "name": "Zupa z czerwonej soczewicy",
+      "description": "Sycąca zupa na jesienne dni",
+      "steps": [
+        "Cebulę pokroić w kostkę i podsmażyć na maśle.",
+        "Dodać pokrojone w paski warzywa.",
+        "Zalać bulionem.",
+        "Gotować do miękkości warzyw i soczewicy.",
+        "Doprawić curry, solą i pieprzem."
+      ],
+      "ingredients": [
+        "200g czerwonej soczewicy",
+        "1l bulionu warzywnego",
+        " 1 łyżeczka curry",
+        "Sól i pieprz",
+        "1 marchewka, korzeń pietruszki, selera i 0.5 pora"
+      ],
+      "id": 29
+    },
+    {
+      "name": "Rosół",
+      "description": "Zupa jak u mamy",
+      "steps": [
+        "Jeśli mamy całego kurczaka należy go pokroić na części - odciąć szyję, skrzydełka, uda. Korpus pozostawić razem z piersiami.",
+        "Wszystkie części kurczaka oraz wołowinę i podroby opłukać, następnie włożyć do dużego garnka i zalać zimną wodą. Posolić i zagotować na średnim ogniu.",
+        "o zagotowaniu zmniejszyć ogień i zszumować wywar. Zmniejszyć ogień i gotować na małym ogniu (rosół ma tylko \"mrugać\") pod lekko uchyloną pokrywą.",
+        "W międzyczasie przygotować warzywa: marchewkę, pietruszkę i selera obrać (lub dla większego aromatu - tylko dokładnie umyć). ",
+        "Cebulę, pora i natkę opłukać (cebuli nie obierać, jej łuski nadadzą zupie ładnego koloru).\n",
+        "Warzywa włożyć do rosołu i zagotować. Dodać przyprawy: ziele angielskie, liść laurowy i czarny pieprz. ",
+        "Rosół podawać gorący, z ugotowanym makaronem, posiekaną natką, pokrojoną na cienkie plasterki marchewką z rosołu oraz kawałkami mięsa z kurczaka.\n"
+      ],
+      "ingredients": [
+        "1 kurczak o wadze około 2 kg ",
+        "300 g wołowiny",
+        "10 serduszek i 5 żołądków kurzych ",
+        "3 litry wody\n",
+        "1 włoszczyzna",
+        " 1 łyżka soli morskiej, 3 ziarenka ziela ",
+        "1 liść laurowy, 4 całe ziarenka pieprzu\n"
+      ],
+      "id": 30
+    },
+    {
+      "name": "Zupa paprykowa",
+      "description": "Zupa krem z papryki ",
+      "steps": [
+        "W garnku na maśle i oliwie zeszklić pokrojoną w kostkę cebulę. Dodać pokrojony na plasterki czosnek i chwilę razem podsmażać.",
+        "Dodać obraną i startą na tarce o dużych oczkach marchewkę i wymieszać. Dodać pokrojoną w kostkę paprykę i mieszając co chwilę podsmażać składniki.",
+        "Wlać gorący bulion, dodać koncentrat pomidorowy, doprawić w razie potrzeby solą i pieprzem i zagotować. ",
+        "Zmniejszyć ogień i gotować pod lekko uchyloną pokrywą przez ok. 10 minut.\n",
+        "Po ugotowaniu zmiksować (najlepiej w stojącym mikserze planetarnym) lub blenderem ręcznym. Podawać z ulubionymi dodatkami."
+      ],
+      "ingredients": [
+        "1 łyżka masła\n",
+        "1 łyżka oliwy\n",
+        "1 cebula\n",
+        "2 ząbki czosnku\n",
+        "1 marchewka\n",
+        "3 czerwone papryki\n",
+        "2 i 1/2 szklanki bulionu\n",
+        "2 łyżki koncentratu pomidorowego\n",
+        "przyprawy"
+      ],
+      "id": 31
     }
   ],
-  "schedules": [
-    {
-      "id": 2,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": "20",
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 29,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 38,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Plan jarski na bezmięsny tydzień",
-      "description": "Pojęcie kuchnia wegetariańska określa pożywienie, które ani nie zawiera mięsa, ani nie zostało przygotowane na bazie pochodzącej z mięsa (np. na rosole drobiowym). Laktoowowegetarianie (najczęściej spotykany typ wegetarian w zachodnim świecie) spożywają nabiał, laktowegetarianie wykluczają jaja, ale nie inne produkty nabiałowe..",
-      "weekNumber": 14,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 6,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 7,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 8,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 9,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 10,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Wegetariański tydzień",
-      "description": "Długi opis tygodnia bez mięsa.",
-      "weekNumber": 17,
-      "monday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "tuesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "wednesday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "thursday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "friday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "saturday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "sunday": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ]
-    },
-    {
-      "name": "Coders",
-      "description": "Coders",
-      "weekNumber": 16,
-      "monday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "tuesday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "wednesday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "thursday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "friday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "saturday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "sunday": [
-        "Zupa pomidorowa",
-        "Zupa pomidorowa"
-      ],
-      "id": 15
-    }
-  ]
+  "schedules": [{
+    "id": 1,
+    "name": "Plan",
+    "description": "p",
+    "weekNumber": 1,
+    "monday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tuesday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "wednesday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "thursday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "friday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "saturday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sunday": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }]
 }
