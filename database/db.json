@@ -603,7 +603,6 @@
         "Smażyć na niezbyt dużym ogniu, do czasu aż urosną i będą ładnie zrumienione (około 3 minuty). Można smażyć beztłuszczowo, ale ja dodaję małą ilość mas",
         "Mniej więcej w połowie lub pod koniec smażenia, jeszcze przed przewróceniem placków na drugą stronę, wcisnąć w surowe ciasto po 3 plasterki banana na ",
         "Przewrócić placki na drugą stronę i smażyć do zrumienienia, przez około 3 minuty na umiarkowanym ogniu. Przed smażeniem następnej partii placków patel"
-
       ],
       "ingredients": [
         "250 g jogurtu naturalnego\n",
@@ -838,59 +837,61 @@
       "id": 37
     }
   ],
-  "schedules": [{
-    "id": 1,
-    "name": "Plan",
-    "description": "Plan",
-    "weekNumber": 1,
-    "monday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "tuesday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "wednesday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "thursday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "friday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "saturday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "sunday": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
-  }]
+  "schedules": [
+    {
+      "name": "Plan wegetariański",
+      "description": "Zdrowy, zbilansowany tydzień jedzenia bez mięsa.",
+      "weekNumber": "1",
+      "monday": [
+        "Malinowy budyń jaglany",
+        "Owsianka",
+        "Zupa rybna",
+        "Kotlety z kalafiora i kaszy jaglanej",
+        "Hummus"
+      ],
+      "tuesday": [
+        "Pasta z wędzonej ryby ",
+        "Hummus",
+        "Zupa bobowa",
+        "Łosoś pieczony w miodowym sosie",
+        "Ryż z warzywami"
+      ],
+      "wednesday": [
+        "Placki jogurtowe z bananem",
+        "Pudding ryżowy z gruszkami",
+        "Zupa z czerwonej soczewicy",
+        "Kotlety z kalafiora i kaszy jaglanej",
+        "Dutch baby z jabłkami"
+      ],
+      "thursday": [
+        "Grzanki z awokado, serem i awokado",
+        "Malinowy budyń jaglany",
+        "Zupa bobowa",
+        "Makaron w sosie pieczarkowym",
+        "Pasta z wędzonej ryby "
+      ],
+      "friday": [
+        "Medaliony warzywne",
+        "Zupa z czerwonej soczewicy",
+        "Zupa rybna",
+        "Ryż z warzywami",
+        "Pudding ryżowy z gruszkami"
+      ],
+      "saturday": [
+        "Hummus",
+        "Grzanki z awokado, serem i awokado",
+        "Zupa z czerwonej soczewicy",
+        "Makaron w sosie pieczarkowym",
+        "Zupa rybna"
+      ],
+      "sunday": [
+        "Dutch baby z jabłkami",
+        "Hummus",
+        "Zupa ziemniaczana",
+        "Sandacz z duszonymi warzywami",
+        "Medaliony warzywne"
+      ],
+      "id": 1
+    }
+  ]
 }
