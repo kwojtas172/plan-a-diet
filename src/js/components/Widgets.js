@@ -10,20 +10,6 @@ class Widgets extends Component {
         success: true,
     }
 
-    componentDidMount = () => {
-        fetch("http://localhost:3000/recipes/")
-            .then(response => response.json())
-            .then(data => {
-                data.forEach(el =>
-                    this.setState({
-                        name: el.name,
-                    }))
-                this.setState({
-                    data: data,
-                })
-            })
-    };
-
     deleteInfoMessage = () => {
         this.setState({
             info: false
@@ -48,7 +34,7 @@ class Widgets extends Component {
                 {
                     this.state.info && <div className="info__widget ">
                         <div><i className="fas fa-info-circle" style={{ fontSize: "40px", marginLeft: "10px" }}></i></div>
-                        <p>Masz już {this.state.data.length} przepisów, nieźle!</p>
+                        <p>Masz już {this.props.length} przepisów, nieźle!</p>
                         <button onClick={() => this.deleteInfoMessage()}><i className="fas fa-times"></i></button>
                     </div>
                 }

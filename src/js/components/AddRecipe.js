@@ -116,6 +116,7 @@ export default class AddRecipe extends Component {
             .then(data => {
                 console.log('Success:', data);
                 this.handleHide();
+                this.props.change();
             })
             .catch((error) => {
                 console.error('Error:', error);

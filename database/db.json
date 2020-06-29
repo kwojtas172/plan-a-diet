@@ -8,7 +8,6 @@
       "name": "Rosół z kury",
       "description": "Rosół z kury z makaronem idealny na niedzielny obiad",
       "steps": [
-        "Mięso umyj, następnie zalej dwoma litrami zimnej wody.",
         "Powoli doprowadź do wrzenia. Zbierz powstałą pianę. Warzywa obierz.",
         "Cebulę przekrój na pół. Opal nad gazem lub przypal na patelni.",
         "Do wywaru dodaj warzywa, przyprawy oraz dwie kostki rosołowe. Gotuj na wolnym ogniu przez około 3 godziny.",
@@ -898,17 +897,6 @@
         "sól i pieprz\n"
       ],
       "id": 40
-    },
-    {
-      "name": "1231",
-      "description": "",
-      "steps": [
-        "sfs"
-      ],
-      "ingredients": [
-        "sf"
-      ],
-      "id": 41
     }
   ],
   "schedules": [
@@ -1023,35 +1011,169 @@
       "id": 2
     },
     {
-      "name": "gd",
+      "name": "Plan codzienny",
       "description": "",
-      "weekNumber": "3",
+      "weekNumber": "5",
       "monday": [
-        "Rosół z kury",
-        "Rosół z kury",
-        "Rosół z kury",
-        "Zupa ziemniaczana",
-        "Faszerowane kotlety mielone z pieczarkami i serem"
+        "Owsianka",
+        "Grzanki z awokado, serem i granatem",
+        "Zupa bobowa",
+        "Kurczak po meksykańsku",
+        "Pasta z wędzonej ryby "
       ],
       "tuesday": [
-        "Gołąbki po meksykańsku",
-        null,
-        "Gołąbki po meksykańsku"
+        "Owsianka",
+        "Grzanki z awokado, serem i granatem",
+        "Żurek błyskawiczny",
+        "Roladki po bolońsku",
+        "Medaliony warzywne"
       ],
       "wednesday": [
-        null,
-        "Pieczeń wołowa z sosem"
+        "Owsianka",
+        "Pasta z wędzonej ryby ",
+        "Zupa z czerwonej soczewicy",
+        "Makaron w sosie pieczarkowym",
+        "Sandacz z duszonymi warzywami"
       ],
       "thursday": [
-        null,
-        null,
-        null,
+        "Owsianka",
+        "Pudding ryżowy z gruszkami",
+        "Kapuśniak z boczkiem i kiełbasą",
+        "Kotlety z kalafiora i kaszy jaglanej",
+        "Roladki z kurczaka ze szpinakiem"
+      ],
+      "friday": [
+        "Owsianka",
+        "Dutch baby z jabłkami",
+        "Zupa ziemniaczana",
+        "Ziemniaczana zapiekanka z kurczakiem",
+        "Ziemniaczana zapiekanka z kurczakiem"
+      ],
+      "saturday": [
+        "Placki jogurtowe z bananem",
+        "Dutch baby z jabłkami",
+        "Zupa curry z cukinią",
+        "Faszerowane kotlety mielone z pieczarkami i serem",
+        "Gołąbki po meksykańsku"
+      ],
+      "sunday": [
+        "Malinowy budyń jaglany",
+        "Pudding ryżowy z gruszkami",
+        "Rosół z kury",
+        "Schab z borówkami",
+        "Rosół z kury"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Plan na aktualny tydzień",
+      "description": "",
+      "weekNumber": "27",
+      "monday": [
+        "Ryż z warzywami",
+        "Zupa z czerwonej soczewicy",
+        "Zupa curry z cukinią",
+        "Ryż z warzywami",
+        "Risotto z kurczakiem"
+      ],
+      "tuesday": [
+        "Risotto z kurczakiem",
+        "Żurek błyskawiczny",
+        "Zupa curry z cukinią",
+        "Kurczak po meksykańsku",
+        "Ryż z warzywami i mięsem"
+      ],
+      "wednesday": [
+        "Gołąbki po meksykańsku",
+        "Risotto z kurczakiem i grzybami",
+        "Żurek błyskawiczny",
+        "Sznycel wiedeński",
+        "Zupa bobowa"
+      ],
+      "thursday": [
+        "Roladki z kurczaka ze szpinakiem",
+        "Chłodnik",
+        "Zupa ziemniaczana",
+        "Eskalopki zapiekane",
+        "Risotto z kurczakiem i grzybami"
+      ],
+      "friday": [
+        "Kurczak po meksykańsku",
+        "Kotlety z kalafiora i kaszy jaglanej",
+        "Kapuśniak z boczkiem i kiełbasą",
+        "Ryż z warzywami",
+        "Kurczak po meksykańsku"
+      ],
+      "saturday": [
+        "Ryż z warzywami",
+        "Placki jogurtowe z bananem",
+        "Zupa rybna",
+        "Ryż z warzywami i mięsem",
+        "Grzanki z awokado, serem i granatem"
+      ],
+      "sunday": [
+        "Hummus",
+        "Sandacz z duszonymi warzywami",
+        "Rosół z kury",
+        "Faszerowane kotlety mielone z pieczarkami i serem",
+        "Medaliony warzywne"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Plan alternatywny",
+      "description": "",
+      "weekNumber": "50",
+      "monday": [
+        "Łosoś pieczony w miodowym sosie",
+        "Zupa ziemniaczana",
+        "Zupa bobowa",
+        "Faszerowane kotlety mielone z pieczarkami i serem",
         "Befsztyk z warzywami"
       ],
-      "friday": [],
-      "saturday": [],
-      "sunday": [],
-      "id": 3
+      "tuesday": [
+        "Faszerowane kotlety mielone z pieczarkami i serem",
+        "Sandacz z duszonymi warzywami",
+        "Żurek błyskawiczny",
+        "Faszerowane kotlety mielone z pieczarkami i serem",
+        "Dutch baby z jabłkami"
+      ],
+      "wednesday": [
+        "Befsztyk z warzywami",
+        "Pieczona karkówka",
+        "Żurek błyskawiczny",
+        "Risotto z kurczakiem i grzybami",
+        "Gołąbki po meksykańsku"
+      ],
+      "thursday": [
+        "Pudding ryżowy z gruszkami",
+        "Risotto z kurczakiem",
+        "Zupa rybna",
+        "Risotto z kurczakiem",
+        "Łosoś pieczony w miodowym sosie"
+      ],
+      "friday": [
+        "Hummus",
+        "Ryż z warzywami i mięsem",
+        "Chłodnik",
+        "Sznycel wiedeński",
+        "Zupa rybna"
+      ],
+      "saturday": [
+        "Zupa bobowa",
+        "Ryż z warzywami i mięsem",
+        "Rosół z kury",
+        "Pasta z wędzonej ryby ",
+        "Zupa bobowa"
+      ],
+      "sunday": [
+        "Hummus",
+        "Malinowy budyń jaglany",
+        "Rosół z kury",
+        "Kapuśniak z boczkiem i kiełbasą",
+        "Dutch baby z jabłkami"
+      ],
+      "id": 5
     }
   ]
 }
