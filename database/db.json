@@ -898,6 +898,17 @@
         "sól i pieprz\n"
       ],
       "id": 40
+    },
+    {
+      "name": "1231",
+      "description": "",
+      "steps": [
+        "sfs"
+      ],
+      "ingredients": [
+        "sf"
+      ],
+      "id": 41
     }
   ],
   "schedules": [
@@ -959,7 +970,7 @@
     {
       "name": "Plan mięsny",
       "description": "Mięso jest świetnym źródłem cennego białka i żelaza. Warto je jadać. ",
-      "weekNumber": "45",
+      "weekNumber": "2",
       "monday": [
         "Hummus",
         "Pasta z wędzonej ryby ",
@@ -1010,6 +1021,37 @@
         "Ryż z warzywami i mięsem"
       ],
       "id": 2
+    },
+    {
+      "name": "gd",
+      "description": "",
+      "weekNumber": "3",
+      "monday": [
+        "Rosół z kury",
+        "Rosół z kury",
+        "Rosół z kury",
+        "Zupa ziemniaczana",
+        "Faszerowane kotlety mielone z pieczarkami i serem"
+      ],
+      "tuesday": [
+        "Gołąbki po meksykańsku",
+        null,
+        "Gołąbki po meksykańsku"
+      ],
+      "wednesday": [
+        null,
+        "Pieczeń wołowa z sosem"
+      ],
+      "thursday": [
+        null,
+        null,
+        null,
+        "Befsztyk z warzywami"
+      ],
+      "friday": [],
+      "saturday": [],
+      "sunday": [],
+      "id": 3
     }
   ]
 }
