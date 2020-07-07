@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run api\" \"npm run react\"",
-    "react": "set PORT=3006 && react-scripts start",
+    "react": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "api": "json-server database/db.json",
     "predeploy": "npm run build",
