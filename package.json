@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "json-server": "^0.15.0",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "react": "^16.8.6",
@@ -16,11 +15,10 @@
     "save-dev": "0.0.1-security"
   },
   "scripts": {
-    "start": "npm run start-server",
-    "react": "react-scripts start",
+    "start": "concurrently \"npm run api\" \"npm run react\"",
+    "react": "set PORT=3006 && react-scripts start",
     "build": "react-scripts build",
-    "api": "json-server database/db.json --port 3001",
-    "start-server": "npm run api && npm run react",
+    "api": "json-server database/db.json",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -40,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "concurrently": "^5.2.0",
+    "gh-pages": "^3.1.0",
+    "json-server": "^0.15.1"
   }
 }
