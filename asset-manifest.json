@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/plan-a-diet/static/css/main.eaaaaa24.chunk.css",
+    "main.js": "/plan-a-diet/static/js/main.e7042e6e.chunk.js",
+    "main.js.map": "/plan-a-diet/static/js/main.e7042e6e.chunk.js.map",
+    "runtime~main.js": "/plan-a-diet/static/js/runtime~main.c50c5c42.js",
+    "runtime~main.js.map": "/plan-a-diet/static/js/runtime~main.c50c5c42.js.map",
+    "static/css/2.240942cf.chunk.css": "/plan-a-diet/static/css/2.240942cf.chunk.css",
+    "static/js/2.9dad3c8e.chunk.js": "/plan-a-diet/static/js/2.9dad3c8e.chunk.js",
+    "static/js/2.9dad3c8e.chunk.js.map": "/plan-a-diet/static/js/2.9dad3c8e.chunk.js.map",
+    "index.html": "/plan-a-diet/index.html",
+    "precache-manifest.5d576adc71f7f9fafd4d41b08d96d3fc.js": "/plan-a-diet/precache-manifest.5d576adc71f7f9fafd4d41b08d96d3fc.js",
+    "service-worker.js": "/plan-a-diet/service-worker.js",
+    "static/css/2.240942cf.chunk.css.map": "/plan-a-diet/static/css/2.240942cf.chunk.css.map",
+    "static/css/main.eaaaaa24.chunk.css.map": "/plan-a-diet/static/css/main.eaaaaa24.chunk.css.map",
+    "static/media/about-app-1.jpg": "/plan-a-diet/static/media/about-app-1.59706e22.jpg",
+    "static/media/about-app-2.jpg": "/plan-a-diet/static/media/about-app-2.54e8d139.jpg",
+    "static/media/about-app-3.jpg": "/plan-a-diet/static/media/about-app-3.257e88d9.jpg",
+    "static/media/about-author.jpg": "/plan-a-diet/static/media/about-author.4c1ae61a.jpg",
+    "static/media/main.scss": "/plan-a-diet/static/media/bcg-app.baa58c3c.png"
+  }
+}
